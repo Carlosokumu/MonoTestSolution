@@ -11,6 +11,6 @@ Below is What i have Worked on:
    
  TODO :
  
-    *  Implement DI on all the UI
+    *  Implement DI on all the Layer Using Autofac
     *  Work on the UI following  the MVVM Architecture.
     *  Intergrate a remote Datasource  for the app from api(if time allows.)
