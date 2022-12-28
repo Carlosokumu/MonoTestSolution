@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carlos\\source\\repos\\TestSolution\\TestSolution\\TestSolution.Repository\\TestSolution.Repository\\MonoTestSolution.Repository.csproj": {}
+    "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.Repository\\MonoTestSolution.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carlos\\source\\repos\\TestSolution\\TestSolution\\TestSolution.Repository\\TestSolution.Repository\\MonoTestSolution.Repository.csproj": {
+    "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.Repository\\MonoTestSolution.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carlos\\source\\repos\\TestSolution\\TestSolution\\TestSolution.Repository\\TestSolution.Repository\\MonoTestSolution.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.Repository\\MonoTestSolution.Repository.csproj",
         "projectName": "MonoTestSolution.Repository",
-        "projectPath": "C:\\Users\\Carlos\\source\\repos\\TestSolution\\TestSolution\\TestSolution.Repository\\TestSolution.Repository\\MonoTestSolution.Repository.csproj",
+        "projectPath": "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.Repository\\MonoTestSolution.Repository.csproj",
         "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carlos\\source\\repos\\TestSolution\\TestSolution\\TestSolution.Repository\\TestSolution.Repository\\obj\\",
+        "outputPath": "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

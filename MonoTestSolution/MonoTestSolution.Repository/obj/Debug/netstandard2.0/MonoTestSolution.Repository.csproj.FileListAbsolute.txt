@@ -10,3 +10,15 @@ C:\Users\Carlos\source\repos\TestSolution\TestSolution\TestSolution.Repository\T
 C:\Users\Carlos\source\repos\TestSolution\TestSolution\TestSolution.Repository\TestSolution.Repository\obj\Debug\netstandard2.0\refint\MonoTestSolution.Repository.dll
 C:\Users\Carlos\source\repos\TestSolution\TestSolution\TestSolution.Repository\TestSolution.Repository\obj\Debug\netstandard2.0\MonoTestSolution.Repository.pdb
 C:\Users\Carlos\source\repos\TestSolution\TestSolution\TestSolution.Repository\TestSolution.Repository\obj\Debug\netstandard2.0\ref\MonoTestSolution.Repository.dll
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Repository\bin\Debug\netstandard2.0\MonoTestSolution.Repository.deps.json
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Repository\bin\Debug\netstandard2.0\MonoTestSolution.Repository.dll
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Repository\bin\Debug\netstandard2.0\MonoTestSolution.Repository.pdb
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Repository\obj\Debug\netstandard2.0\MonoTestSolution.Repository.csproj.AssemblyReference.cache
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Repository\obj\Debug\netstandard2.0\MonoTestSolution.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Repository\obj\Debug\netstandard2.0\MonoTestSolution.Repository.AssemblyInfoInputs.cache
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Repository\obj\Debug\netstandard2.0\MonoTestSolution.Repository.AssemblyInfo.cs
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Repository\obj\Debug\netstandard2.0\MonoTestSolution.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Repository\obj\Debug\netstandard2.0\MonoTestSolution.Repository.dll
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Repository\obj\Debug\netstandard2.0\refint\MonoTestSolution.Repository.dll
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Repository\obj\Debug\netstandard2.0\MonoTestSolution.Repository.pdb
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Repository\obj\Debug\netstandard2.0\ref\MonoTestSolution.Repository.dll

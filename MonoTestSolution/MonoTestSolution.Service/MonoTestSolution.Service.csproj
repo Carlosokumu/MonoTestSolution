@@ -17,8 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\MonoTestSolution.Repository.csproj" />
-    <ProjectReference Include="..\..\MonoTestSolution.Repository.csproj" />
+    <ProjectReference Include="..\MonoTestSolution.Repository\MonoTestSolution.Repository.csproj" />
   </ItemGroup>
 
   

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -11,7 +11,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.EF6" Version="2.1.1" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MonoTestSolution.Service\MonoTestSolution.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="views\VehicleMakesListPage.xaml.cs">
+      <DependentUpon>VehicleMakesListPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

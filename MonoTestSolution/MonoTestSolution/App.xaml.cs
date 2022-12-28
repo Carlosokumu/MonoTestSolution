@@ -1,4 +1,8 @@
-﻿using System;
+﻿using MonoTestSolution.BootStrap;
+using MonoTestSolution.memory;
+using MonoTestSolution.Repository;
+using MonoTestSolution.Service;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -9,8 +13,10 @@ namespace MonoTestSolution
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            var repositoryDatasource = new RepositoryDataSource();
+            var vehicleMakeService = new VehicleMakeService(DependencyService.Get<ISQLiteDb>().GetConnection(), repositoryDatasource);
+            AppSetUp.Init(repositoryDatasource, vehicleMakeService);
+            MainPage = new VehicleMakesListPage();
         }
 
         protected override void OnStart()

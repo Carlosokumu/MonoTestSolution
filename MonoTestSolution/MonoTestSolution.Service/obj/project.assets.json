@@ -240,6 +240,21 @@
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
         }
+      },
+      "MonoTestSolution.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Essentials": "1.7.0",
+          "Xamarin.Forms": "5.0.0.2196",
+          "sqlite-net-pcl": "1.8.116"
+        },
+        "compile": {
+          "bin/placeholder/MonoTestSolution.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MonoTestSolution.Repository.dll": {}
+        }
       }
     }
   },
@@ -852,11 +867,16 @@
         "xamarin.forms.5.0.0.2196.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "MonoTestSolution.Repository/1.0.0": {
+      "type": "project",
+      "path": "../MonoTestSolution.Repository/MonoTestSolution.Repository.csproj",
+      "msbuildProject": "../MonoTestSolution.Repository/MonoTestSolution.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "C:\\Users\\Carlos\\source\\repos\\TestSolution\\TestSolution\\MonoTestSolution.Repository.csproj",
+      "MonoTestSolution.Repository >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196",
@@ -870,11 +890,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos\\source\\repos\\TestSolution\\TestSolution\\TestSolution.Service\\TestSolution.Service\\MonoTestSolution.Service.csproj",
+      "projectUniqueName": "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.Service\\MonoTestSolution.Service.csproj",
       "projectName": "MonoTestSolution.Service",
-      "projectPath": "C:\\Users\\Carlos\\source\\repos\\TestSolution\\TestSolution\\TestSolution.Service\\TestSolution.Service\\MonoTestSolution.Service.csproj",
+      "projectPath": "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.Service\\MonoTestSolution.Service.csproj",
       "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos\\source\\repos\\TestSolution\\TestSolution\\TestSolution.Service\\TestSolution.Service\\obj\\",
+      "outputPath": "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -896,8 +916,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\Carlos\\source\\repos\\TestSolution\\TestSolution\\MonoTestSolution.Repository.csproj": {
-              "projectPath": "C:\\Users\\Carlos\\source\\repos\\TestSolution\\TestSolution\\MonoTestSolution.Repository.csproj"
+            "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.Repository\\MonoTestSolution.Repository.csproj": {
+              "projectPath": "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.Repository\\MonoTestSolution.Repository.csproj"
             }
           }
         }
@@ -945,16 +965,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Carlos\\source\\repos\\TestSolution\\TestSolution\\MonoTestSolution.Repository.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Carlos\\source\\repos\\TestSolution\\TestSolution\\MonoTestSolution.Repository.csproj",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

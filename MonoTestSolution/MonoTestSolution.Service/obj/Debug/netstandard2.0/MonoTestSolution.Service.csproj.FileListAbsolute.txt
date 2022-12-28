@@ -1,0 +1,15 @@
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Service\bin\Debug\netstandard2.0\MonoTestSolution.Service.deps.json
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Service\bin\Debug\netstandard2.0\MonoTestSolution.Service.dll
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Service\bin\Debug\netstandard2.0\MonoTestSolution.Service.pdb
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Service\bin\Debug\netstandard2.0\MonoTestSolution.Repository.dll
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Service\bin\Debug\netstandard2.0\MonoTestSolution.Repository.pdb
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Service\obj\Debug\netstandard2.0\MonoTestSolution.Service.csproj.AssemblyReference.cache
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Service\obj\Debug\netstandard2.0\MonoTestSolution.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Service\obj\Debug\netstandard2.0\MonoTestSolution.Service.AssemblyInfoInputs.cache
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Service\obj\Debug\netstandard2.0\MonoTestSolution.Service.AssemblyInfo.cs
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Service\obj\Debug\netstandard2.0\MonoTestSolution.Service.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Service\obj\Debug\netstandard2.0\MonoTestSolution.Service.csproj.CopyComplete
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Service\obj\Debug\netstandard2.0\MonoTestSolution.Service.dll
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Service\obj\Debug\netstandard2.0\refint\MonoTestSolution.Service.dll
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Service\obj\Debug\netstandard2.0\MonoTestSolution.Service.pdb
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Service\obj\Debug\netstandard2.0\ref\MonoTestSolution.Service.dll

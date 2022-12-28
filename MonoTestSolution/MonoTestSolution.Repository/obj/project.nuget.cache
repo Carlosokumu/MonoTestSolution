@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jxxi0ck0YtdTninzri/xiG4158MCDlN1+n+SnYhgeAZjJEPwAuA+g91ADdQhF4XvKw9gJGZ6VLe3Nlw/izG1cw==",
+  "dgSpecHash": "iwbETdvbXoH9ELBMh+8oMcBWvIcZouMxdix91dUyRCAtyuVmww96XeSszqyHqB1XTYOsmGnv3KketvXgNkOQYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Carlos\\source\\repos\\TestSolution\\TestSolution\\TestSolution.Repository\\TestSolution.Repository\\MonoTestSolution.Repository.csproj",
+  "projectFilePath": "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.Repository\\MonoTestSolution.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Carlos\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Carlos\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
