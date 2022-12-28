@@ -1,0 +1,12 @@
+C:\Users\Carlos\source\repos\TestSolution\TestSolution.Repository\TestSolution.Repository\bin\Debug\netstandard2.0\TestSolution.Repository.deps.json
+C:\Users\Carlos\source\repos\TestSolution\TestSolution.Repository\TestSolution.Repository\bin\Debug\netstandard2.0\TestSolution.Repository.dll
+C:\Users\Carlos\source\repos\TestSolution\TestSolution.Repository\TestSolution.Repository\bin\Debug\netstandard2.0\TestSolution.Repository.pdb
+C:\Users\Carlos\source\repos\TestSolution\TestSolution.Repository\TestSolution.Repository\obj\Debug\netstandard2.0\TestSolution.Repository.csproj.AssemblyReference.cache
+C:\Users\Carlos\source\repos\TestSolution\TestSolution.Repository\TestSolution.Repository\obj\Debug\netstandard2.0\TestSolution.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\source\repos\TestSolution\TestSolution.Repository\TestSolution.Repository\obj\Debug\netstandard2.0\TestSolution.Repository.AssemblyInfoInputs.cache
+C:\Users\Carlos\source\repos\TestSolution\TestSolution.Repository\TestSolution.Repository\obj\Debug\netstandard2.0\TestSolution.Repository.AssemblyInfo.cs
+C:\Users\Carlos\source\repos\TestSolution\TestSolution.Repository\TestSolution.Repository\obj\Debug\netstandard2.0\TestSolution.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Carlos\source\repos\TestSolution\TestSolution.Repository\TestSolution.Repository\obj\Debug\netstandard2.0\TestSolution.Repository.dll
+C:\Users\Carlos\source\repos\TestSolution\TestSolution.Repository\TestSolution.Repository\obj\Debug\netstandard2.0\refint\TestSolution.Repository.dll
+C:\Users\Carlos\source\repos\TestSolution\TestSolution.Repository\TestSolution.Repository\obj\Debug\netstandard2.0\TestSolution.Repository.pdb
+C:\Users\Carlos\source\repos\TestSolution\TestSolution.Repository\TestSolution.Repository\obj\Debug\netstandard2.0\ref\TestSolution.Repository.dll
