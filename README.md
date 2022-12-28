@@ -9,3 +9,7 @@ Below is What i have Worked on:
    *  Handled Simple Mappings for the Service and Repository Layer Models using Autofac
    *  created an in-memory storage; mocking the vehicle make and vehicle model data
    
+ TODO :
+    *  Implement DI on all the UI
+    *  Work on the UI following  the MVVM Architecture.
+    *  Intergrate a remote Datasource  for the app from api(if time allows.)
