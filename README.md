@@ -10,6 +10,7 @@ Below is What i have Worked on:
    *  created an in-memory storage; mocking the vehicle make and vehicle model data
    
  TODO :
+    *  Created the Service and Repository Layers.
     *  Implement DI on all the UI
     *  Work on the UI following  the MVVM Architecture.
     *  Intergrate a remote Datasource  for the app from api(if time allows.)
