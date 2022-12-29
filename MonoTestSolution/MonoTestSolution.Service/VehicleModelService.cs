@@ -1,4 +1,6 @@
 ﻿using MonoTestSolution.Repository;
+using MonoTestSolution.Repository.interfaces;
+using MonoTestSolution.Repository.models;
 using MonoTestSolution.Service.interfaces;
 using MonoTestSolution.Service.models;
 using SQLite;
@@ -20,45 +22,49 @@ namespace MonoTestSolution.Service
 {
     public class VehicleModelService : IVehicleModelService
     {
-        private SQLiteAsyncConnection _connection;
-        private RepositoryDataSource _repositorydatasource;
+
+        private IvehicleModelCrud _ivehicleModelCrud;
+        private Imapper _imapper;
 
 
-        public VehicleModelService(SQLiteAsyncConnection connection, RepositoryDataSource repositorydatasource)
+        public VehicleModelService(IvehicleModelCrud ivehicleModelCrud,Imapper imapper)
         {
-
-            _connection = connection;
-            _repositorydatasource = repositorydatasource;
-            _connection.CreateTableAsync<VehicleModel>();
+            _ivehicleModelCrud = ivehicleModelCrud;
+            imapper = imapper;
+          
         }
         public async Task AddVehicleModel(VehicleModel vehicleModel)
         {
-            await _connection.InsertAsync(vehicleModel);
+            var vehicleModelEntity = _imapper.Map<VehicleModel, VehicleModelEntity>(vehicleModel);
+            await _ivehicleModelCrud.GetVehicleModel(vehicleModelEntity);
         }
 
-        public async Task DeleteVehicleModel(VehicleModel vehicleMake)
+        public async Task DeleteVehicleModel(VehicleModel vehicleModel)
         {
-            await _connection.DeleteAsync(vehicleMake);
+            var vehicleModelEntity = _imapper.Map<VehicleModel, VehicleModelEntity>(vehicleModel);
+            await _ivehicleModelCrud.GetVehicleModel(vehicleModelEntity);
         }
 
         public async Task<VehicleModel> GetVehicleModel(int id)
         {
-            return await _connection.FindAsync<VehicleModel>(id);
+            var vehicleModelEntity = await _ivehicleModelCrud.GetVehicleModel(id);
+            var vehicleModel = _imapper.Map<VehicleModelEntity, VehicleModel>(vehicleModelEntity);
+            return vehicleModel;
         }
 
         public async Task<IEnumerable<VehicleModel>> GetVicleMakesAsync()
         {
-            return await _connection.Table<VehicleModel>().ToListAsync();
+            var vehicleModelsEntity = await _ivehicleModelCrud.GetVicleModelsAsync();
+            var vehicleModels = _imapper.Map<List<VehicleMakeEntity>, List<VehicleMake>>(vehicleModelsEntity);
+            return  vehicleModels;
         }
 
-        public async Task InsertStartUpVehicleModels(List<VehicleModel> vehicleModels)
-        {
-            await _connection.InsertAllAsync(vehicleModels);
-        }
+        
 
         public async Task UpdateVehicleModel(VehicleModel vehicleModel)
         {
-            await _connection.UpdateAsync(vehicleModel);       
-       }
+            var vehicleModelEntity = _imapper.Map<VehicleModel, VehicleMakeEntity>(vehicleModel);
+            await _ivehicleModelCrud.UpdateVehicleModel(vehicleModelEntity);
+        }
     }
 }
