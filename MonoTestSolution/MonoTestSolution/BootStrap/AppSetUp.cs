@@ -11,6 +11,7 @@ namespace MonoTestSolution.BootStrap
 {
     public  class AppSetUp
     {
+        public static IMapper mapper;
         public static void Init(RepositoryDataSource repositorydatasource, VehicleMakeService vehicleMakeService)
         {
             /*
@@ -20,9 +21,11 @@ namespace MonoTestSolution.BootStrap
             {
                 cfg.CreateMap<VehicleMakeDto, VehicleMake>();
                 cfg.CreateMap<VehicleMake, VehicleMakeDto>();
+                cfg.CreateMap<VehicleMakeEntity, VehicleMakeDto>();
+                cfg.CreateMap<VehicleMakeDto,VehicleMakeEntity>();
             });
-            var mapper = config.CreateMapper();
-            List<VehicleMake> vehicleMakes = mapper.Map<List<VehicleMakeDto>, List<VehicleMake>>(repositorydatasource.GetVehicleMake());
+             mapper = config.CreateMapper();
+            List<VehicleMake> vehicleMakes = mapper.Map<List<VehicleMakeDto>, List<VehicleMake>>(repositorydatasource.GetVehicleMakes());
 
             /*
                * 
@@ -31,6 +34,8 @@ namespace MonoTestSolution.BootStrap
             */
 
             _ = vehicleMakeService.InsertStartUpData(vehicleMakes);
+
+
         }
     }
 }
