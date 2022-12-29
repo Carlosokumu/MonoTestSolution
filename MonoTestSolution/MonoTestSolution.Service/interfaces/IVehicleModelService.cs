@@ -16,6 +16,6 @@ namespace MonoTestSolution.Service.interfaces
         Task UpdateVehicleModel(VehicleModel vehicleModel);
         Task DeleteVehicleModel(VehicleModel vehicleModel);
 
-        Task InsertStartUpVehicleModels(List<VehicleModel> vehicleModel);
+        
     }
 }
