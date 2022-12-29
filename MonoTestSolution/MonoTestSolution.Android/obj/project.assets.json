@@ -2,6 +2,39 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v13.0": {
+      "Autofac/6.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Autofac.Extras.CommonServiceLocator/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[5.0.0, 7.0.0)",
+          "CommonServiceLocator": "2.0.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.Extras.CommonServiceLocator.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.Extras.CommonServiceLocator.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "AutoMapper/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -31,6 +64,15 @@
         },
         "runtime": {
           "lib/netstandard2.1/AutoMapper.EF6.dll": {}
+        }
+      },
+      "CommonServiceLocator/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/CommonServiceLocator.dll": {}
         }
       },
       "DelegateDecompiler/0.28.0": {
@@ -242,6 +284,19 @@
           "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll": {
             "assetType": "runtime",
             "rid": "win"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -2120,6 +2175,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "AutoMapper.EF6": "2.1.1",
+          "Autofac": "6.5.0",
+          "Autofac.Extras.CommonServiceLocator": "6.0.1",
           "MonoTestSolution.Service": "1.0.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196"
@@ -2165,6 +2222,42 @@
     }
   },
   "libraries": {
+    "Autofac/6.5.0": {
+      "sha512": "sm6HWWBDEoTPGXeyOchMygJ/7L89VxmVH72BFxakG88J34AVjA8RMi5jbv3PdpUtXI/d9ZLKOaxCmOSIo2K4aA==",
+      "type": "package",
+      "path": "autofac/6.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "autofac.6.5.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net5.0/Autofac.dll",
+        "lib/net5.0/Autofac.xml",
+        "lib/net6.0/Autofac.dll",
+        "lib/net6.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
+    "Autofac.Extras.CommonServiceLocator/6.0.1": {
+      "sha512": "iRmZS1/yxCeeASGZUiT61sFnBElAK5igY9RRFFQzI3GJ6hKEz7SmCmm08DCEQPxHAcdJmLQVK3mmF1rK6AkKpQ==",
+      "type": "package",
+      "path": "autofac.extras.commonservicelocator/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.extras.commonservicelocator.6.0.1.nupkg.sha512",
+        "autofac.extras.commonservicelocator.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Autofac.Extras.CommonServiceLocator.dll",
+        "lib/netstandard2.0/Autofac.Extras.CommonServiceLocator.pdb",
+        "lib/netstandard2.0/Autofac.Extras.CommonServiceLocator.xml"
+      ]
+    },
     "AutoMapper/8.0.0": {
       "sha512": "px8ZMtIq84dxciB29V+ZYOtsRLZP4JlflDDMW13LyeRdwsnIInzlcSHSxpWmVD6U3bbOl2FeLlgomnVtm0jvXw==",
       "type": "package",
@@ -2193,6 +2286,28 @@
         "automapper.ef6.nuspec",
         "lib/net461/AutoMapper.EF6.dll",
         "lib/netstandard2.1/AutoMapper.EF6.dll"
+      ]
+    },
+    "CommonServiceLocator/2.0.5": {
+      "sha512": "Md2q9f6hAuUAm6IWTybQbYvxhDAs2dqmsudVDghpg0Q+C0M2KkmiTDjeGx1PsYhnZPvp+hy1Cx99v0VPW9W6/g==",
+      "type": "package",
+      "path": "commonservicelocator/2.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "commonservicelocator.2.0.5.nupkg.sha512",
+        "commonservicelocator.nuspec",
+        "lib/net40/CommonServiceLocator.dll",
+        "lib/net45/CommonServiceLocator.dll",
+        "lib/net46/CommonServiceLocator.dll",
+        "lib/net47/CommonServiceLocator.dll",
+        "lib/net48/CommonServiceLocator.dll",
+        "lib/netcoreapp1.0/CommonServiceLocator.dll",
+        "lib/netcoreapp2.0/CommonServiceLocator.dll",
+        "lib/netcoreapp3.0/CommonServiceLocator.dll",
+        "lib/netstandard1.0/CommonServiceLocator.dll",
+        "lib/netstandard2.0/CommonServiceLocator.dll",
+        "lib/netstandard2.1/CommonServiceLocator.dll"
       ]
     },
     "DelegateDecompiler/0.28.0": {
@@ -2675,6 +2790,32 @@
         "runtimes/win/lib/uap10.0.16299/System.Data.SqlClient.xml",
         "system.data.sqlclient.4.8.1.nupkg.sha512",
         "system.data.sqlclient.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Diagnostics.DiagnosticSource/4.7.1": {
+      "sha512": "j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
+      "type": "package",
+      "path": "system.diagnostics.diagnosticsource/4.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net45/System.Diagnostics.DiagnosticSource.xml",
+        "lib/net46/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net46/System.Diagnostics.DiagnosticSource.xml",
+        "lib/netstandard1.1/System.Diagnostics.DiagnosticSource.dll",
+        "lib/netstandard1.1/System.Diagnostics.DiagnosticSource.xml",
+        "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll",
+        "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.xml",
+        "lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.dll",
+        "lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.xml",
+        "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+        "system.diagnostics.diagnosticsource.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]

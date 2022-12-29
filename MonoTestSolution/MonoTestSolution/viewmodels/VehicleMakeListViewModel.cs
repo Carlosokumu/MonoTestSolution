@@ -1,4 +1,5 @@
 ﻿using MonoTestSolution.Service;
+using MonoTestSolution.Service.interfaces;
 using MonoTestSolution.Service.models;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,7 @@ namespace MonoTestSolution.viewmodels
     public class VehicleMakeListViewModel: BaseViewModel
     {
 
-        private VehicleMakeService _ivehicleMakeService;
+        private IVehicleMakeService _ivehicleMakeService;
         public ICommand LoadDataCommand { get; private set; }
 
         private ObservableCollection<VehicleMake> _vehiclemakes = new ObservableCollection<VehicleMake>();
@@ -28,7 +29,7 @@ namespace MonoTestSolution.viewmodels
                 OnPropertyChanged("VehicleMakes");
             }
         }
-        public VehicleMakeListViewModel(VehicleMakeService ivehicleMakeService)
+        public VehicleMakeListViewModel(IVehicleMakeService ivehicleMakeService)
         {
             _ivehicleMakeService = ivehicleMakeService;
             LoadDataCommand = new Command(async () => await LoadData());
