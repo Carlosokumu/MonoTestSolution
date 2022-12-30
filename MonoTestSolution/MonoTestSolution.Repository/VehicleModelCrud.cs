@@ -33,14 +33,15 @@ namespace MonoTestSolution.Repository
             return await _connection.FindAsync<VehicleModelEntity>(id);
         }
 
-        public async Task<IEnumerable<VehicleModelEntity>> GetVicleModelsAsync()
-        {
-            return await _connection.Table<VehicleModelEntity>().ToListAsync();
-        }
 
         public async Task UpdateVehicleModel(VehicleModelEntity vehicleModel)
         {
             await _connection.UpdateAsync(vehicleModel);
+        }
+
+        public async Task<List<VehicleModelEntity>> GetVicleModelsAsync()
+        {
+            return await _connection.Table<VehicleModelEntity>().ToListAsync();
         }
     }
 }
