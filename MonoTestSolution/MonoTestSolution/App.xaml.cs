@@ -6,6 +6,7 @@ using MonoTestSolution.Repository;
 using MonoTestSolution.Repository.interfaces;
 using MonoTestSolution.Service;
 using MonoTestSolution.Service.interfaces;
+using MonoTestSolution.viewmodels;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -27,8 +28,9 @@ namespace MonoTestSolution
 
             AppContainer.Container.Resolve<IRepositoryMockDataApi>();
             AppContainer.Container.Resolve<IMapper>();
-            //container.Resolve<IRepositoryMockDataApi>();
+            
             AppContainer.Container.Resolve<RepositoryDataSource>();
+            AppContainer.Container.Resolve<VehicleMakeListViewModel>();
 
            
             AppContainer.Container.Resolve<IVehicleMakeService>();
@@ -36,12 +38,6 @@ namespace MonoTestSolution
             AppContainer.Container.Resolve<IvehicleMakeCrud>();
             AppContainer.Container.Resolve<IvehicleModelCrud>();
 
-
-
-
-
-            //var vehicleMakeService = new VehicleMakeService(DependencyService.Get<ISQLiteDb>().GetConnection(), repositoryDatasource);
-            // AppSetUp.Init(repositoryDatasource, vehicleMakeService);
             MainPage = new VehicleMakesListPage();
         }
 
