@@ -13,13 +13,7 @@ namespace MonoTestSolution
         {
 
             InitializeComponent();
-
-            //var repositoryDatasource = new RepositoryDataSource();
-           // var connection = DependencyService.Get<ISQLiteDb>().GetConnection();
-
             var vehicleMakeService = AppContainer.Container.Resolve<IVehicleMakeService>();
-
-            //var vehicleMakeService = new VehicleMakeService(connection, repositoryDatasource);
             ViewModel = new VehicleMakeListViewModel(vehicleMakeService);
             ViewModel.LoadDataCommand.Execute(null);
         }
