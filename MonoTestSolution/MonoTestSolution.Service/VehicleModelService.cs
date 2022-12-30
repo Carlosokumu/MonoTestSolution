@@ -1,4 +1,5 @@
-﻿using MonoTestSolution.Repository;
+﻿using AutoMapper;
+using MonoTestSolution.Repository;
 using MonoTestSolution.Repository.interfaces;
 using MonoTestSolution.Repository.models;
 using MonoTestSolution.Service.interfaces;
@@ -24,25 +25,25 @@ namespace MonoTestSolution.Service
     {
 
         private IvehicleModelCrud _ivehicleModelCrud;
-        private Imapper _imapper;
+        private IMapper _imapper;
 
 
-        public VehicleModelService(IvehicleModelCrud ivehicleModelCrud,Imapper imapper)
+        public VehicleModelService(IvehicleModelCrud ivehicleModelCrud,IMapper imapper)
         {
             _ivehicleModelCrud = ivehicleModelCrud;
-            imapper = imapper;
+            _imapper = imapper;
           
         }
         public async Task AddVehicleModel(VehicleModel vehicleModel)
         {
             var vehicleModelEntity = _imapper.Map<VehicleModel, VehicleModelEntity>(vehicleModel);
-            await _ivehicleModelCrud.GetVehicleModel(vehicleModelEntity);
+            await _ivehicleModelCrud.AddVehicleModel(vehicleModelEntity);
         }
 
         public async Task DeleteVehicleModel(VehicleModel vehicleModel)
         {
             var vehicleModelEntity = _imapper.Map<VehicleModel, VehicleModelEntity>(vehicleModel);
-            await _ivehicleModelCrud.GetVehicleModel(vehicleModelEntity);
+            await _ivehicleModelCrud.DeleteVehicleModel(vehicleModelEntity);
         }
 
         public async Task<VehicleModel> GetVehicleModel(int id)
@@ -55,7 +56,7 @@ namespace MonoTestSolution.Service
         public async Task<IEnumerable<VehicleModel>> GetVicleMakesAsync()
         {
             var vehicleModelsEntity = await _ivehicleModelCrud.GetVicleModelsAsync();
-            var vehicleModels = _imapper.Map<List<VehicleMakeEntity>, List<VehicleMake>>(vehicleModelsEntity);
+            var vehicleModels = _imapper.Map<List<VehicleModelEntity>, List<VehicleModel>>(vehicleModelsEntity);
             return  vehicleModels;
         }
 
@@ -63,7 +64,7 @@ namespace MonoTestSolution.Service
 
         public async Task UpdateVehicleModel(VehicleModel vehicleModel)
         {
-            var vehicleModelEntity = _imapper.Map<VehicleModel, VehicleMakeEntity>(vehicleModel);
+            var vehicleModelEntity = _imapper.Map<VehicleModel, VehicleModelEntity>(vehicleModel);
             await _ivehicleModelCrud.UpdateVehicleModel(vehicleModelEntity);
         }
     }
