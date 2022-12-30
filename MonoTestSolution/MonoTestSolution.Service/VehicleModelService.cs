@@ -1,13 +1,9 @@
 ﻿using AutoMapper;
-using MonoTestSolution.Repository;
 using MonoTestSolution.Repository.interfaces;
 using MonoTestSolution.Repository.models;
 using MonoTestSolution.Service.interfaces;
 using MonoTestSolution.Service.models;
-using SQLite;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 
