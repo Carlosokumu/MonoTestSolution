@@ -7,6 +7,7 @@ using MonoTestSolution.Repository.models;
 using MonoTestSolution.Service;
 using MonoTestSolution.Service.interfaces;
 using MonoTestSolution.Service.models;
+using MonoTestSolution.viewmodels;
 using SQLite;
 using Xamarin.Forms;
 
@@ -56,6 +57,7 @@ namespace MonoTestSolution.BootStrap
             builder.RegisterType<VehicleModelCrud>().As<IvehicleModelCrud>();
             builder.RegisterType<VehicleMakeService>().As<IVehicleMakeService>();
             builder.RegisterType<VehicleModelService>().As<IVehicleModelService>();
+            builder.RegisterType<VehicleMakeListViewModel>().AsSelf();
            
             
         }
