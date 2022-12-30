@@ -1,4 +1,5 @@
-﻿using MonoTestSolution.Repository;
+﻿using AutoMapper;
+using MonoTestSolution.Repository;
 using MonoTestSolution.Repository.interfaces;
 using MonoTestSolution.Repository.models;
 using MonoTestSolution.Service.interfaces;
@@ -26,9 +27,9 @@ namespace MonoTestSolution.Service
     {
        
         private IvehicleMakeCrud _ivehicleMakeCrud;
-        private Imapper _imapper;
+        private IMapper _imapper;
 
-    public VehicleMakeService(IvehicleMakeCrud ivehicleMakeCrud,Imapper imapper)
+    public VehicleMakeService(IvehicleMakeCrud ivehicleMakeCrud,IMapper imapper)
     {
             _ivehicleMakeCrud = ivehicleMakeCrud;
             _imapper = imapper;
@@ -54,14 +55,14 @@ namespace MonoTestSolution.Service
             
      }
 
-    public async Task<IEnumerable<VehicleMake>> GetVicleMakesAsync()
-    {
+     public async Task<IEnumerable<VehicleMake>> GetVicleMakesAsync()
+        {
             var vehicleMakeEntity = await _ivehicleMakeCrud.GetVicleMakesAsync();
             var vehicleMakes = _imapper.Map<List<VehicleMakeEntity>, List<VehicleMake>>(vehicleMakeEntity);
             return vehicleMakes;
-        }
+     }
 
-    public async Task UpdateVehicleMake(VehicleMake vehicleMake)
+        public async Task UpdateVehicleMake(VehicleMake vehicleMake)
     {
             var vehicleMakeEntity = _imapper.Map<VehicleMake, VehicleMakeEntity>(vehicleMake);
             await _ivehicleMakeCrud.UpdateVehicleMake(vehicleMakeEntity);
