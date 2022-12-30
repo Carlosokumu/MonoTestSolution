@@ -13,6 +13,11 @@ using Xamarin.Forms;
 
 namespace MonoTestSolution.BootStrap
 {
+    /*
+        * 
+          * This class is responsible for registering all the dependencies;
+        * 
+     */
     public class AppModule: Module
     {
        
