@@ -8,5 +8,7 @@ namespace MonoTestSolution.memory
     public interface  ISQLiteDb
     {
         SQLiteAsyncConnection GetConnection();
+
+        
     }
 }

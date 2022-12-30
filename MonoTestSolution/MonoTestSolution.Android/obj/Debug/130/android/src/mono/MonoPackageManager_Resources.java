@@ -3,8 +3,8 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "MonoTestSolution.Android.dll" comes first in this list. */
 		"MonoTestSolution.Android.dll",
-		"MonoTestSolution.Repository.dll",
 		"MonoTestSolution.Service.dll",
+		"MonoTestSolution.Repository.dll",
 		"Autofac.dll",
 		"Autofac.Extras.CommonServiceLocator.dll",
 		"AutoMapper.dll",

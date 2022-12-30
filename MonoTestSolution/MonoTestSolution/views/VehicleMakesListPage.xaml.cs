@@ -1,13 +1,8 @@
-﻿using MonoTestSolution.memory;
-using MonoTestSolution.Repository;
-using MonoTestSolution.Service;
+﻿using Autofac;
+using MonoTestSolution.BootStrap;
+using MonoTestSolution.memory;
+using MonoTestSolution.Service.interfaces;
 using MonoTestSolution.viewmodels;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace MonoTestSolution
@@ -19,10 +14,12 @@ namespace MonoTestSolution
 
             InitializeComponent();
 
-            var repositoryDatasource = new RepositoryDataSource();
-            var connection = DependencyService.Get<ISQLiteDb>().GetConnection();
+            //var repositoryDatasource = new RepositoryDataSource();
+           // var connection = DependencyService.Get<ISQLiteDb>().GetConnection();
 
-            var vehicleMakeService = new VehicleMakeService(connection, repositoryDatasource);
+            var vehicleMakeService = AppContainer.Container.Resolve<IVehicleMakeService>();
+
+            //var vehicleMakeService = new VehicleMakeService(connection, repositoryDatasource);
             ViewModel = new VehicleMakeListViewModel(vehicleMakeService);
             ViewModel.LoadDataCommand.Execute(null);
         }

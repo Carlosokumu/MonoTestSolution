@@ -4,6 +4,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using MonoTestSolution.BootStrap;
 using MonoTestSolution.memory;
 using SQLite;
 using System;
@@ -18,13 +19,16 @@ using Environment = System.Environment;
 namespace MonoTestSolution.Droid.memory
 {
     
-        public class SQLiteDb : ISQLiteDb
+        public class SQLiteDb : AppRuntimeSettings
         {
-            public SQLiteAsyncConnection GetConnection()
-            {
-                var documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-                var path = Path.Combine(documentsPath, "MySQLite.db3");
-                return new SQLiteAsyncConnection(path);
-            }
+        
+
+        public override SQLiteAsyncConnection GetConnection()
+        {
+            var documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            var path = Path.Combine(documentsPath, "MySQLite.db3");
+            return new SQLiteAsyncConnection(path);
         }
+
+    }
  }
