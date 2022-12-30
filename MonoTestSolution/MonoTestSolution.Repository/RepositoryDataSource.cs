@@ -4,6 +4,9 @@ using MonoTestSolution.Repository.models;
 using SQLite;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Reflection;
 
 namespace MonoTestSolution.Repository
 {
@@ -15,15 +18,32 @@ namespace MonoTestSolution.Repository
         public RepositoryDataSource(SQLiteAsyncConnection connection,IRepositoryMockDataApi irepositoryMockDataApi,IMapper imapper)
         {
             _connection = connection;
+            string DatabasePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Cars.db");
+            Assembly assembly = IntrospectionExtensions.GetTypeInfo(typeof(AppContext)).Assembly;
+
+           Stream embbededDatabaseStream = assembly.GetManifestResourceStream("MonoTestSolution.Cars.db");
+           Debug.WriteLine("Repositoy Init");
+            if (!File.Exists(DatabasePath))
+            {
+                
+                FileStream fileStream = File.Create(DatabasePath);
+                embbededDatabaseStream.Seek(0, SeekOrigin.Begin);
+                embbededDatabaseStream.CopyTo(fileStream);
+                fileStream.Close();
+            }
+            List<VehicleMakeEntity> vehicleMakes = imapper.Map<List<VehicleMakeDto>, List<VehicleMakeEntity>>(irepositoryMockDataApi.GetVehicleMakes());
+
+
+            _connection.InsertAllAsync(vehicleMakes);
+
+            
+
             //Create a Table  For VehicleMakeEntity and VehicleModelEntity
             _connection.CreateTableAsync<VehicleMakeEntity>();
             _connection.CreateTableAsync<VehicleModelEntity>();
 
-            List<VehicleMakeEntity> vehicleMakes = imapper.Map<List<VehicleMakeDto>, List<VehicleMakeEntity>>(irepositoryMockDataApi.GetVehicleMakes());
-            List<VehicleModelEntity> vehicleModels = imapper.Map<List<VehicleModelDto>, List<VehicleModelEntity>>(irepositoryMockDataApi.GetVehicleModels());
-
-            _connection.InsertAllAsync(vehicleMakes);
-            _connection.InsertAllAsync(vehicleModels);
+          
+           
 
 
         }
