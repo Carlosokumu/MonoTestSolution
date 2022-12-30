@@ -54,7 +54,7 @@ namespace MonoTestSolution.BootStrap
       
 
 
-            builder.RegisterType<RepositoryDataSource>().AsSelf();
+            builder.RegisterType<RepositoryDataSource>().AsSelf().SingleInstance();
             builder.RegisterType<RepositoryMockDataApi>().As<IRepositoryMockDataApi>();
 
 
