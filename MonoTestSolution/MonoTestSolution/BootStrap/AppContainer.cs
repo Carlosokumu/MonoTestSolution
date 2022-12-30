@@ -7,8 +7,8 @@ namespace MonoTestSolution.BootStrap
 {
     public static class AppContainer
     {
-
+        //Holds a reference to the Icontainer
         public static IContainer Container { get; set; }
-        public static String ConnectionPath { get; set; }
+      
     }
 }
