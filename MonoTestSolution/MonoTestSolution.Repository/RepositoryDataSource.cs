@@ -1,4 +1,5 @@
-﻿using MonoTestSolution.Repository.interfaces;
+﻿using AutoMapper;
+using MonoTestSolution.Repository.interfaces;
 using MonoTestSolution.Repository.models;
 using SQLite;
 using System;
@@ -11,7 +12,7 @@ namespace MonoTestSolution.Repository
 
         private SQLiteAsyncConnection _connection;
 
-        public RepositoryDataSource(SQLiteAsyncConnection connection,IRepositoryMockDataApi irepositoryMockDataApi,Imapper imapper)
+        public RepositoryDataSource(SQLiteAsyncConnection connection,IRepositoryMockDataApi irepositoryMockDataApi,IMapper imapper)
         {
             _connection = connection;
             //Create a Table  For VehicleMakeEntity and VehicleModelEntity
@@ -19,7 +20,7 @@ namespace MonoTestSolution.Repository
             _connection.CreateTableAsync<VehicleModelEntity>();
 
             List<VehicleMakeEntity> vehicleMakes = imapper.Map<List<VehicleMakeDto>, List<VehicleMakeEntity>>(irepositoryMockDataApi.GetVehicleMakes());
-            List<VehicleModelEntity> vehicleModels = imapper.Map<List<VehicleModelDto>, List<VehicleMakeEntity>>(irepositoryMockDataApi.GetVehicleModels());
+            List<VehicleModelEntity> vehicleModels = imapper.Map<List<VehicleModelDto>, List<VehicleModelEntity>>(irepositoryMockDataApi.GetVehicleModels());
 
             _connection.InsertAllAsync(vehicleMakes);
             _connection.InsertAllAsync(vehicleModels);
