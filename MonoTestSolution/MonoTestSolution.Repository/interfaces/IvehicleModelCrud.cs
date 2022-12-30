@@ -8,7 +8,7 @@ namespace MonoTestSolution.Repository.interfaces
 {
     public interface IvehicleModelCrud
     {
-        Task<IEnumerable<VehicleModelEntity>> GetVicleModelsAsync();
+        Task<List<VehicleModelEntity>> GetVicleModelsAsync();
         Task<VehicleModelEntity> GetVehicleModel(int id);
         Task AddVehicleModel(VehicleModelEntity vehicleModel);
         Task UpdateVehicleModel(VehicleModelEntity vehicleModel);
