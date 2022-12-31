@@ -10,7 +10,7 @@ namespace MonoTestSolution.Service.interfaces
     public interface IVehicleModelService
     {
 
-        Task<IEnumerable<VehicleModel>> GetVicleMakesAsync();
+        Task<IEnumerable<VehicleModel>> GetVicleModelsAsync();
         Task<VehicleModel> GetVehicleModel(int id);
         Task AddVehicleModel(VehicleModel vehicleModel);
         Task UpdateVehicleModel(VehicleModel vehicleModel);

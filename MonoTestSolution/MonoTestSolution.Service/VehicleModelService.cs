@@ -49,7 +49,7 @@ namespace MonoTestSolution.Service
             return vehicleModel;
         }
 
-        public async Task<IEnumerable<VehicleModel>> GetVicleMakesAsync()
+        public async Task<IEnumerable<VehicleModel>> GetVicleModelsAsync()
         {
             var vehicleModelsEntity = await _ivehicleModelCrud.GetVicleModelsAsync();
             var vehicleModels = _imapper.Map<List<VehicleModelEntity>, List<VehicleModel>>(vehicleModelsEntity);

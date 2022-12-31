@@ -32,6 +32,9 @@
         "frameworks": {
           "monoandroid13.0": {
             "projectReferences": {
+              "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.Repository\\MonoTestSolution.Repository.csproj": {
+                "projectPath": "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.Repository\\MonoTestSolution.Repository.csproj"
+              },
               "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.csproj": {
                 "projectPath": "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.csproj"
               }

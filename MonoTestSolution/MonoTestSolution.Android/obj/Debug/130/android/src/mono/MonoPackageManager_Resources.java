@@ -4,7 +4,6 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "MonoTestSolution.Android.dll" comes first in this list. */
 		"MonoTestSolution.Android.dll",
 		"MonoTestSolution.Service.dll",
-		"MonoTestSolution.Repository.dll",
 		"Autofac.dll",
 		"Autofac.Extras.CommonServiceLocator.dll",
 		"AutoMapper.dll",
@@ -17,6 +16,7 @@ public class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"Mono.Reflection.dll",
 		"MonoTestSolution.dll",
+		"MonoTestSolution.Repository.dll",
 		"SQLite-net.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
 		"SQLitePCLRaw.core.dll",

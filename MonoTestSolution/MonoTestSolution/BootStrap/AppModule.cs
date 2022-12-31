@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using AutoMapper;
+using MonoTestSolution.interfaces;
 using MonoTestSolution.memory;
 using MonoTestSolution.Repository;
 using MonoTestSolution.Repository.interfaces;
@@ -51,11 +52,12 @@ namespace MonoTestSolution.BootStrap
             var sqlLiteConnection = AppSetUp.GetApplicationRuntimeSettings().GetConnection();
             builder.RegisterInstance(sqlLiteConnection).AsSelf().SingleInstance();
 
-      
 
 
-            builder.RegisterType<RepositoryDataSource>().AsSelf().SingleInstance();
             builder.RegisterType<RepositoryMockDataApi>().As<IRepositoryMockDataApi>();
+            builder.RegisterType<PageService>().As<IpageService>();
+            builder.RegisterType<RepositoryDataSource>().AsSelf().SingleInstance();
+           
 
 
             builder.RegisterType<VehicleMakeCrud>().As<IvehicleMakeCrud>();

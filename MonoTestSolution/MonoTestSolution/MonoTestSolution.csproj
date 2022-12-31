@@ -11,6 +11,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Cars.db" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Cars.db" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Autofac" Version="6.5.0" />
     <PackageReference Include="Autofac.Extras.CommonServiceLocator" Version="6.0.1" />
     <PackageReference Include="AutoMapper.EF6" Version="2.1.1" />
@@ -26,5 +34,11 @@
     <Compile Update="views\VehicleMakesListPage.xaml.cs">
       <DependentUpon>VehicleMakesListPage.xaml</DependentUpon>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="views\VehicleMakeDetailsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

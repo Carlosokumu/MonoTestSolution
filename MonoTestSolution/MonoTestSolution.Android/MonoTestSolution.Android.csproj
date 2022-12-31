@@ -64,6 +64,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Cars.db" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
@@ -88,6 +89,10 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MonoTestSolution.Repository\MonoTestSolution.Repository.csproj">
+      <Project>{DEFF2113-AE7A-456A-93A9-C81AA5B48503}</Project>
+      <Name>MonoTestSolution.Repository</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MonoTestSolution\MonoTestSolution.csproj">
       <Project>{632A6CE9-CD23-4F85-A96E-55757A3078F9}</Project>
       <Name>MonoTestSolution</Name>

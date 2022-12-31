@@ -1,50 +1,56 @@
-﻿using MonoTestSolution.Service;
+﻿using MonoTestSolution.interfaces;
 using MonoTestSolution.Service.interfaces;
 using MonoTestSolution.Service.models;
-using System;
-using System.Collections.Generic;
+using MonoTestSolution.views;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace MonoTestSolution.viewmodels
 {
-    public class VehicleMakeListViewModel: BaseViewModel
+    public class VehicleMakeListViewModel
     {
 
         private IVehicleMakeService _ivehicleMakeService;
+        private IpageService _ipageservice;
         public ICommand LoadDataCommand { get; private set; }
+        public ICommand SelectMakeCommand { get; private set; }
 
-        private ObservableCollection<VehicleMake> _vehiclemakes = new ObservableCollection<VehicleMake>();
-        public ObservableCollection<VehicleMake> VehicleMakes
-        {
-            get { return _vehiclemakes; }
-            set
-            {
+        private bool _isDataLoaded;
 
-                _vehiclemakes = value;
-                OnPropertyChanged("VehicleMakes");
-            }
-        }
-        public VehicleMakeListViewModel(IVehicleMakeService ivehicleMakeService)
+       
+        public ObservableCollection<VehicleMakeViewModel> Makes { get; private set; }
+         = new ObservableCollection<VehicleMakeViewModel>();
+
+       
+        public VehicleMakeListViewModel(IVehicleMakeService ivehicleMakeService,IpageService ipageService)
         {
             _ivehicleMakeService = ivehicleMakeService;
+            _ipageservice = ipageService;
             LoadDataCommand = new Command(async () => await LoadData());
+            SelectMakeCommand = new Command<VehicleMakeViewModel>(async c => await SelectMake(c));
 
         }
         private async Task LoadData()
         {
 
+            if (_isDataLoaded)
+                return;
+
+            _isDataLoaded = true;
+
             var vehicleMakes = await _ivehicleMakeService.GetVicleMakesAsync();
             foreach (var vehiclemake in vehicleMakes)
-                _vehiclemakes.Add(vehiclemake);
+                Makes.Add(new VehicleMakeViewModel(vehiclemake));
         }
 
-        private string name;
+        private async Task SelectMake(VehicleMakeViewModel vehicleMakeViewModel)
+        {
+            if (vehicleMakeViewModel == null)
+                return;
+            await _ipageservice.PushAsync(new VehicleMakeDetailsPage(vehicleMakeViewModel));
+        }
 
-        public string Name { get => name; set => SetValue(ref name, value); }
     }
 }

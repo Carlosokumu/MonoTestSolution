@@ -22,7 +22,7 @@ namespace MonoTestSolution.Repository
             Assembly assembly = IntrospectionExtensions.GetTypeInfo(typeof(AppContext)).Assembly;
 
            Stream embbededDatabaseStream = assembly.GetManifestResourceStream("MonoTestSolution.Cars.db");
-           Debug.WriteLine("Repositoy Init");
+          
             if (!File.Exists(DatabasePath))
             {
                 
@@ -32,9 +32,10 @@ namespace MonoTestSolution.Repository
                 fileStream.Close();
             }
             List<VehicleMakeEntity> vehicleMakes = imapper.Map<List<VehicleMakeDto>, List<VehicleMakeEntity>>(irepositoryMockDataApi.GetVehicleMakes());
-
+            List<VehicleModelEntity> vehicleModels = imapper.Map<List<VehicleModelDto>, List<VehicleModelEntity>>(irepositoryMockDataApi.GetVehicleModels());
 
             _connection.InsertAllAsync(vehicleMakes);
+            _connection.InsertAllAsync(vehicleModels);
 
             
 

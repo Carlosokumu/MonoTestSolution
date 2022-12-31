@@ -4651,6 +4651,7 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v13.0": [
       "MonoTestSolution >= 1.0.0",
+      "MonoTestSolution.Repository >= 1.0.0",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196"
     ]
@@ -4687,6 +4688,9 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
+            "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.Repository\\MonoTestSolution.Repository.csproj": {
+              "projectPath": "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.Repository\\MonoTestSolution.Repository.csproj"
+            },
             "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.csproj": {
               "projectPath": "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.csproj"
             }

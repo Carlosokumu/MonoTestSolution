@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using MonoTestSolution.BootStrap;
+using MonoTestSolution.interfaces;
 using MonoTestSolution.memory;
 using MonoTestSolution.Service.interfaces;
 using MonoTestSolution.viewmodels;
@@ -14,7 +15,8 @@ namespace MonoTestSolution
 
             InitializeComponent();
             var vehicleMakeService = AppContainer.Container.Resolve<IVehicleMakeService>();
-            ViewModel = new VehicleMakeListViewModel(vehicleMakeService);
+            var pageService = AppContainer.Container.Resolve<IpageService>();
+            ViewModel = new VehicleMakeListViewModel(vehicleMakeService,pageService);
             ViewModel.LoadDataCommand.Execute(null);
         }
 
@@ -23,6 +25,11 @@ namespace MonoTestSolution
         {
             get { return BindingContext as VehicleMakeListViewModel; }
             set { BindingContext = value; }
+        }
+
+        void OnMakeSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            ViewModel.SelectMakeCommand.Execute(e.SelectedItem);
         }
     }
 }

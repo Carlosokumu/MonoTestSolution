@@ -1,6 +1,7 @@
 ﻿using Autofac;
 using AutoMapper;
 using MonoTestSolution.BootStrap;
+using MonoTestSolution.interfaces;
 using MonoTestSolution.memory;
 using MonoTestSolution.Repository;
 using MonoTestSolution.Repository.interfaces;
@@ -8,6 +9,7 @@ using MonoTestSolution.Service;
 using MonoTestSolution.Service.interfaces;
 using MonoTestSolution.viewmodels;
 using System;
+using System.Diagnostics;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -17,6 +19,7 @@ namespace MonoTestSolution
     {
         public App()
         {
+            Debug.WriteLine("App Init");
             InitializeComponent();
 
             var containerBuilder = new ContainerBuilder();
@@ -37,8 +40,9 @@ namespace MonoTestSolution
             AppContainer.Container.Resolve<IVehicleModelService>();
             AppContainer.Container.Resolve<IvehicleMakeCrud>();
             AppContainer.Container.Resolve<IvehicleModelCrud>();
+            AppContainer.Container.Resolve<IpageService>();
 
-            MainPage = new VehicleMakesListPage();
+            MainPage = new NavigationPage(new VehicleMakesListPage()); 
         }
 
         protected override void OnStart()

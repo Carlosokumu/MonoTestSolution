@@ -9,6 +9,7 @@ namespace MonoTestSolution.BootStrap
     {
         //Holds a reference to the Icontainer
         public static IContainer Container { get; set; }
-      
+       
+
     }
 }

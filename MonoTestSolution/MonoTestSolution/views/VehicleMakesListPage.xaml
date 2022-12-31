@@ -1,13 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewmodels="clr-namespace:MonoTestSolution.viewmodels" x:DataType="viewmodels:VehicleMakeListViewModel"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="MonoTestSolution.VehicleMakesListPage">
 
-    <ListView  ItemsSource="{Binding VehicleMakes}" HasUnevenRows="True" SeparatorColor="Gray" >
+    <ListView  ItemsSource="{Binding Makes}"  ItemSelected="OnMakeSelected" HasUnevenRows="True" SeparatorVisibility="Default" SeparatorColor="Gray" RowHeight="100"  >
         <ListView.ItemTemplate>
             <DataTemplate>
-                <TextCell Text="{Binding Name}" />
+                <TextCell Text="{Binding Name}"  TextColor="Black" Detail="{Binding Abbr}">
+                    <TextCell.ContextActions>
+                        <MenuItem Text="Call" IsDestructive="true" />
+                    </TextCell.ContextActions>
+                </TextCell>
+                
+                
             </DataTemplate>
+           
         </ListView.ItemTemplate>
     </ListView>
 
