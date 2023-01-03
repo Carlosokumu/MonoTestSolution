@@ -10,13 +10,17 @@ using MonoTestSolution.Service.interfaces;
 using MonoTestSolution.Service.models;
 using MonoTestSolution.viewmodels;
 using SQLite;
+using System.Net.Http;
+using System;
 using Xamarin.Forms;
 
 namespace MonoTestSolution.BootStrap
 {
     /*
         * 
-          * This class is responsible for registering all the dependencies;
+          * This class is responsible for:
+             * Registering all the dependencies;
+             * Creates Mapping for the different models;
         * 
      */
     public class AppModule: Module
@@ -35,6 +39,9 @@ namespace MonoTestSolution.BootStrap
                    cfg.CreateMap<VehicleMake, VehicleMakeDto>();
                    cfg.CreateMap<VehicleMakeEntity, VehicleMakeDto>();
                    cfg.CreateMap<VehicleMakeDto, VehicleMakeEntity>();
+                   cfg.CreateMap<VehicleMakeDetailsEntity, VehicleMakeDetailsDto>();
+                   cfg.CreateMap<VehicleMakeDetailsEntity, VehicleMakeDetails>();
+                   cfg.CreateMap<VehicleMakeDetails,VehicleMakeDetailsEntity>();
                }))
                .AsSelf()
                .SingleInstance();
@@ -44,7 +51,6 @@ namespace MonoTestSolution.BootStrap
              c => c.Resolve<MapperConfiguration>().CreateMapper(c.Resolve))
              .As<IMapper>()
              .InstancePerLifetimeScope();
-
 
 
 
@@ -64,6 +70,8 @@ namespace MonoTestSolution.BootStrap
             builder.RegisterType<VehicleModelCrud>().As<IvehicleModelCrud>();
             builder.RegisterType<VehicleMakeService>().As<IVehicleMakeService>();
             builder.RegisterType<VehicleModelService>().As<IVehicleModelService>();
+            builder.RegisterType<VehicleMakeDetailsCrud>().As<IvehicleMakeDetailsCrud>();
+            builder.RegisterType<VehicleMakeDetailsService>().As<IvehicleMakeDetailsService>();
             builder.RegisterType<VehicleMakeListViewModel>().AsSelf();
            
             
