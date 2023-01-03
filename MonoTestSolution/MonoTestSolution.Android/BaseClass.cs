@@ -23,10 +23,6 @@ namespace MonoTestSolution.Droid
         public override void OnCreate()
         {
             base.OnCreate();
-           // Log.Debug("AppInit","Application Started");
-            //var sqliteConnection = new SQLiteDb().GetConnection();
-            //var respository = AppContainer.Container.Resolve<RepositoryDataSource>();
-           // respository.InitializeDb();
 
 
         }
