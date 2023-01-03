@@ -7,11 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoTestSolution.Android", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoTestSolution.iOS", "MonoTestSolution\MonoTestSolution.iOS\MonoTestSolution.iOS.csproj", "{30AF700F-719E-4742-A9FD-6C5BA965088F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoTestSolution", "MonoTestSolution\MonoTestSolution\MonoTestSolution.csproj", "{6250C149-CDD0-4DE1-903C-7582F56721B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonoTestSolution", "MonoTestSolution\MonoTestSolution\MonoTestSolution.csproj", "{6250C149-CDD0-4DE1-903C-7582F56721B5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonoTestSolution.Repository", "MonoTestSolution\MonoTestSolution.Repository\MonoTestSolution.Repository.csproj", "{DEFF2113-AE7A-456A-93A9-C81AA5B48503}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonoTestSolution.Service", "MonoTestSolution\MonoTestSolution.Service\MonoTestSolution.Service.csproj", "{A8AE7303-5D14-4C8F-89B6-4DE7FD7F7A9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D000D8D2-BF35-4383-8254-DDC27890E20A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

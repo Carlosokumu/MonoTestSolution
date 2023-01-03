@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <SelectedDevice>TECNO MOBILE LIMITED TECNO CD6</SelectedDevice>
-    <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
-    <ActiveDebugProfile>TECNO MOBILE LIMITED TECNO CD6 %28Android 10.0 - API 29%29</ActiveDebugProfile>
+    <SelectedDevice>Resizable_API_33</SelectedDevice>
+    <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
+    <ActiveDebugProfile>Resizable API 33 %28Android 13.0 - API 33%29</ActiveDebugProfile>
     <DefaultDevice>Resizable_API_33</DefaultDevice>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
