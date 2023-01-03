@@ -6,6 +6,7 @@ using MonoTestSolution.Service.models;
 using MonoTestSolution.views;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Essentials;
@@ -52,7 +53,7 @@ namespace MonoTestSolution.viewmodels
                 Makes.Add(new VehicleMakeViewModel(vehiclemake));
         }
 
-        private async Task DeleteContact(VehicleMakeViewModel vehicleMakeViewModel)
+        private async Task DeleteVehicleMaKe(VehicleMakeViewModel vehicleMakeViewModel)
         {
             if (await _ipageservice.DisplayAlert("Warning", $"Are you sure you want to delete {vehicleMakeViewModel.Name}?", "Yes", "No"))
             {
@@ -63,20 +64,23 @@ namespace MonoTestSolution.viewmodels
             }
         }
 
-        public ICommand PerformSearch => new Command<string>(async (string query) =>
+    
+
+
+        public  async void SearchMake(string make)
         {
-            Debug.WriteLine(query);
-            var vehicleMake = await _ivehicleMakeService.GetVehicleMakeByName("Bmw");
-            if(vehicleMake == null)
+            var vehicleMake = await _ivehicleMakeService.GetVehicleMakeByName(make);
+            if (vehicleMake == null)
             {
-                Debug.WriteLine("Not found");
+                var vehicleMakes = await _ivehicleMakeService.GetVicleMakesAsync();
+                Makes.Clear();
+                foreach (var vehiclemake in vehicleMakes)
+                        Makes.Add(new VehicleMakeViewModel(vehiclemake));
                 return;
             }
-            Debug.WriteLine(vehicleMake.Name);
             Makes.Clear();
             Makes.Add(new VehicleMakeViewModel(vehicleMake));
-
-        });
+        }
 
         private async Task SelectMake(VehicleMakeViewModel vehicleMakeViewModel)
         {
