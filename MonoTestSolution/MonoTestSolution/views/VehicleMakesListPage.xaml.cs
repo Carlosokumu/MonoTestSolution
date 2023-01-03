@@ -15,8 +15,10 @@ namespace MonoTestSolution
 
             InitializeComponent();
             var vehicleMakeService = AppContainer.Container.Resolve<IVehicleMakeService>();
+            var vehicleMakeDetailsService = AppContainer.Container.Resolve<IvehicleMakeDetailsService>();
             var pageService = AppContainer.Container.Resolve<IpageService>();
-            ViewModel = new VehicleMakeListViewModel(vehicleMakeService,pageService);
+
+            ViewModel = new VehicleMakeListViewModel(vehicleMakeService,pageService,vehicleMakeDetailsService);
             ViewModel.LoadDataCommand.Execute(null);
         }
 

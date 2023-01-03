@@ -1,24 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="{AppThemeBinding Dark={StaticResource PageBackgroundColorDark} ,Light={StaticResource PageBackgroundColor}}"
              x:Class="MonoTestSolution.views.VehicleMakeDetailsPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="{Binding Path=Make.Name}"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
 
 
-            <ListView  ItemsSource="{Binding Models}"  HasUnevenRows="True" SeparatorVisibility="Default" SeparatorColor="Gray" RowHeight="100"  >
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <TextCell Text="{Binding Name}"  TextColor="Black" Detail="{Binding Abbr}"/>
+    <NavigationPage.TitleView>
+        <Label    FontAttributes="Bold" TextColor ="WhiteSmoke" Text="{Binding Make.Name}" FontSize="Title"  HorizontalOptions="Start"></Label>
+    </NavigationPage.TitleView>
 
-                    </DataTemplate>
+    <StackLayout>
 
-                </ListView.ItemTemplate>
-            </ListView>
-            
-        </StackLayout>
-    </ContentPage.Content>
+        <Label  Padding="10"  HorizontalOptions="CenterAndExpand" Text="{Binding Make.Name, StringFormat='Basic {0:F0} Information'}"  FontSize="Medium"  TextColor="DarkKhaki" />
+
+        <Frame   BackgroundColor="{AppThemeBinding Dark={StaticResource PageBackgroundColorDark} ,Light={StaticResource PageBackgroundColor}}"    Margin="15" CornerRadius="12" BorderColor="Gray">
+            <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+                <StackLayout Orientation="Horizontal">
+                    <Label HorizontalOptions="Start"  Margin="10" Text="Year Founded"  FontSize="Small"  TextColor="{AppThemeBinding Dark={StaticResource SecondaryTextColorDark} ,Light={StaticResource SecondaryTextColor}}" />
+                    <Label HorizontalOptions="Start"  Margin="10" Text="{Binding Path=  VehicleMakeDetails.Founded}"  FontSize="Micro"  TextColor="DarkKhaki" />
+               </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label HorizontalOptions="Start"  Margin="10" Text="Headquaters"  FontSize="Small"  TextColor="{AppThemeBinding Dark={StaticResource SecondaryTextColorDark} ,Light={StaticResource SecondaryTextColor}}" />
+                    <Label HorizontalOptions="Start"  Margin="10" Text="{Binding Path=  VehicleMakeDetails.Headquaters}"  FontSize="Micro"  TextColor="DarkKhaki" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label HorizontalOptions="Start"   Margin="10" Text="Parent Organization"  FontSize="Small"  TextColor="{AppThemeBinding Dark={StaticResource SecondaryTextColorDark} ,Light={StaticResource SecondaryTextColor}}" />
+                    <Label HorizontalOptions="Start"  Margin="10" Text="{Binding Path=  VehicleMakeDetails.Organization}"  FontSize="Micro"  TextColor="DarkKhaki" />
+                </StackLayout>
+            </StackLayout>
+
+        </Frame>
+        
+
+        <ListView ItemsSource="{Binding Models}"  HasUnevenRows="True" SeparatorVisibility="None"  RowHeight="50" >
+            <ListView.Header>
+                <StackLayout Orientation="Horizontal" >
+                    <Label HorizontalOptions="CenterAndExpand"     Text="{Binding Make.Name, StringFormat='{0:F0} Models'}"  FontSize="Medium"  TextColor="DarkKhaki" />
+                </StackLayout>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}"    TextColor="{AppThemeBinding Dark={StaticResource SecondaryTextColorDark} ,Light={StaticResource SecondaryTextColor}}"  DetailColor="{AppThemeBinding Dark={StaticResource PrimaryTextColorDark},Light={StaticResource PrimaryTextColor}}"    Detail="{Binding Abbr}"/>
+
+                </DataTemplate>
+
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+
+
 </ContentPage>

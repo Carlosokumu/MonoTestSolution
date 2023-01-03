@@ -8,6 +8,7 @@ using MonoTestSolution.Repository.interfaces;
 using MonoTestSolution.Service;
 using MonoTestSolution.Service.interfaces;
 using MonoTestSolution.viewmodels;
+using SQLite;
 using System;
 using System.Diagnostics;
 using Xamarin.Forms;
@@ -19,7 +20,7 @@ namespace MonoTestSolution
     {
         public App()
         {
-            Debug.WriteLine("App Init");
+            
             InitializeComponent();
 
             var containerBuilder = new ContainerBuilder();
@@ -31,6 +32,7 @@ namespace MonoTestSolution
 
             AppContainer.Container.Resolve<IRepositoryMockDataApi>();
             AppContainer.Container.Resolve<IMapper>();
+            AppContainer.Container.Resolve<SQLiteAsyncConnection>();
             
             AppContainer.Container.Resolve<RepositoryDataSource>();
             AppContainer.Container.Resolve<VehicleMakeListViewModel>();
@@ -42,7 +44,9 @@ namespace MonoTestSolution
             AppContainer.Container.Resolve<IvehicleModelCrud>();
             AppContainer.Container.Resolve<IpageService>();
 
-            MainPage = new NavigationPage(new VehicleMakesListPage()); 
+            MainPage = new NavigationPage(new VehicleMakesListPage());
+            NavigationPage.SetHasNavigationBar(this, false);
+            
         }
 
         protected override void OnStart()

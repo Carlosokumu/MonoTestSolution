@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oHc9bZ2D5euxKf2PAccb3s7sj0NeqY4+9/WY2u0Rk2Zp9SkDlMOPh/F9PmyDDDUyWnLkc/BvHtN3C+o+sDEvrg==",
+  "dgSpecHash": "YcCF1W6w1Yh3rhqhNTKNFnzoYtuqsVUXQ08BdrXNFoj43ljvzBWmy9oVbAflLS07vv2HghHyxF85U/vEzXbdfg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Carlos\\source\\repos\\MonoTestSolution\\MonoTestSolution\\MonoTestSolution.Repository\\MonoTestSolution.Repository.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,8 @@
     "C:\\Users\\Carlos\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Carlos\\.nuget\\packages\\mono.reflection.core\\1.1.1\\mono.reflection.core.1.1.1.nupkg.sha512",
     "C:\\Users\\Carlos\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Carlos\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
+    "C:\\Users\\Carlos\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\Carlos\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\Carlos\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\Carlos\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",

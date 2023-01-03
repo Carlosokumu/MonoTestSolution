@@ -34,9 +34,11 @@ namespace MonoTestSolution.Repository
             return await _connection.FindAsync<VehicleMakeEntity>(id);
         }
 
+
        
 
-        
+
+
 
         public async Task UpdateVehicleMake(VehicleMakeEntity vehicleMake)
         {
@@ -46,6 +48,12 @@ namespace MonoTestSolution.Repository
        public async Task<List<VehicleMakeEntity>> GetVicleMakesAsync()
         {
             return await _connection.Table<VehicleMakeEntity>().ToListAsync();
+        }
+
+        public async Task<VehicleMakeEntity> GetVehicleMakeByName(string name)
+        {
+            var vehicleMakeEntity = await _connection.FindWithQueryAsync<VehicleMakeEntity>("SELECT * FROM VehicleMakeEntity WHERE Name = ?", name);
+            return vehicleMakeEntity;
         }
     }
 }

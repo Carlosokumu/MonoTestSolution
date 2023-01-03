@@ -1,139 +1,57 @@
-﻿using MonoTestSolution.Repository.interfaces;
+﻿using AutoMapper;
+using MonoTestSolution.Repository.interfaces;
 using MonoTestSolution.Repository.models;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Diagnostics;
+using System.Linq;
+using System.Net.Http;
+using System.Threading.Tasks;
+using Xamarin.Essentials;
+using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
 namespace MonoTestSolution.Repository
 {
 
     public class RepositoryMockDataApi : IRepositoryMockDataApi
     {
-        /*
-           * Provides a mock  List of Vehicle Makes for the UI.
-        */
-        public List<VehicleMakeDto> GetVehicleMakes()
+        
+
+        public async Task<List<VehicleModelDto>> GetVehicleModels(string make)
         {
-            var vehiclemakes = new List<VehicleMakeDto>();
-            vehiclemakes.Add(new VehicleMakeDto()
+            String BASE_URL = "https://api.api-ninjas.com/v1/cars";
+            var VehicleModels = new List<VehicleModelDto>();
+            //var make = "Bmw";
+            String url = BASE_URL + $"?make={make}";
+            Debug.WriteLine("Fetching data");
+            var httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.Add("X-Api-Key", "4eO2Qi1Epso4naEyhHbvPw==yDDMYH6nGC9axHyZ");
+            try
             {
-                Id = Guid.NewGuid(),
-                Name = "Toyota",
-                Abbr = "Tyt"
+                HttpResponseMessage response = await httpClient.GetAsync(url);
+                response.EnsureSuccessStatusCode();
+                Debug.WriteLine("Successfully fetched Data..");
+                var content = await response.Content.ReadAsStringAsync();
+                var fetchedmodels = JsonConvert.DeserializeObject<List<ModelsResponse>>(content);
+                foreach (var vehiclemodel in fetchedmodels)
+                    VehicleModels.Add(new VehicleModelDto {
+                        Id = new Guid(),
+                        Name = vehiclemodel.model,
+                        Abbr = "Abbr"
 
-            });
-            vehiclemakes.Add(new VehicleMakeDto()
+                    }); ;
+
+                return VehicleModels;
+
+
+            }
+            catch (HttpRequestException e)
             {
-                Id = Guid.NewGuid(),
-                Name = "Nissan",
-                Abbr = "Nsn"
-
-            });
-            vehiclemakes.Add(new VehicleMakeDto()
-            {
-                Id = Guid.NewGuid(),
-                Name = "Bmw",
-                Abbr = "Bm"
-
-            });
-            vehiclemakes.Add(new VehicleMakeDto()
-            {
-                Id = Guid.NewGuid(),
-                Name = "Mercedes",
-                Abbr = "Msd"
-
-            });
-            vehiclemakes.Add(new VehicleMakeDto()
-            {
-                Id = Guid.NewGuid(),
-                Name = "Audi",
-                Abbr = "Au"
-
-            });
-            vehiclemakes.Add(new VehicleMakeDto()
-            {
-                Id = Guid.NewGuid(),
-                Name = "Rolls Royce",
-                Abbr = "Rolls"
-
-            });
-            vehiclemakes.Add(new VehicleMakeDto()
-            {
-                Id = Guid.NewGuid(),
-                Name = "Subaru",
-                Abbr = "Sbr"
-
-            });
-            vehiclemakes.Add(new VehicleMakeDto()
-            {
-                Id = Guid.NewGuid(),
-                Name = "Mazda",
-                Abbr = "Maz"
-
-            });
-            vehiclemakes.Add(new VehicleMakeDto()
-            {
-                Id = Guid.NewGuid(),
-                Name = "Chevrolet",
-                Abbr = "Chev"
-
-            });
-            vehiclemakes.Add(new VehicleMakeDto()
-            {
-                Id = Guid.NewGuid(),
-                Name = "Bentley",
-                Abbr = "Bent"
-
-            });
-            vehiclemakes.Add(new VehicleMakeDto()
-            {
-                Id = Guid.NewGuid(),
-                Name = "Jeep",
-                Abbr = "Jp"
-
-            });
-
-            return vehiclemakes;
+                Debug.WriteLine(e.Message);
+                return null;
+            }
         }
-
-
-        /*
-             * Provides a mock  List of Vehicle Models for the UI.
-        */
-        public List<VehicleModelDto> GetVehicleModels()
-        {
-            
-                var list = new List<VehicleModelDto>();
-                list.Add(new VehicleModelDto()
-                {
-                    Id = Guid.NewGuid(),
-                    Name = "Iload",
-                    Abbr = "Il"
-
-                });
-                list.Add(new VehicleModelDto()
-                {
-                    Id = Guid.NewGuid(),
-                    Name = "Ranger",
-                    Abbr = "Rng"
-
-                });
-                list.Add(new VehicleModelDto()
-                {
-                    Id = Guid.NewGuid(),
-                    Name = "MiniVan",
-                    Abbr = "Mini"
-
-                });
-                list.Add(new VehicleModelDto()
-                {
-                    Id = Guid.NewGuid(),
-                    Name = "Sedan",
-                    Abbr = "Sd"
-
-                });
-                return list;
-        }
-      }
+    }
  }
 

@@ -1,14 +1,8 @@
 ﻿using Autofac;
 using MonoTestSolution.BootStrap;
-using MonoTestSolution.interfaces;
 using MonoTestSolution.Service.interfaces;
 using MonoTestSolution.viewmodels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using System.Diagnostics;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -17,11 +11,14 @@ namespace MonoTestSolution.views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class VehicleMakeDetailsPage : ContentPage
     {
-        public VehicleMakeDetailsPage(VehicleMakeViewModel vehicleMakeViewModel)
+        public VehicleMakeDetailsPage(VehicleMakeViewModel vehicleMakeViewModel,VehicleMakeDetailsViewModel vehicleMakeDetailsViewModel)
         {
             var vehicleModelService = AppContainer.Container.Resolve<IVehicleModelService>();
-            BindingContext = new  VehicleMakeViewModelPage(vehicleMakeViewModel,vehicleModelService);
-            ViewModel.LoadDataCommand.Execute(null);
+            var ivehicleMakeDetailsService = AppContainer.Container.Resolve<IvehicleMakeDetailsService>();
+            Debug.WriteLine("Making Details Page");
+            BindingContext = new  VehicleMakeViewModelPage(vehicleMakeViewModel,vehicleModelService,ivehicleMakeDetailsService,vehicleMakeDetailsViewModel);
+            //ViewModel.LoadDataCommand.Execute(null);
+            //ViewModel.LoadDataComman.Execute(null);
             InitializeComponent();
         }
 

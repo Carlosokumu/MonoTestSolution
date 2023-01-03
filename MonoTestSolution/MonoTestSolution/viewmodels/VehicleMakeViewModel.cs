@@ -7,9 +7,10 @@ namespace MonoTestSolution.viewmodels
 {
     public class VehicleMakeViewModel: BaseViewModel
     {
-       
+        public int Id { get; set; }
         public VehicleMakeViewModel(VehicleMake vehicleMake)
         {
+             Id = vehicleMake.Id;
             _name = vehicleMake.Name;
             _abbr = vehicleMake.Abbr;
         }

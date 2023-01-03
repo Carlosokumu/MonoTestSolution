@@ -17,7 +17,7 @@ using System.Threading.Tasks;
 
 /*
     * 
-      * [CRUD] Operations for the Vehicle Make
+      * [CRUD] Operations for the Vehicle 
     * 
  */
 
@@ -55,7 +55,14 @@ namespace MonoTestSolution.Service
             
      }
 
-     public async Task<IEnumerable<VehicleMake>> GetVicleMakesAsync()
+        public async   Task<VehicleMake> GetVehicleMakeByName(string name)
+        {
+            var vehicleMakeEntity = await _ivehicleMakeCrud.GetVehicleMakeByName(name);
+            var vehicleMake = _imapper.Map<VehicleMakeEntity, VehicleMake>(vehicleMakeEntity);
+            return vehicleMake;
+        }
+
+        public async Task<IEnumerable<VehicleMake>> GetVicleMakesAsync()
         {
             var vehicleMakeEntity = await _ivehicleMakeCrud.GetVicleMakesAsync();
             var vehicleMakes = _imapper.Map<List<VehicleMakeEntity>, List<VehicleMake>>(vehicleMakeEntity);

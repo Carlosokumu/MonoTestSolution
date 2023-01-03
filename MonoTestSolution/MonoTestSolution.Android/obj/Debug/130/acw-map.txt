@@ -1,3 +1,6 @@
+MonoTestSolution.Droid.BaseClass, MonoTestSolution.Android;crc64bc87b4a9737495d0.BaseClass
+MonoTestSolution.Droid.BaseClass;crc64bc87b4a9737495d0.BaseClass
+monotestsolution.droid.BaseClass;crc64bc87b4a9737495d0.BaseClass
 MonoTestSolution.Droid.MainActivity, MonoTestSolution.Android;crc64bc87b4a9737495d0.MainActivity
 MonoTestSolution.Droid.MainActivity;crc64bc87b4a9737495d0.MainActivity
 monotestsolution.droid.MainActivity;crc64bc87b4a9737495d0.MainActivity

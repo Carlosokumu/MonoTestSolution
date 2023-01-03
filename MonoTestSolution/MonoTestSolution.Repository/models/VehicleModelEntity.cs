@@ -5,6 +5,7 @@ using System.Text;
 
 namespace MonoTestSolution.Repository.models
 {
+    [Table(name: "VehicleModelEntity")]
     public class VehicleModelEntity
     {
         [PrimaryKey, AutoIncrement]

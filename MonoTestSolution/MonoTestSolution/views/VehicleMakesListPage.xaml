@@ -1,21 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             BackgroundColor="{AppThemeBinding Dark={StaticResource PageBackgroundColorDark} ,Light={StaticResource PageBackgroundColor}}"
              x:Class="MonoTestSolution.VehicleMakesListPage">
 
-    <ListView  ItemsSource="{Binding Makes}"  ItemSelected="OnMakeSelected" HasUnevenRows="True" SeparatorVisibility="Default" SeparatorColor="Gray" RowHeight="100"  >
-        <ListView.ItemTemplate>
-            <DataTemplate>
-                <TextCell Text="{Binding Name}"  TextColor="Black" Detail="{Binding Abbr}">
-                    <TextCell.ContextActions>
-                        <MenuItem Text="Call" IsDestructive="true" />
-                    </TextCell.ContextActions>
-                </TextCell>
-                
-                
-            </DataTemplate>
-           
-        </ListView.ItemTemplate>
-    </ListView>
+
+    <NavigationPage.TitleView>
+        <Label    FontAttributes="Bold" TextColor ="WhiteSmoke" Text="Car Makes" FontSize="Title"  HorizontalOptions="CenterAndExpand"></Label>
+    </NavigationPage.TitleView>
+
+
+<StackLayout Orientation="Vertical" VerticalOptions="Center">
+        <SearchBar Placeholder="Search make..."
+           CancelButtonColor="Red"
+           PlaceholderColor="DarkKhaki"
+           SearchCommand="{Binding PerformSearch}"        
+           TextColor="DarkKhaki"
+           HorizontalTextAlignment="Center"
+           FontSize="Medium"
+           FontAttributes="None" />
+        <ListView  ItemsSource="{Binding Makes}"  SeparatorVisibility="None" ItemSelected="OnMakeSelected" HasUnevenRows="True"  RowHeight="100"  >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell   Text="{Binding Name}"   TextColor="{AppThemeBinding Dark={StaticResource SecondaryTextColorDark} ,Light={StaticResource SecondaryTextColor}}"  DetailColor="{AppThemeBinding Dark={StaticResource PrimaryTextColorDark} ,Light={StaticResource PrimaryTextColor}}" Detail="{Binding Abbr}">
+                        <TextCell.ContextActions>
+                            <MenuItem Text="Delete" IsDestructive="true" />
+                        </TextCell.ContextActions>
+                    </TextCell>
+
+
+                </DataTemplate>
+
+            </ListView.ItemTemplate>
+        </ListView>
+ </StackLayout>
+    
+
+
+ 
 
 </ContentPage>

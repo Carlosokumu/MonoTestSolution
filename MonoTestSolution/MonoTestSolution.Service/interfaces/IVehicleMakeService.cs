@@ -15,6 +15,8 @@ namespace MonoTestSolution.Service.interfaces
         Task UpdateVehicleMake(VehicleMake vehicleMake);
         Task DeleteVehicleMake(VehicleMake vehicleMake);
 
+        Task<VehicleMake> GetVehicleMakeByName(String name);
+
        
     }
 }

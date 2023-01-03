@@ -2,13 +2,17 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace MonoTestSolution.Repository.interfaces
 {
     public interface IRepositoryMockDataApi
     {
-        List<VehicleMakeDto> GetVehicleMakes();
+        
+        Task<List<VehicleModelDto>> GetVehicleModels(string make);
+       
 
-        List<VehicleModelDto> GetVehicleModels();
+
+       
     }
 }

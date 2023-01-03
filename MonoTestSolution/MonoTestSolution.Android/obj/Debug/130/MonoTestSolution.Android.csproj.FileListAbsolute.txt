@@ -685,3 +685,8 @@ C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.
 C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Android\obj\Debug\130\android\src\crc64bc87b4a9737495d0\BaseClass.java
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Android\obj\Debug\130\android\assets\Newtonsoft.Json.Bson.dll
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Android\obj\Debug\130\android\assets\Newtonsoft.Json.Bson.pdb
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Android\obj\Debug\130\android\assets\Newtonsoft.Json.dll
+C:\Users\Carlos\source\repos\MonoTestSolution\MonoTestSolution\MonoTestSolution.Android\obj\Debug\130\android\assets\Newtonsoft.Json.pdb
