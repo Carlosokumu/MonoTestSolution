@@ -42,7 +42,7 @@ namespace MonoTestSolution.Droid.memory
                 return null;
             }
             /*
-               * Pre-populate data from the EmbbededDatabaseStream
+               * Pre-populate data from the EmbbededDatabaseStream into the file
             */
 
             if (!File.Exists(DatabasePath))
