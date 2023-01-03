@@ -14,7 +14,7 @@
         <SearchBar Placeholder="Search make..."
            CancelButtonColor="Red"
            PlaceholderColor="DarkKhaki"
-           SearchCommand="{Binding PerformSearch}"        
+           TextChanged="OnTextChanged"     
            TextColor="DarkKhaki"
            HorizontalTextAlignment="Center"
            FontSize="Medium"
