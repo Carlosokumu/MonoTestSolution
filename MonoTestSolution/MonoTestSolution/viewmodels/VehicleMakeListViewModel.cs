@@ -1,15 +1,10 @@
 ﻿using MonoTestSolution.interfaces;
-using MonoTestSolution.Repository.interfaces;
-using MonoTestSolution.Service;
 using MonoTestSolution.Service.interfaces;
-using MonoTestSolution.Service.models;
 using MonoTestSolution.views;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
-using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace MonoTestSolution.viewmodels
@@ -25,8 +20,9 @@ namespace MonoTestSolution.viewmodels
         public ICommand SelectMakeCommand { get; private set; }
 
         private bool _isDataLoaded;
+  
 
-       
+
         public ObservableCollection<VehicleMakeViewModel> Makes { get; private set; }
          = new ObservableCollection<VehicleMakeViewModel>();
 
