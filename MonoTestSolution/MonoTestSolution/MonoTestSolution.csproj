@@ -22,6 +22,7 @@
     <PackageReference Include="Autofac" Version="6.5.0" />
     <PackageReference Include="Autofac.Extras.CommonServiceLocator" Version="6.0.1" />
     <PackageReference Include="AutoMapper.EF6" Version="2.1.1" />
+    <PackageReference Include="Xam.Plugins.Forms.ProgressRing" Version="0.1.2" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
