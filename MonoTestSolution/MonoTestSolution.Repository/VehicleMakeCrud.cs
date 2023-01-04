@@ -1,9 +1,7 @@
 ﻿using MonoTestSolution.Repository.interfaces;
 using MonoTestSolution.Repository.models;
 using SQLite;
-using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace MonoTestSolution.Repository
