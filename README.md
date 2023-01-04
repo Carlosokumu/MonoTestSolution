@@ -14,7 +14,9 @@ MonoTestSolution displays a list of vehicle makes.It also shows different models
 </p>
 
 * Notable Packages Used.
-    * [Automapper](https://kotlinlang.org/) 
+    * [Automapper](https://docs.automapper.org/en/stable/Getting-started.html) 
+    * [Autofac](https://autofac.readthedocs.io/en/latest/getting-started/index.html)
+    * 
    
    
 
