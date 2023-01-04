@@ -1,5 +1,4 @@
-﻿using AutoMapper;
-using MonoTestSolution.Repository.interfaces;
+﻿using MonoTestSolution.Repository.interfaces;
 using MonoTestSolution.Repository.models;
 using Newtonsoft.Json;
 using System;
@@ -7,9 +6,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using Xamarin.Essentials;
-using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
 namespace MonoTestSolution.Repository
 {
@@ -38,7 +36,8 @@ namespace MonoTestSolution.Repository
                     VehicleModels.Add(new VehicleModelDto {
                         Id = new Guid(),
                         Name = vehiclemodel.model,
-                        Abbr = "Abbr"
+                        Abbr = GenerateAbbreviation(vehiclemodel.model),
+                        Year = vehiclemodel.year.ToString()
 
                     }); ;
 
@@ -52,6 +51,13 @@ namespace MonoTestSolution.Repository
                 return null;
             }
         }
+
+        public string GenerateAbbreviation(string model){
+           var pattern = @"((?<=^|\s)(\w{1})|([A-Z]))";
+           return string.Join(string.Empty, Regex.Matches(model, pattern).OfType<Match>().Select(x => x.Value.ToUpper()));
+          
+        }
+        
     }
  }
 
