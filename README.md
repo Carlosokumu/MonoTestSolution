@@ -18,6 +18,7 @@ MonoTestSolution displays a list of vehicle makes.It also shows different models
     * [Sqlite-net-plc](https://github.com/praeclarum/sqlite-net)
   
  * Architecture
-      <img src="https://github.com/Carlosokumu/MonoTestSolution/blob/master/screenshots/vehiclemakelist-dark.png" width="30%" height="35%"/>
+      <p align="center"><img src="https://github.com/Carlosokumu/MonoTestSolution/blob/master/screenshots/architecture.png" width="70%" height="70%"/> 
+      </p>
       ##### Model Layer
 
