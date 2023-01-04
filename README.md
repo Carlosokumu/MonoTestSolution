@@ -9,6 +9,7 @@
 <img src="https://github.com/Carlosokumu/MonoTestSolution/blob/master/screenshots/vehiclemakelist-dark.png" width="30%" height="35%"/>
 <img src="https://github.com/Carlosokumu/MonoTestSolution/blob/master/screenshots/makelist-light.png" width="30%" height="35%"/>
 <img src="https://github.com/Carlosokumu/MonoTestSolution/blob/master/screenshots/makedetailsdark.png" width="30%" height="35%"/>
+<img src="https://github.com/Carlosokumu/MonoTestSolution/blob/master/screenshots/makedetailslight.png" width="30%" height="35%"/>
 </p>
    
    
