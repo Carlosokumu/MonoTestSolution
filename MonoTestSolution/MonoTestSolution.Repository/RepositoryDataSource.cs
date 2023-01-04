@@ -2,11 +2,6 @@
 using MonoTestSolution.Repository.interfaces;
 using MonoTestSolution.Repository.models;
 using SQLite;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Reflection;
 
 namespace MonoTestSolution.Repository
 {
