@@ -2,7 +2,7 @@
 # MonoTestSolution
 MonoTestSolution displays a list of vehicle makes.It also shows different models for each vehicle make.
 
-**Screenshots**
+* Screenshots
 
 
 <p align="center">
