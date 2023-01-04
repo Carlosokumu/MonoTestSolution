@@ -1,6 +1,6 @@
-# MonoTestSolution
 
-##  MonoTestSolution Diplays a list of Vehicle Makes,then Fetches the Different Models for each make from [Ninja Car Api](https://api-ninjas.com/api/cars)
+# MonoTestSolution
+MonoTestSolution displays a list of vehicle makes.It also shows different models for each vehicle make.
 
 **Screenshots**
 
