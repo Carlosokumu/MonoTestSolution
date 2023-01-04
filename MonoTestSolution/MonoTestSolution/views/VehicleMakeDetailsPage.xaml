@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              BackgroundColor="{AppThemeBinding Dark={StaticResource PageBackgroundColorDark} ,Light={StaticResource PageBackgroundColor}}"
+             xmlns:control="clr-namespace:ProgressRingControl.Forms.Plugin;assembly=ProgressRing.Forms.Plugin"
              x:Class="MonoTestSolution.views.VehicleMakeDetailsPage">
 
 
@@ -30,17 +31,21 @@
             </StackLayout>
 
         </Frame>
-        
 
-        <ListView ItemsSource="{Binding Models}"  HasUnevenRows="True" SeparatorVisibility="None"  RowHeight="50" >
+
+       
+
+        <ListView Margin="20" ItemsSource="{Binding Models}"  HasUnevenRows="True" SeparatorVisibility="None"  RowHeight="50" >
+            
             <ListView.Header>
-                <StackLayout Orientation="Horizontal" >
-                    <Label HorizontalOptions="CenterAndExpand"     Text="{Binding Make.Name, StringFormat='{0:F0} Models'}"  FontSize="Medium"  TextColor="DarkKhaki" />
+                <StackLayout Orientation="Vertical" >
+                    <Label Padding="10" HorizontalOptions="CenterAndExpand"     Text="{Binding Make.Name, StringFormat='{0:F0} Models'}"  FontSize="Medium"  TextColor="DarkKhaki" />
+                    <ActivityIndicator  IsVisible="{Binding   visualBoolean.IsLoading}"   IsRunning="true" Color="DarkKhaki" />
                 </StackLayout>
             </ListView.Header>
-            <ListView.ItemTemplate>
+            <ListView.ItemTemplate >
                 <DataTemplate>
-                    <TextCell Text="{Binding Name}"    TextColor="{AppThemeBinding Dark={StaticResource SecondaryTextColorDark} ,Light={StaticResource SecondaryTextColor}}"  DetailColor="{AppThemeBinding Dark={StaticResource PrimaryTextColorDark},Light={StaticResource PrimaryTextColor}}"    Detail="{Binding Abbr}"/>
+                    <TextCell    Text="{Binding Name}"    TextColor="{AppThemeBinding Dark={StaticResource SecondaryTextColorDark} ,Light={StaticResource SecondaryTextColor}}"  DetailColor="{AppThemeBinding Dark={StaticResource PrimaryTextColorDark},Light={StaticResource PrimaryTextColor}}"    Detail="{Binding Year}"/>
 
                 </DataTemplate>
 
