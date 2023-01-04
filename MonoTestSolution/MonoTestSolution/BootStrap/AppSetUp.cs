@@ -1,11 +1,4 @@
-﻿using MonoTestSolution.Repository.models;
-using MonoTestSolution.Repository;
-using MonoTestSolution.Service.models;
-using MonoTestSolution.Service;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using AutoMapper;
+﻿using System;
 using Xamarin.Forms;
 using MonoTestSolution.memory;
 
