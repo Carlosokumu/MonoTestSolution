@@ -12,6 +12,9 @@ MonoTestSolution displays a list of vehicle makes.It also shows different models
 <img src="https://github.com/Carlosokumu/MonoTestSolution/blob/master/screenshots/makedetailslight.png" width="30%" height="35%"/>
 <img src="https://github.com/Carlosokumu/MonoTestSolution/blob/master/screenshots/vehiclemakesearch.png" width="30%" height="35%"/>
 </p>
+
+* Notable Packages Used.
+    * [Automapper](https://kotlinlang.org/) 
    
    
 
