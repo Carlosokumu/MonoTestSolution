@@ -10,5 +10,7 @@ namespace MonoTestSolution.Service.models
             
         public string Name { get; set; }
         public string Abbr { get; set; }
+
+        public string Year { get; set; }
     }
 }
