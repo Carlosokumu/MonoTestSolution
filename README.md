@@ -19,7 +19,7 @@ MonoTestSolution displays a list of vehicle makes.It also shows different models
   
  * Architecture
       * Repository Layer - Contains the Dtos,Database Tables for the Entities amd makes api calls
-      * Service Layer - Contains the different models used by the UI and also the mapping mechanism between  it and the Service Layer
+      * Service Layer - Contains the different models used by the UI and also the mapping mechanism between  it and the Repository Layer
       <p align="center"><img src="https://github.com/Carlosokumu/MonoTestSolution/blob/master/screenshots/architecture.png" width="70%" height="70%"/> 
       </p>
 
