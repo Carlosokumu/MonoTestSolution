@@ -1,7 +1,4 @@
 ﻿using MonoTestSolution.Service.models;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace MonoTestSolution.viewmodels
 {
@@ -11,6 +8,7 @@ namespace MonoTestSolution.viewmodels
         {
             _name = vehicleModel.Name;
             _abbr = vehicleModel.Abbr;
+            _year = vehicleModel.Year;
         }
 
         private string _name;
@@ -32,6 +30,17 @@ namespace MonoTestSolution.viewmodels
             {
                 SetValue(ref _abbr, value);
                 OnPropertyChanged(nameof(Abbr));
+            }
+        }
+
+        private string _year;
+        public string Year
+        {
+            get { return _year; }
+            set
+            {
+                SetValue(ref _abbr, value);
+                OnPropertyChanged(nameof(Year));
             }
         }
     }
