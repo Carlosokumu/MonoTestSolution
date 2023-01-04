@@ -25,6 +25,1781 @@ namespace MonoTestSolution.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_fade_in = global::MonoTestSolution.Droid.Resource.Animation.abc_fade_in;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_fade_out = global::MonoTestSolution.Droid.Resource.Animation.abc_fade_out;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::MonoTestSolution.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_popup_enter = global::MonoTestSolution.Droid.Resource.Animation.abc_popup_enter;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_popup_exit = global::MonoTestSolution.Droid.Resource.Animation.abc_popup_exit;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::MonoTestSolution.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_slide_in_bottom = global::MonoTestSolution.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_slide_in_top = global::MonoTestSolution.Droid.Resource.Animation.abc_slide_in_top;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_slide_out_bottom = global::MonoTestSolution.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.abc_slide_out_top = global::MonoTestSolution.Droid.Resource.Animation.abc_slide_out_top;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.design_bottom_sheet_slide_in = global::MonoTestSolution.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.design_bottom_sheet_slide_out = global::MonoTestSolution.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.design_snackbar_in = global::MonoTestSolution.Droid.Resource.Animation.design_snackbar_in;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animation.design_snackbar_out = global::MonoTestSolution.Droid.Resource.Animation.design_snackbar_out;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Animator.design_appbar_state_list_animator = global::MonoTestSolution.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarDivider = global::MonoTestSolution.Droid.Resource.Attribute.actionBarDivider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarItemBackground = global::MonoTestSolution.Droid.Resource.Attribute.actionBarItemBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarPopupTheme = global::MonoTestSolution.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarSize = global::MonoTestSolution.Droid.Resource.Attribute.actionBarSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarSplitStyle = global::MonoTestSolution.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarStyle = global::MonoTestSolution.Droid.Resource.Attribute.actionBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarTabBarStyle = global::MonoTestSolution.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarTabStyle = global::MonoTestSolution.Droid.Resource.Attribute.actionBarTabStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarTabTextStyle = global::MonoTestSolution.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarTheme = global::MonoTestSolution.Droid.Resource.Attribute.actionBarTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionBarWidgetTheme = global::MonoTestSolution.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionButtonStyle = global::MonoTestSolution.Droid.Resource.Attribute.actionButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionDropDownStyle = global::MonoTestSolution.Droid.Resource.Attribute.actionDropDownStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionLayout = global::MonoTestSolution.Droid.Resource.Attribute.actionLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionMenuTextAppearance = global::MonoTestSolution.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionMenuTextColor = global::MonoTestSolution.Droid.Resource.Attribute.actionMenuTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeBackground = global::MonoTestSolution.Droid.Resource.Attribute.actionModeBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeCloseButtonStyle = global::MonoTestSolution.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeCloseDrawable = global::MonoTestSolution.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeCopyDrawable = global::MonoTestSolution.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeCutDrawable = global::MonoTestSolution.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeFindDrawable = global::MonoTestSolution.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModePasteDrawable = global::MonoTestSolution.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModePopupWindowStyle = global::MonoTestSolution.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeSelectAllDrawable = global::MonoTestSolution.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeShareDrawable = global::MonoTestSolution.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeSplitBackground = global::MonoTestSolution.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeStyle = global::MonoTestSolution.Droid.Resource.Attribute.actionModeStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionModeWebSearchDrawable = global::MonoTestSolution.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionOverflowButtonStyle = global::MonoTestSolution.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionOverflowMenuStyle = global::MonoTestSolution.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionProviderClass = global::MonoTestSolution.Droid.Resource.Attribute.actionProviderClass;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.actionViewClass = global::MonoTestSolution.Droid.Resource.Attribute.actionViewClass;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.activityChooserViewStyle = global::MonoTestSolution.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::MonoTestSolution.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.alertDialogCenterButtons = global::MonoTestSolution.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.alertDialogStyle = global::MonoTestSolution.Droid.Resource.Attribute.alertDialogStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.alertDialogTheme = global::MonoTestSolution.Droid.Resource.Attribute.alertDialogTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.allowStacking = global::MonoTestSolution.Droid.Resource.Attribute.allowStacking;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.alpha = global::MonoTestSolution.Droid.Resource.Attribute.alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.arrowHeadLength = global::MonoTestSolution.Droid.Resource.Attribute.arrowHeadLength;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.arrowShaftLength = global::MonoTestSolution.Droid.Resource.Attribute.arrowShaftLength;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.autoCompleteTextViewStyle = global::MonoTestSolution.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.background = global::MonoTestSolution.Droid.Resource.Attribute.background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.backgroundSplit = global::MonoTestSolution.Droid.Resource.Attribute.backgroundSplit;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.backgroundStacked = global::MonoTestSolution.Droid.Resource.Attribute.backgroundStacked;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.backgroundTint = global::MonoTestSolution.Droid.Resource.Attribute.backgroundTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.backgroundTintMode = global::MonoTestSolution.Droid.Resource.Attribute.backgroundTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.barLength = global::MonoTestSolution.Droid.Resource.Attribute.barLength;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.behavior_autoHide = global::MonoTestSolution.Droid.Resource.Attribute.behavior_autoHide;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.behavior_hideable = global::MonoTestSolution.Droid.Resource.Attribute.behavior_hideable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.behavior_overlapTop = global::MonoTestSolution.Droid.Resource.Attribute.behavior_overlapTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.behavior_peekHeight = global::MonoTestSolution.Droid.Resource.Attribute.behavior_peekHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.behavior_skipCollapsed = global::MonoTestSolution.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.borderWidth = global::MonoTestSolution.Droid.Resource.Attribute.borderWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.borderlessButtonStyle = global::MonoTestSolution.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.bottomSheetDialogTheme = global::MonoTestSolution.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.bottomSheetStyle = global::MonoTestSolution.Droid.Resource.Attribute.bottomSheetStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonBarButtonStyle = global::MonoTestSolution.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::MonoTestSolution.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::MonoTestSolution.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::MonoTestSolution.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonBarStyle = global::MonoTestSolution.Droid.Resource.Attribute.buttonBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonGravity = global::MonoTestSolution.Droid.Resource.Attribute.buttonGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonPanelSideLayout = global::MonoTestSolution.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonStyle = global::MonoTestSolution.Droid.Resource.Attribute.buttonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonStyleSmall = global::MonoTestSolution.Droid.Resource.Attribute.buttonStyleSmall;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonTint = global::MonoTestSolution.Droid.Resource.Attribute.buttonTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.buttonTintMode = global::MonoTestSolution.Droid.Resource.Attribute.buttonTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.cardBackgroundColor = global::MonoTestSolution.Droid.Resource.Attribute.cardBackgroundColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.cardCornerRadius = global::MonoTestSolution.Droid.Resource.Attribute.cardCornerRadius;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.cardElevation = global::MonoTestSolution.Droid.Resource.Attribute.cardElevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.cardMaxElevation = global::MonoTestSolution.Droid.Resource.Attribute.cardMaxElevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.cardPreventCornerOverlap = global::MonoTestSolution.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.cardUseCompatPadding = global::MonoTestSolution.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.checkboxStyle = global::MonoTestSolution.Droid.Resource.Attribute.checkboxStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.checkedTextViewStyle = global::MonoTestSolution.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.closeIcon = global::MonoTestSolution.Droid.Resource.Attribute.closeIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.closeItemLayout = global::MonoTestSolution.Droid.Resource.Attribute.closeItemLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.collapseContentDescription = global::MonoTestSolution.Droid.Resource.Attribute.collapseContentDescription;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.collapseIcon = global::MonoTestSolution.Droid.Resource.Attribute.collapseIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.collapsedTitleGravity = global::MonoTestSolution.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.collapsedTitleTextAppearance = global::MonoTestSolution.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.color = global::MonoTestSolution.Droid.Resource.Attribute.color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorAccent = global::MonoTestSolution.Droid.Resource.Attribute.colorAccent;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorBackgroundFloating = global::MonoTestSolution.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorButtonNormal = global::MonoTestSolution.Droid.Resource.Attribute.colorButtonNormal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorControlActivated = global::MonoTestSolution.Droid.Resource.Attribute.colorControlActivated;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorControlHighlight = global::MonoTestSolution.Droid.Resource.Attribute.colorControlHighlight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorControlNormal = global::MonoTestSolution.Droid.Resource.Attribute.colorControlNormal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorPrimary = global::MonoTestSolution.Droid.Resource.Attribute.colorPrimary;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorPrimaryDark = global::MonoTestSolution.Droid.Resource.Attribute.colorPrimaryDark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.colorSwitchThumbNormal = global::MonoTestSolution.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.commitIcon = global::MonoTestSolution.Droid.Resource.Attribute.commitIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentInsetEnd = global::MonoTestSolution.Droid.Resource.Attribute.contentInsetEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentInsetEndWithActions = global::MonoTestSolution.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentInsetLeft = global::MonoTestSolution.Droid.Resource.Attribute.contentInsetLeft;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentInsetRight = global::MonoTestSolution.Droid.Resource.Attribute.contentInsetRight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentInsetStart = global::MonoTestSolution.Droid.Resource.Attribute.contentInsetStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentInsetStartWithNavigation = global::MonoTestSolution.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentPadding = global::MonoTestSolution.Droid.Resource.Attribute.contentPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentPaddingBottom = global::MonoTestSolution.Droid.Resource.Attribute.contentPaddingBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentPaddingLeft = global::MonoTestSolution.Droid.Resource.Attribute.contentPaddingLeft;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentPaddingRight = global::MonoTestSolution.Droid.Resource.Attribute.contentPaddingRight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentPaddingTop = global::MonoTestSolution.Droid.Resource.Attribute.contentPaddingTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.contentScrim = global::MonoTestSolution.Droid.Resource.Attribute.contentScrim;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.controlBackground = global::MonoTestSolution.Droid.Resource.Attribute.controlBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.counterEnabled = global::MonoTestSolution.Droid.Resource.Attribute.counterEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.counterMaxLength = global::MonoTestSolution.Droid.Resource.Attribute.counterMaxLength;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.counterOverflowTextAppearance = global::MonoTestSolution.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.counterTextAppearance = global::MonoTestSolution.Droid.Resource.Attribute.counterTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.customNavigationLayout = global::MonoTestSolution.Droid.Resource.Attribute.customNavigationLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.defaultQueryHint = global::MonoTestSolution.Droid.Resource.Attribute.defaultQueryHint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.dialogPreferredPadding = global::MonoTestSolution.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.dialogTheme = global::MonoTestSolution.Droid.Resource.Attribute.dialogTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.displayOptions = global::MonoTestSolution.Droid.Resource.Attribute.displayOptions;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.divider = global::MonoTestSolution.Droid.Resource.Attribute.divider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.dividerHorizontal = global::MonoTestSolution.Droid.Resource.Attribute.dividerHorizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.dividerPadding = global::MonoTestSolution.Droid.Resource.Attribute.dividerPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.dividerVertical = global::MonoTestSolution.Droid.Resource.Attribute.dividerVertical;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.drawableSize = global::MonoTestSolution.Droid.Resource.Attribute.drawableSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.drawerArrowStyle = global::MonoTestSolution.Droid.Resource.Attribute.drawerArrowStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.dropDownListViewStyle = global::MonoTestSolution.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::MonoTestSolution.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.editTextBackground = global::MonoTestSolution.Droid.Resource.Attribute.editTextBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.editTextColor = global::MonoTestSolution.Droid.Resource.Attribute.editTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.editTextStyle = global::MonoTestSolution.Droid.Resource.Attribute.editTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.elevation = global::MonoTestSolution.Droid.Resource.Attribute.elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.errorEnabled = global::MonoTestSolution.Droid.Resource.Attribute.errorEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.errorTextAppearance = global::MonoTestSolution.Droid.Resource.Attribute.errorTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::MonoTestSolution.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expanded = global::MonoTestSolution.Droid.Resource.Attribute.expanded;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expandedTitleGravity = global::MonoTestSolution.Droid.Resource.Attribute.expandedTitleGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expandedTitleMargin = global::MonoTestSolution.Droid.Resource.Attribute.expandedTitleMargin;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expandedTitleMarginBottom = global::MonoTestSolution.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expandedTitleMarginEnd = global::MonoTestSolution.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expandedTitleMarginStart = global::MonoTestSolution.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expandedTitleMarginTop = global::MonoTestSolution.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.expandedTitleTextAppearance = global::MonoTestSolution.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.fabSize = global::MonoTestSolution.Droid.Resource.Attribute.fabSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.foregroundInsidePadding = global::MonoTestSolution.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.gapBetweenBars = global::MonoTestSolution.Droid.Resource.Attribute.gapBetweenBars;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.goIcon = global::MonoTestSolution.Droid.Resource.Attribute.goIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.headerLayout = global::MonoTestSolution.Droid.Resource.Attribute.headerLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.height = global::MonoTestSolution.Droid.Resource.Attribute.height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.hideOnContentScroll = global::MonoTestSolution.Droid.Resource.Attribute.hideOnContentScroll;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.hintAnimationEnabled = global::MonoTestSolution.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.hintEnabled = global::MonoTestSolution.Droid.Resource.Attribute.hintEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.hintTextAppearance = global::MonoTestSolution.Droid.Resource.Attribute.hintTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.homeAsUpIndicator = global::MonoTestSolution.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.homeLayout = global::MonoTestSolution.Droid.Resource.Attribute.homeLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.icon = global::MonoTestSolution.Droid.Resource.Attribute.icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.iconifiedByDefault = global::MonoTestSolution.Droid.Resource.Attribute.iconifiedByDefault;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.imageButtonStyle = global::MonoTestSolution.Droid.Resource.Attribute.imageButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.indeterminateProgressStyle = global::MonoTestSolution.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.initialActivityCount = global::MonoTestSolution.Droid.Resource.Attribute.initialActivityCount;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.insetForeground = global::MonoTestSolution.Droid.Resource.Attribute.insetForeground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.isLightTheme = global::MonoTestSolution.Droid.Resource.Attribute.isLightTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.itemBackground = global::MonoTestSolution.Droid.Resource.Attribute.itemBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.itemIconTint = global::MonoTestSolution.Droid.Resource.Attribute.itemIconTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.itemPadding = global::MonoTestSolution.Droid.Resource.Attribute.itemPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.itemTextAppearance = global::MonoTestSolution.Droid.Resource.Attribute.itemTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.itemTextColor = global::MonoTestSolution.Droid.Resource.Attribute.itemTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.keylines = global::MonoTestSolution.Droid.Resource.Attribute.keylines;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout = global::MonoTestSolution.Droid.Resource.Attribute.layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layoutManager = global::MonoTestSolution.Droid.Resource.Attribute.layoutManager;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_anchor = global::MonoTestSolution.Droid.Resource.Attribute.layout_anchor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_anchorGravity = global::MonoTestSolution.Droid.Resource.Attribute.layout_anchorGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_behavior = global::MonoTestSolution.Droid.Resource.Attribute.layout_behavior;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_collapseMode = global::MonoTestSolution.Droid.Resource.Attribute.layout_collapseMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::MonoTestSolution.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_dodgeInsetEdges = global::MonoTestSolution.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_insetEdge = global::MonoTestSolution.Droid.Resource.Attribute.layout_insetEdge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_keyline = global::MonoTestSolution.Droid.Resource.Attribute.layout_keyline;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_scrollFlags = global::MonoTestSolution.Droid.Resource.Attribute.layout_scrollFlags;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.layout_scrollInterpolator = global::MonoTestSolution.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::MonoTestSolution.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listDividerAlertDialog = global::MonoTestSolution.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listItemLayout = global::MonoTestSolution.Droid.Resource.Attribute.listItemLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listLayout = global::MonoTestSolution.Droid.Resource.Attribute.listLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listMenuViewStyle = global::MonoTestSolution.Droid.Resource.Attribute.listMenuViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listPopupWindowStyle = global::MonoTestSolution.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listPreferredItemHeight = global::MonoTestSolution.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listPreferredItemHeightLarge = global::MonoTestSolution.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listPreferredItemHeightSmall = global::MonoTestSolution.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::MonoTestSolution.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.listPreferredItemPaddingRight = global::MonoTestSolution.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.logo = global::MonoTestSolution.Droid.Resource.Attribute.logo;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.logoDescription = global::MonoTestSolution.Droid.Resource.Attribute.logoDescription;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.maxActionInlineWidth = global::MonoTestSolution.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.maxButtonHeight = global::MonoTestSolution.Droid.Resource.Attribute.maxButtonHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.measureWithLargestChild = global::MonoTestSolution.Droid.Resource.Attribute.measureWithLargestChild;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.menu = global::MonoTestSolution.Droid.Resource.Attribute.menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.multiChoiceItemLayout = global::MonoTestSolution.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.navigationContentDescription = global::MonoTestSolution.Droid.Resource.Attribute.navigationContentDescription;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.navigationIcon = global::MonoTestSolution.Droid.Resource.Attribute.navigationIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.navigationMode = global::MonoTestSolution.Droid.Resource.Attribute.navigationMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.overlapAnchor = global::MonoTestSolution.Droid.Resource.Attribute.overlapAnchor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.paddingBottomNoButtons = global::MonoTestSolution.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.paddingEnd = global::MonoTestSolution.Droid.Resource.Attribute.paddingEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.paddingStart = global::MonoTestSolution.Droid.Resource.Attribute.paddingStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.paddingTopNoTitle = global::MonoTestSolution.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.panelBackground = global::MonoTestSolution.Droid.Resource.Attribute.panelBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.panelMenuListTheme = global::MonoTestSolution.Droid.Resource.Attribute.panelMenuListTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.panelMenuListWidth = global::MonoTestSolution.Droid.Resource.Attribute.panelMenuListWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.passwordToggleContentDescription = global::MonoTestSolution.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.passwordToggleDrawable = global::MonoTestSolution.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.passwordToggleEnabled = global::MonoTestSolution.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.passwordToggleTint = global::MonoTestSolution.Droid.Resource.Attribute.passwordToggleTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.passwordToggleTintMode = global::MonoTestSolution.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.popupMenuStyle = global::MonoTestSolution.Droid.Resource.Attribute.popupMenuStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.popupTheme = global::MonoTestSolution.Droid.Resource.Attribute.popupTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.popupWindowStyle = global::MonoTestSolution.Droid.Resource.Attribute.popupWindowStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.preserveIconSpacing = global::MonoTestSolution.Droid.Resource.Attribute.preserveIconSpacing;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.pressedTranslationZ = global::MonoTestSolution.Droid.Resource.Attribute.pressedTranslationZ;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.progressBarPadding = global::MonoTestSolution.Droid.Resource.Attribute.progressBarPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.progressBarStyle = global::MonoTestSolution.Droid.Resource.Attribute.progressBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.queryBackground = global::MonoTestSolution.Droid.Resource.Attribute.queryBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.queryHint = global::MonoTestSolution.Droid.Resource.Attribute.queryHint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.radioButtonStyle = global::MonoTestSolution.Droid.Resource.Attribute.radioButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.ratingBarStyle = global::MonoTestSolution.Droid.Resource.Attribute.ratingBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.ratingBarStyleIndicator = global::MonoTestSolution.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.ratingBarStyleSmall = global::MonoTestSolution.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.reverseLayout = global::MonoTestSolution.Droid.Resource.Attribute.reverseLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.rippleColor = global::MonoTestSolution.Droid.Resource.Attribute.rippleColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.scrimAnimationDuration = global::MonoTestSolution.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::MonoTestSolution.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.searchHintIcon = global::MonoTestSolution.Droid.Resource.Attribute.searchHintIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.searchIcon = global::MonoTestSolution.Droid.Resource.Attribute.searchIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.searchViewStyle = global::MonoTestSolution.Droid.Resource.Attribute.searchViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.seekBarStyle = global::MonoTestSolution.Droid.Resource.Attribute.seekBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.selectableItemBackground = global::MonoTestSolution.Droid.Resource.Attribute.selectableItemBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::MonoTestSolution.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.showAsAction = global::MonoTestSolution.Droid.Resource.Attribute.showAsAction;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.showDividers = global::MonoTestSolution.Droid.Resource.Attribute.showDividers;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.showText = global::MonoTestSolution.Droid.Resource.Attribute.showText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.showTitle = global::MonoTestSolution.Droid.Resource.Attribute.showTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.singleChoiceItemLayout = global::MonoTestSolution.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.spanCount = global::MonoTestSolution.Droid.Resource.Attribute.spanCount;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.spinBars = global::MonoTestSolution.Droid.Resource.Attribute.spinBars;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.spinnerDropDownItemStyle = global::MonoTestSolution.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.spinnerStyle = global::MonoTestSolution.Droid.Resource.Attribute.spinnerStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.splitTrack = global::MonoTestSolution.Droid.Resource.Attribute.splitTrack;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.srcCompat = global::MonoTestSolution.Droid.Resource.Attribute.srcCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.stackFromEnd = global::MonoTestSolution.Droid.Resource.Attribute.stackFromEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.state_above_anchor = global::MonoTestSolution.Droid.Resource.Attribute.state_above_anchor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.state_collapsed = global::MonoTestSolution.Droid.Resource.Attribute.state_collapsed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.state_collapsible = global::MonoTestSolution.Droid.Resource.Attribute.state_collapsible;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.statusBarBackground = global::MonoTestSolution.Droid.Resource.Attribute.statusBarBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.statusBarScrim = global::MonoTestSolution.Droid.Resource.Attribute.statusBarScrim;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.subMenuArrow = global::MonoTestSolution.Droid.Resource.Attribute.subMenuArrow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.submitBackground = global::MonoTestSolution.Droid.Resource.Attribute.submitBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.subtitle = global::MonoTestSolution.Droid.Resource.Attribute.subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.subtitleTextAppearance = global::MonoTestSolution.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.subtitleTextColor = global::MonoTestSolution.Droid.Resource.Attribute.subtitleTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.subtitleTextStyle = global::MonoTestSolution.Droid.Resource.Attribute.subtitleTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.suggestionRowLayout = global::MonoTestSolution.Droid.Resource.Attribute.suggestionRowLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.switchMinWidth = global::MonoTestSolution.Droid.Resource.Attribute.switchMinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.switchPadding = global::MonoTestSolution.Droid.Resource.Attribute.switchPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.switchStyle = global::MonoTestSolution.Droid.Resource.Attribute.switchStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.switchTextAppearance = global::MonoTestSolution.Droid.Resource.Attribute.switchTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabBackground = global::MonoTestSolution.Droid.Resource.Attribute.tabBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabContentStart = global::MonoTestSolution.Droid.Resource.Attribute.tabContentStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabGravity = global::MonoTestSolution.Droid.Resource.Attribute.tabGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabIndicatorColor = global::MonoTestSolution.Droid.Resource.Attribute.tabIndicatorColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabIndicatorHeight = global::MonoTestSolution.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabMaxWidth = global::MonoTestSolution.Droid.Resource.Attribute.tabMaxWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabMinWidth = global::MonoTestSolution.Droid.Resource.Attribute.tabMinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabMode = global::MonoTestSolution.Droid.Resource.Attribute.tabMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabPadding = global::MonoTestSolution.Droid.Resource.Attribute.tabPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabPaddingBottom = global::MonoTestSolution.Droid.Resource.Attribute.tabPaddingBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabPaddingEnd = global::MonoTestSolution.Droid.Resource.Attribute.tabPaddingEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabPaddingStart = global::MonoTestSolution.Droid.Resource.Attribute.tabPaddingStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabPaddingTop = global::MonoTestSolution.Droid.Resource.Attribute.tabPaddingTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabSelectedTextColor = global::MonoTestSolution.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabTextAppearance = global::MonoTestSolution.Droid.Resource.Attribute.tabTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tabTextColor = global::MonoTestSolution.Droid.Resource.Attribute.tabTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAllCaps = global::MonoTestSolution.Droid.Resource.Attribute.textAllCaps;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::MonoTestSolution.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAppearanceListItem = global::MonoTestSolution.Droid.Resource.Attribute.textAppearanceListItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAppearanceListItemSecondary = global::MonoTestSolution.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAppearanceListItemSmall = global::MonoTestSolution.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::MonoTestSolution.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::MonoTestSolution.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::MonoTestSolution.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::MonoTestSolution.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textColorAlertDialogListItem = global::MonoTestSolution.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.textColorSearchUrl = global::MonoTestSolution.Droid.Resource.Attribute.textColorSearchUrl;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.theme = global::MonoTestSolution.Droid.Resource.Attribute.theme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.thickness = global::MonoTestSolution.Droid.Resource.Attribute.thickness;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.thumbTextPadding = global::MonoTestSolution.Droid.Resource.Attribute.thumbTextPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.thumbTint = global::MonoTestSolution.Droid.Resource.Attribute.thumbTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.thumbTintMode = global::MonoTestSolution.Droid.Resource.Attribute.thumbTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tickMark = global::MonoTestSolution.Droid.Resource.Attribute.tickMark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tickMarkTint = global::MonoTestSolution.Droid.Resource.Attribute.tickMarkTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tickMarkTintMode = global::MonoTestSolution.Droid.Resource.Attribute.tickMarkTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tint = global::MonoTestSolution.Droid.Resource.Attribute.tint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.tintMode = global::MonoTestSolution.Droid.Resource.Attribute.tintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.title = global::MonoTestSolution.Droid.Resource.Attribute.title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleEnabled = global::MonoTestSolution.Droid.Resource.Attribute.titleEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleMargin = global::MonoTestSolution.Droid.Resource.Attribute.titleMargin;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleMarginBottom = global::MonoTestSolution.Droid.Resource.Attribute.titleMarginBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleMarginEnd = global::MonoTestSolution.Droid.Resource.Attribute.titleMarginEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleMarginStart = global::MonoTestSolution.Droid.Resource.Attribute.titleMarginStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleMarginTop = global::MonoTestSolution.Droid.Resource.Attribute.titleMarginTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleMargins = global::MonoTestSolution.Droid.Resource.Attribute.titleMargins;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleTextAppearance = global::MonoTestSolution.Droid.Resource.Attribute.titleTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleTextColor = global::MonoTestSolution.Droid.Resource.Attribute.titleTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.titleTextStyle = global::MonoTestSolution.Droid.Resource.Attribute.titleTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.toolbarId = global::MonoTestSolution.Droid.Resource.Attribute.toolbarId;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::MonoTestSolution.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.toolbarStyle = global::MonoTestSolution.Droid.Resource.Attribute.toolbarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.track = global::MonoTestSolution.Droid.Resource.Attribute.track;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.trackTint = global::MonoTestSolution.Droid.Resource.Attribute.trackTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.trackTintMode = global::MonoTestSolution.Droid.Resource.Attribute.trackTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.useCompatPadding = global::MonoTestSolution.Droid.Resource.Attribute.useCompatPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.voiceIcon = global::MonoTestSolution.Droid.Resource.Attribute.voiceIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowActionBar = global::MonoTestSolution.Droid.Resource.Attribute.windowActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowActionBarOverlay = global::MonoTestSolution.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowActionModeOverlay = global::MonoTestSolution.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowFixedHeightMajor = global::MonoTestSolution.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowFixedHeightMinor = global::MonoTestSolution.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowFixedWidthMajor = global::MonoTestSolution.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowFixedWidthMinor = global::MonoTestSolution.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowMinWidthMajor = global::MonoTestSolution.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowMinWidthMinor = global::MonoTestSolution.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Attribute.windowNoTitle = global::MonoTestSolution.Droid.Resource.Attribute.windowNoTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::MonoTestSolution.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::MonoTestSolution.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::MonoTestSolution.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::MonoTestSolution.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::MonoTestSolution.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_btn_colored_text_material = global::MonoTestSolution.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_color_highlight_material = global::MonoTestSolution.Droid.Resource.Color.abc_color_highlight_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_hint_foreground_material_dark = global::MonoTestSolution.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_hint_foreground_material_light = global::MonoTestSolution.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::MonoTestSolution.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::MonoTestSolution.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_primary_text_material_dark = global::MonoTestSolution.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_primary_text_material_light = global::MonoTestSolution.Droid.Resource.Color.abc_primary_text_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_search_url_text = global::MonoTestSolution.Droid.Resource.Color.abc_search_url_text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_search_url_text_normal = global::MonoTestSolution.Droid.Resource.Color.abc_search_url_text_normal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_search_url_text_pressed = global::MonoTestSolution.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_search_url_text_selected = global::MonoTestSolution.Droid.Resource.Color.abc_search_url_text_selected;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_secondary_text_material_dark = global::MonoTestSolution.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_secondary_text_material_light = global::MonoTestSolution.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_tint_btn_checkable = global::MonoTestSolution.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_tint_default = global::MonoTestSolution.Droid.Resource.Color.abc_tint_default;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_tint_edittext = global::MonoTestSolution.Droid.Resource.Color.abc_tint_edittext;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_tint_seek_thumb = global::MonoTestSolution.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_tint_spinner = global::MonoTestSolution.Droid.Resource.Color.abc_tint_spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.abc_tint_switch_track = global::MonoTestSolution.Droid.Resource.Color.abc_tint_switch_track;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.accent_material_dark = global::MonoTestSolution.Droid.Resource.Color.accent_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.accent_material_light = global::MonoTestSolution.Droid.Resource.Color.accent_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.background_floating_material_dark = global::MonoTestSolution.Droid.Resource.Color.background_floating_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.background_floating_material_light = global::MonoTestSolution.Droid.Resource.Color.background_floating_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.background_material_dark = global::MonoTestSolution.Droid.Resource.Color.background_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.background_material_light = global::MonoTestSolution.Droid.Resource.Color.background_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.bright_foreground_disabled_material_dark = global::MonoTestSolution.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.bright_foreground_disabled_material_light = global::MonoTestSolution.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.bright_foreground_inverse_material_dark = global::MonoTestSolution.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.bright_foreground_inverse_material_light = global::MonoTestSolution.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.bright_foreground_material_dark = global::MonoTestSolution.Droid.Resource.Color.bright_foreground_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.bright_foreground_material_light = global::MonoTestSolution.Droid.Resource.Color.bright_foreground_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.button_material_dark = global::MonoTestSolution.Droid.Resource.Color.button_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.button_material_light = global::MonoTestSolution.Droid.Resource.Color.button_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.cardview_dark_background = global::MonoTestSolution.Droid.Resource.Color.cardview_dark_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.cardview_light_background = global::MonoTestSolution.Droid.Resource.Color.cardview_light_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.cardview_shadow_end_color = global::MonoTestSolution.Droid.Resource.Color.cardview_shadow_end_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.cardview_shadow_start_color = global::MonoTestSolution.Droid.Resource.Color.cardview_shadow_start_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_bottom_navigation_shadow_color = global::MonoTestSolution.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_error = global::MonoTestSolution.Droid.Resource.Color.design_error;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_fab_shadow_end_color = global::MonoTestSolution.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_fab_shadow_mid_color = global::MonoTestSolution.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_fab_shadow_start_color = global::MonoTestSolution.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_fab_stroke_end_inner_color = global::MonoTestSolution.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_fab_stroke_end_outer_color = global::MonoTestSolution.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_fab_stroke_top_inner_color = global::MonoTestSolution.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_fab_stroke_top_outer_color = global::MonoTestSolution.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.design_snackbar_background_color = global::MonoTestSolution.Droid.Resource.Color.design_snackbar_background_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.dim_foreground_disabled_material_dark = global::MonoTestSolution.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.dim_foreground_disabled_material_light = global::MonoTestSolution.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.dim_foreground_material_dark = global::MonoTestSolution.Droid.Resource.Color.dim_foreground_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.dim_foreground_material_light = global::MonoTestSolution.Droid.Resource.Color.dim_foreground_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.foreground_material_dark = global::MonoTestSolution.Droid.Resource.Color.foreground_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.foreground_material_light = global::MonoTestSolution.Droid.Resource.Color.foreground_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.highlighted_text_material_dark = global::MonoTestSolution.Droid.Resource.Color.highlighted_text_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.highlighted_text_material_light = global::MonoTestSolution.Droid.Resource.Color.highlighted_text_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_blue_grey_800 = global::MonoTestSolution.Droid.Resource.Color.material_blue_grey_800;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_blue_grey_900 = global::MonoTestSolution.Droid.Resource.Color.material_blue_grey_900;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_blue_grey_950 = global::MonoTestSolution.Droid.Resource.Color.material_blue_grey_950;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_deep_teal_200 = global::MonoTestSolution.Droid.Resource.Color.material_deep_teal_200;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_deep_teal_500 = global::MonoTestSolution.Droid.Resource.Color.material_deep_teal_500;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_grey_100 = global::MonoTestSolution.Droid.Resource.Color.material_grey_100;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_grey_300 = global::MonoTestSolution.Droid.Resource.Color.material_grey_300;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_grey_50 = global::MonoTestSolution.Droid.Resource.Color.material_grey_50;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_grey_600 = global::MonoTestSolution.Droid.Resource.Color.material_grey_600;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_grey_800 = global::MonoTestSolution.Droid.Resource.Color.material_grey_800;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_grey_850 = global::MonoTestSolution.Droid.Resource.Color.material_grey_850;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.material_grey_900 = global::MonoTestSolution.Droid.Resource.Color.material_grey_900;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.notification_action_color_filter = global::MonoTestSolution.Droid.Resource.Color.notification_action_color_filter;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.notification_icon_bg_color = global::MonoTestSolution.Droid.Resource.Color.notification_icon_bg_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.notification_material_background_media_default_color = global::MonoTestSolution.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.primary_dark_material_dark = global::MonoTestSolution.Droid.Resource.Color.primary_dark_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.primary_dark_material_light = global::MonoTestSolution.Droid.Resource.Color.primary_dark_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.primary_material_dark = global::MonoTestSolution.Droid.Resource.Color.primary_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.primary_material_light = global::MonoTestSolution.Droid.Resource.Color.primary_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.primary_text_default_material_dark = global::MonoTestSolution.Droid.Resource.Color.primary_text_default_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.primary_text_default_material_light = global::MonoTestSolution.Droid.Resource.Color.primary_text_default_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.primary_text_disabled_material_dark = global::MonoTestSolution.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.primary_text_disabled_material_light = global::MonoTestSolution.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.ripple_material_dark = global::MonoTestSolution.Droid.Resource.Color.ripple_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.ripple_material_light = global::MonoTestSolution.Droid.Resource.Color.ripple_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.secondary_text_default_material_dark = global::MonoTestSolution.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.secondary_text_default_material_light = global::MonoTestSolution.Droid.Resource.Color.secondary_text_default_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.secondary_text_disabled_material_dark = global::MonoTestSolution.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.secondary_text_disabled_material_light = global::MonoTestSolution.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.switch_thumb_disabled_material_dark = global::MonoTestSolution.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.switch_thumb_disabled_material_light = global::MonoTestSolution.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.switch_thumb_material_dark = global::MonoTestSolution.Droid.Resource.Color.switch_thumb_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.switch_thumb_material_light = global::MonoTestSolution.Droid.Resource.Color.switch_thumb_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.switch_thumb_normal_material_dark = global::MonoTestSolution.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Color.switch_thumb_normal_material_light = global::MonoTestSolution.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::MonoTestSolution.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_default_height_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_elevation_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::MonoTestSolution.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::MonoTestSolution.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_button_min_height_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_button_min_width_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::MonoTestSolution.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_button_inset_vertical_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_button_padding_vertical_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::MonoTestSolution.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_config_prefDialogWidth = global::MonoTestSolution.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_control_corner_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_control_corner_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_control_inset_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_control_inset_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_control_padding_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_control_padding_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::MonoTestSolution.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::MonoTestSolution.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::MonoTestSolution.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::MonoTestSolution.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::MonoTestSolution.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::MonoTestSolution.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_min_width_major = global::MonoTestSolution.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_min_width_minor = global::MonoTestSolution.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_padding_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_padding_top_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dialog_title_divider_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::MonoTestSolution.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::MonoTestSolution.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::MonoTestSolution.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::MonoTestSolution.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::MonoTestSolution.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_floating_window_z = global::MonoTestSolution.Droid.Resource.Dimension.abc_floating_window_z;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_panel_menu_list_width = global::MonoTestSolution.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_progress_bar_height_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_search_view_preferred_height = global::MonoTestSolution.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_search_view_preferred_width = global::MonoTestSolution.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_switch_padding = global::MonoTestSolution.Droid.Resource.Dimension.abc_switch_padding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_body_1_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_body_2_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_button_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_caption_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_display_1_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_display_2_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_display_3_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_display_4_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_headline_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_large_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_medium_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_menu_header_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_menu_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_small_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_subhead_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_title_material = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::MonoTestSolution.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.cardview_compat_inset_shadow = global::MonoTestSolution.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.cardview_default_elevation = global::MonoTestSolution.Droid.Resource.Dimension.cardview_default_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.cardview_default_radius = global::MonoTestSolution.Droid.Resource.Dimension.cardview_default_radius;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_appbar_elevation = global::MonoTestSolution.Droid.Resource.Dimension.design_appbar_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::MonoTestSolution.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::MonoTestSolution.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_elevation = global::MonoTestSolution.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_height = global::MonoTestSolution.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::MonoTestSolution.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::MonoTestSolution.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_margin = global::MonoTestSolution.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::MonoTestSolution.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_navigation_text_size = global::MonoTestSolution.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::MonoTestSolution.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::MonoTestSolution.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_fab_border_width = global::MonoTestSolution.Droid.Resource.Dimension.design_fab_border_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_fab_elevation = global::MonoTestSolution.Droid.Resource.Dimension.design_fab_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_fab_image_size = global::MonoTestSolution.Droid.Resource.Dimension.design_fab_image_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_fab_size_mini = global::MonoTestSolution.Droid.Resource.Dimension.design_fab_size_mini;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_fab_size_normal = global::MonoTestSolution.Droid.Resource.Dimension.design_fab_size_normal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_fab_translation_z_pressed = global::MonoTestSolution.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_navigation_elevation = global::MonoTestSolution.Droid.Resource.Dimension.design_navigation_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_navigation_icon_padding = global::MonoTestSolution.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_navigation_icon_size = global::MonoTestSolution.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_navigation_max_width = global::MonoTestSolution.Droid.Resource.Dimension.design_navigation_max_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_navigation_padding_bottom = global::MonoTestSolution.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::MonoTestSolution.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::MonoTestSolution.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::MonoTestSolution.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_elevation = global::MonoTestSolution.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::MonoTestSolution.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_max_width = global::MonoTestSolution.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_min_width = global::MonoTestSolution.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::MonoTestSolution.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_padding_vertical = global::MonoTestSolution.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::MonoTestSolution.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_snackbar_text_size = global::MonoTestSolution.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_tab_max_width = global::MonoTestSolution.Droid.Resource.Dimension.design_tab_max_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_tab_scrollable_min_width = global::MonoTestSolution.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_tab_text_size = global::MonoTestSolution.Droid.Resource.Dimension.design_tab_text_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.design_tab_text_size_2line = global::MonoTestSolution.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.disabled_alpha_material_dark = global::MonoTestSolution.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.disabled_alpha_material_light = global::MonoTestSolution.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.highlight_alpha_material_colored = global::MonoTestSolution.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.highlight_alpha_material_dark = global::MonoTestSolution.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.highlight_alpha_material_light = global::MonoTestSolution.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.hint_alpha_material_dark = global::MonoTestSolution.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.hint_alpha_material_light = global::MonoTestSolution.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::MonoTestSolution.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::MonoTestSolution.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::MonoTestSolution.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::MonoTestSolution.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::MonoTestSolution.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_action_icon_size = global::MonoTestSolution.Droid.Resource.Dimension.notification_action_icon_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_action_text_size = global::MonoTestSolution.Droid.Resource.Dimension.notification_action_text_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_big_circle_margin = global::MonoTestSolution.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_content_margin_start = global::MonoTestSolution.Droid.Resource.Dimension.notification_content_margin_start;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_large_icon_height = global::MonoTestSolution.Droid.Resource.Dimension.notification_large_icon_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_large_icon_width = global::MonoTestSolution.Droid.Resource.Dimension.notification_large_icon_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_main_column_padding_top = global::MonoTestSolution.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_media_narrow_margin = global::MonoTestSolution.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_right_icon_size = global::MonoTestSolution.Droid.Resource.Dimension.notification_right_icon_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_right_side_padding_top = global::MonoTestSolution.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_small_icon_background_padding = global::MonoTestSolution.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_small_icon_size_as_large = global::MonoTestSolution.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_subtext_size = global::MonoTestSolution.Droid.Resource.Dimension.notification_subtext_size;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_top_pad = global::MonoTestSolution.Droid.Resource.Dimension.notification_top_pad;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Dimension.notification_top_pad_large_text = global::MonoTestSolution.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_action_bar_item_background_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_borderless_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_check_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_btn_check_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::MonoTestSolution.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::MonoTestSolution.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_colored_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::MonoTestSolution.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_radio_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::MonoTestSolution.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::MonoTestSolution.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::MonoTestSolution.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::MonoTestSolution.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_cab_background_internal_bg = global::MonoTestSolution.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_cab_background_top_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_control_background_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_control_background_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_dialog_material_background = global::MonoTestSolution.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_edit_text_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_edit_text_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_ab_back_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::MonoTestSolution.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_clear_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_go_search_api_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_search_api_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_item_background_holo_dark = global::MonoTestSolution.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_item_background_holo_light = global::MonoTestSolution.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_focused_holo = global::MonoTestSolution.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_longpressed_holo = global::MonoTestSolution.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::MonoTestSolution.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_pressed_holo_light = global::MonoTestSolution.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::MonoTestSolution.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::MonoTestSolution.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::MonoTestSolution.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::MonoTestSolution.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_holo_dark = global::MonoTestSolution.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_list_selector_holo_light = global::MonoTestSolution.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::MonoTestSolution.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::MonoTestSolution.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ratingbar_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_ratingbar_small_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::MonoTestSolution.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::MonoTestSolution.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_seekbar_thumb_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_seekbar_track_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_switch_thumb_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_tab_indicator_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_text_cursor_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::MonoTestSolution.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_textfield_search_material = global::MonoTestSolution.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.abc_vector_test = global::MonoTestSolution.Droid.Resource.Drawable.abc_vector_test;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.avd_hide_password = global::MonoTestSolution.Droid.Resource.Drawable.avd_hide_password;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.avd_show_password = global::MonoTestSolution.Droid.Resource.Drawable.avd_show_password;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.design_fab_background = global::MonoTestSolution.Droid.Resource.Drawable.design_fab_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.design_ic_visibility = global::MonoTestSolution.Droid.Resource.Drawable.design_ic_visibility;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.design_ic_visibility_off = global::MonoTestSolution.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.design_password_eye = global::MonoTestSolution.Droid.Resource.Drawable.design_password_eye;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.design_snackbar_background = global::MonoTestSolution.Droid.Resource.Drawable.design_snackbar_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.navigation_empty_icon = global::MonoTestSolution.Droid.Resource.Drawable.navigation_empty_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_action_background = global::MonoTestSolution.Droid.Resource.Drawable.notification_action_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_bg = global::MonoTestSolution.Droid.Resource.Drawable.notification_bg;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_bg_low = global::MonoTestSolution.Droid.Resource.Drawable.notification_bg_low;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_bg_low_normal = global::MonoTestSolution.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_bg_low_pressed = global::MonoTestSolution.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_bg_normal = global::MonoTestSolution.Droid.Resource.Drawable.notification_bg_normal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_bg_normal_pressed = global::MonoTestSolution.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_icon_background = global::MonoTestSolution.Droid.Resource.Drawable.notification_icon_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_template_icon_bg = global::MonoTestSolution.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_template_icon_low_bg = global::MonoTestSolution.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notification_tile_bg = global::MonoTestSolution.Droid.Resource.Drawable.notification_tile_bg;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::MonoTestSolution.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action0 = global::MonoTestSolution.Droid.Resource.Id.action0;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_bar = global::MonoTestSolution.Droid.Resource.Id.action_bar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_bar_activity_content = global::MonoTestSolution.Droid.Resource.Id.action_bar_activity_content;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_bar_container = global::MonoTestSolution.Droid.Resource.Id.action_bar_container;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_bar_root = global::MonoTestSolution.Droid.Resource.Id.action_bar_root;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_bar_spinner = global::MonoTestSolution.Droid.Resource.Id.action_bar_spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_bar_subtitle = global::MonoTestSolution.Droid.Resource.Id.action_bar_subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_bar_title = global::MonoTestSolution.Droid.Resource.Id.action_bar_title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_container = global::MonoTestSolution.Droid.Resource.Id.action_container;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_context_bar = global::MonoTestSolution.Droid.Resource.Id.action_context_bar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_divider = global::MonoTestSolution.Droid.Resource.Id.action_divider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_image = global::MonoTestSolution.Droid.Resource.Id.action_image;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_menu_divider = global::MonoTestSolution.Droid.Resource.Id.action_menu_divider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_menu_presenter = global::MonoTestSolution.Droid.Resource.Id.action_menu_presenter;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_mode_bar = global::MonoTestSolution.Droid.Resource.Id.action_mode_bar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_mode_bar_stub = global::MonoTestSolution.Droid.Resource.Id.action_mode_bar_stub;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_mode_close_button = global::MonoTestSolution.Droid.Resource.Id.action_mode_close_button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.action_text = global::MonoTestSolution.Droid.Resource.Id.action_text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.actions = global::MonoTestSolution.Droid.Resource.Id.actions;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.activity_chooser_view_content = global::MonoTestSolution.Droid.Resource.Id.activity_chooser_view_content;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.add = global::MonoTestSolution.Droid.Resource.Id.add;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.alertTitle = global::MonoTestSolution.Droid.Resource.Id.alertTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.all = global::MonoTestSolution.Droid.Resource.Id.all;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.always = global::MonoTestSolution.Droid.Resource.Id.always;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.auto = global::MonoTestSolution.Droid.Resource.Id.auto;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.beginning = global::MonoTestSolution.Droid.Resource.Id.beginning;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.bottom = global::MonoTestSolution.Droid.Resource.Id.bottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.buttonPanel = global::MonoTestSolution.Droid.Resource.Id.buttonPanel;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.cancel_action = global::MonoTestSolution.Droid.Resource.Id.cancel_action;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.center = global::MonoTestSolution.Droid.Resource.Id.center;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.center_horizontal = global::MonoTestSolution.Droid.Resource.Id.center_horizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.center_vertical = global::MonoTestSolution.Droid.Resource.Id.center_vertical;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.checkbox = global::MonoTestSolution.Droid.Resource.Id.checkbox;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.chronometer = global::MonoTestSolution.Droid.Resource.Id.chronometer;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.clip_horizontal = global::MonoTestSolution.Droid.Resource.Id.clip_horizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.clip_vertical = global::MonoTestSolution.Droid.Resource.Id.clip_vertical;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.collapseActionView = global::MonoTestSolution.Droid.Resource.Id.collapseActionView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.container = global::MonoTestSolution.Droid.Resource.Id.container;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.contentPanel = global::MonoTestSolution.Droid.Resource.Id.contentPanel;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.coordinator = global::MonoTestSolution.Droid.Resource.Id.coordinator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.custom = global::MonoTestSolution.Droid.Resource.Id.custom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.customPanel = global::MonoTestSolution.Droid.Resource.Id.customPanel;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.decor_content_parent = global::MonoTestSolution.Droid.Resource.Id.decor_content_parent;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.default_activity_button = global::MonoTestSolution.Droid.Resource.Id.default_activity_button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.design_bottom_sheet = global::MonoTestSolution.Droid.Resource.Id.design_bottom_sheet;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.design_menu_item_action_area = global::MonoTestSolution.Droid.Resource.Id.design_menu_item_action_area;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.design_menu_item_action_area_stub = global::MonoTestSolution.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.design_menu_item_text = global::MonoTestSolution.Droid.Resource.Id.design_menu_item_text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.design_navigation_view = global::MonoTestSolution.Droid.Resource.Id.design_navigation_view;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.disableHome = global::MonoTestSolution.Droid.Resource.Id.disableHome;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.edit_query = global::MonoTestSolution.Droid.Resource.Id.edit_query;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.end = global::MonoTestSolution.Droid.Resource.Id.end;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.end_padder = global::MonoTestSolution.Droid.Resource.Id.end_padder;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.enterAlways = global::MonoTestSolution.Droid.Resource.Id.enterAlways;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.enterAlwaysCollapsed = global::MonoTestSolution.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.exitUntilCollapsed = global::MonoTestSolution.Droid.Resource.Id.exitUntilCollapsed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.expand_activities_button = global::MonoTestSolution.Droid.Resource.Id.expand_activities_button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.expanded_menu = global::MonoTestSolution.Droid.Resource.Id.expanded_menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.fill = global::MonoTestSolution.Droid.Resource.Id.fill;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.fill_horizontal = global::MonoTestSolution.Droid.Resource.Id.fill_horizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.fill_vertical = global::MonoTestSolution.Droid.Resource.Id.fill_vertical;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.@fixed = global::MonoTestSolution.Droid.Resource.Id.@fixed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.home = global::MonoTestSolution.Droid.Resource.Id.home;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.homeAsUp = global::MonoTestSolution.Droid.Resource.Id.homeAsUp;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.icon = global::MonoTestSolution.Droid.Resource.Id.icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.icon_group = global::MonoTestSolution.Droid.Resource.Id.icon_group;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.ifRoom = global::MonoTestSolution.Droid.Resource.Id.ifRoom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.image = global::MonoTestSolution.Droid.Resource.Id.image;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.info = global::MonoTestSolution.Droid.Resource.Id.info;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.item_touch_helper_previous_elevation = global::MonoTestSolution.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.left = global::MonoTestSolution.Droid.Resource.Id.left;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.line1 = global::MonoTestSolution.Droid.Resource.Id.line1;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.line3 = global::MonoTestSolution.Droid.Resource.Id.line3;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.listMode = global::MonoTestSolution.Droid.Resource.Id.listMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.list_item = global::MonoTestSolution.Droid.Resource.Id.list_item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.masked = global::MonoTestSolution.Droid.Resource.Id.masked;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.media_actions = global::MonoTestSolution.Droid.Resource.Id.media_actions;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.middle = global::MonoTestSolution.Droid.Resource.Id.middle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.mini = global::MonoTestSolution.Droid.Resource.Id.mini;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.multiply = global::MonoTestSolution.Droid.Resource.Id.multiply;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.navigation_header_container = global::MonoTestSolution.Droid.Resource.Id.navigation_header_container;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.never = global::MonoTestSolution.Droid.Resource.Id.never;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.none = global::MonoTestSolution.Droid.Resource.Id.none;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.normal = global::MonoTestSolution.Droid.Resource.Id.normal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.notification_background = global::MonoTestSolution.Droid.Resource.Id.notification_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.notification_main_column = global::MonoTestSolution.Droid.Resource.Id.notification_main_column;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.notification_main_column_container = global::MonoTestSolution.Droid.Resource.Id.notification_main_column_container;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.parallax = global::MonoTestSolution.Droid.Resource.Id.parallax;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.parentPanel = global::MonoTestSolution.Droid.Resource.Id.parentPanel;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.pin = global::MonoTestSolution.Droid.Resource.Id.pin;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.progress_circular = global::MonoTestSolution.Droid.Resource.Id.progress_circular;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.progress_horizontal = global::MonoTestSolution.Droid.Resource.Id.progress_horizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.radio = global::MonoTestSolution.Droid.Resource.Id.radio;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.right = global::MonoTestSolution.Droid.Resource.Id.right;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.right_icon = global::MonoTestSolution.Droid.Resource.Id.right_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.right_side = global::MonoTestSolution.Droid.Resource.Id.right_side;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.screen = global::MonoTestSolution.Droid.Resource.Id.screen;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.scroll = global::MonoTestSolution.Droid.Resource.Id.scroll;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.scrollIndicatorDown = global::MonoTestSolution.Droid.Resource.Id.scrollIndicatorDown;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.scrollIndicatorUp = global::MonoTestSolution.Droid.Resource.Id.scrollIndicatorUp;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.scrollView = global::MonoTestSolution.Droid.Resource.Id.scrollView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.scrollable = global::MonoTestSolution.Droid.Resource.Id.scrollable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_badge = global::MonoTestSolution.Droid.Resource.Id.search_badge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_bar = global::MonoTestSolution.Droid.Resource.Id.search_bar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_button = global::MonoTestSolution.Droid.Resource.Id.search_button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_close_btn = global::MonoTestSolution.Droid.Resource.Id.search_close_btn;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_edit_frame = global::MonoTestSolution.Droid.Resource.Id.search_edit_frame;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_go_btn = global::MonoTestSolution.Droid.Resource.Id.search_go_btn;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_mag_icon = global::MonoTestSolution.Droid.Resource.Id.search_mag_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_plate = global::MonoTestSolution.Droid.Resource.Id.search_plate;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_src_text = global::MonoTestSolution.Droid.Resource.Id.search_src_text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.search_voice_btn = global::MonoTestSolution.Droid.Resource.Id.search_voice_btn;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.select_dialog_listview = global::MonoTestSolution.Droid.Resource.Id.select_dialog_listview;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.shortcut = global::MonoTestSolution.Droid.Resource.Id.shortcut;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.showCustom = global::MonoTestSolution.Droid.Resource.Id.showCustom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.showHome = global::MonoTestSolution.Droid.Resource.Id.showHome;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.showTitle = global::MonoTestSolution.Droid.Resource.Id.showTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.snackbar_action = global::MonoTestSolution.Droid.Resource.Id.snackbar_action;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.snackbar_text = global::MonoTestSolution.Droid.Resource.Id.snackbar_text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.snap = global::MonoTestSolution.Droid.Resource.Id.snap;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.spacer = global::MonoTestSolution.Droid.Resource.Id.spacer;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.split_action_bar = global::MonoTestSolution.Droid.Resource.Id.split_action_bar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.src_atop = global::MonoTestSolution.Droid.Resource.Id.src_atop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.src_in = global::MonoTestSolution.Droid.Resource.Id.src_in;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.src_over = global::MonoTestSolution.Droid.Resource.Id.src_over;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.start = global::MonoTestSolution.Droid.Resource.Id.start;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.status_bar_latest_event_content = global::MonoTestSolution.Droid.Resource.Id.status_bar_latest_event_content;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.submenuarrow = global::MonoTestSolution.Droid.Resource.Id.submenuarrow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.submit_area = global::MonoTestSolution.Droid.Resource.Id.submit_area;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.tabMode = global::MonoTestSolution.Droid.Resource.Id.tabMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.text = global::MonoTestSolution.Droid.Resource.Id.text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.text2 = global::MonoTestSolution.Droid.Resource.Id.text2;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.textSpacerNoButtons = global::MonoTestSolution.Droid.Resource.Id.textSpacerNoButtons;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.textSpacerNoTitle = global::MonoTestSolution.Droid.Resource.Id.textSpacerNoTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.textinput_counter = global::MonoTestSolution.Droid.Resource.Id.textinput_counter;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.textinput_error = global::MonoTestSolution.Droid.Resource.Id.textinput_error;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.time = global::MonoTestSolution.Droid.Resource.Id.time;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.title = global::MonoTestSolution.Droid.Resource.Id.title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.titleDividerNoCustom = global::MonoTestSolution.Droid.Resource.Id.titleDividerNoCustom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.title_template = global::MonoTestSolution.Droid.Resource.Id.title_template;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.top = global::MonoTestSolution.Droid.Resource.Id.top;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.topPanel = global::MonoTestSolution.Droid.Resource.Id.topPanel;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.touch_outside = global::MonoTestSolution.Droid.Resource.Id.touch_outside;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.transition_current_scene = global::MonoTestSolution.Droid.Resource.Id.transition_current_scene;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.transition_scene_layoutid_cache = global::MonoTestSolution.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.up = global::MonoTestSolution.Droid.Resource.Id.up;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.useLogo = global::MonoTestSolution.Droid.Resource.Id.useLogo;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.view_offset_helper = global::MonoTestSolution.Droid.Resource.Id.view_offset_helper;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.visible = global::MonoTestSolution.Droid.Resource.Id.visible;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.withText = global::MonoTestSolution.Droid.Resource.Id.withText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Id.wrap_content = global::MonoTestSolution.Droid.Resource.Id.wrap_content;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.abc_config_activityDefaultDur = global::MonoTestSolution.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.abc_config_activityShortDur = global::MonoTestSolution.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.app_bar_elevation_anim_duration = global::MonoTestSolution.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.bottom_sheet_slide_duration = global::MonoTestSolution.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.cancel_button_image_alpha = global::MonoTestSolution.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.design_snackbar_text_max_lines = global::MonoTestSolution.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.hide_password_duration = global::MonoTestSolution.Droid.Resource.Integer.hide_password_duration;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.show_password_duration = global::MonoTestSolution.Droid.Resource.Integer.show_password_duration;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Integer.status_bar_notification_info_maxnum = global::MonoTestSolution.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_bar_title_item = global::MonoTestSolution.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_bar_up_container = global::MonoTestSolution.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_menu_item_layout = global::MonoTestSolution.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_menu_layout = global::MonoTestSolution.Droid.Resource.Layout.abc_action_menu_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_mode_bar = global::MonoTestSolution.Droid.Resource.Layout.abc_action_mode_bar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_action_mode_close_item_material = global::MonoTestSolution.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_activity_chooser_view = global::MonoTestSolution.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::MonoTestSolution.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::MonoTestSolution.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_alert_dialog_material = global::MonoTestSolution.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_alert_dialog_title_material = global::MonoTestSolution.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_dialog_title_material = global::MonoTestSolution.Droid.Resource.Layout.abc_dialog_title_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_expanded_menu_layout = global::MonoTestSolution.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_list_menu_item_checkbox = global::MonoTestSolution.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_list_menu_item_icon = global::MonoTestSolution.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_list_menu_item_layout = global::MonoTestSolution.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_list_menu_item_radio = global::MonoTestSolution.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::MonoTestSolution.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_popup_menu_item_layout = global::MonoTestSolution.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_screen_content_include = global::MonoTestSolution.Droid.Resource.Layout.abc_screen_content_include;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_screen_simple = global::MonoTestSolution.Droid.Resource.Layout.abc_screen_simple;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::MonoTestSolution.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_screen_toolbar = global::MonoTestSolution.Droid.Resource.Layout.abc_screen_toolbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::MonoTestSolution.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_search_view = global::MonoTestSolution.Droid.Resource.Layout.abc_search_view;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.abc_select_dialog_material = global::MonoTestSolution.Droid.Resource.Layout.abc_select_dialog_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_bottom_navigation_item = global::MonoTestSolution.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_bottom_sheet_dialog = global::MonoTestSolution.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_layout_snackbar = global::MonoTestSolution.Droid.Resource.Layout.design_layout_snackbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_layout_snackbar_include = global::MonoTestSolution.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_layout_tab_icon = global::MonoTestSolution.Droid.Resource.Layout.design_layout_tab_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_layout_tab_text = global::MonoTestSolution.Droid.Resource.Layout.design_layout_tab_text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_menu_item_action_area = global::MonoTestSolution.Droid.Resource.Layout.design_menu_item_action_area;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_navigation_item = global::MonoTestSolution.Droid.Resource.Layout.design_navigation_item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_navigation_item_header = global::MonoTestSolution.Droid.Resource.Layout.design_navigation_item_header;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_navigation_item_separator = global::MonoTestSolution.Droid.Resource.Layout.design_navigation_item_separator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_navigation_item_subheader = global::MonoTestSolution.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_navigation_menu = global::MonoTestSolution.Droid.Resource.Layout.design_navigation_menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.design_navigation_menu_item = global::MonoTestSolution.Droid.Resource.Layout.design_navigation_menu_item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_action = global::MonoTestSolution.Droid.Resource.Layout.notification_action;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_action_tombstone = global::MonoTestSolution.Droid.Resource.Layout.notification_action_tombstone;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_media_action = global::MonoTestSolution.Droid.Resource.Layout.notification_media_action;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_media_cancel_action = global::MonoTestSolution.Droid.Resource.Layout.notification_media_cancel_action;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_big_media = global::MonoTestSolution.Droid.Resource.Layout.notification_template_big_media;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_big_media_custom = global::MonoTestSolution.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_big_media_narrow = global::MonoTestSolution.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::MonoTestSolution.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_custom_big = global::MonoTestSolution.Droid.Resource.Layout.notification_template_custom_big;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_icon_group = global::MonoTestSolution.Droid.Resource.Layout.notification_template_icon_group;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_lines_media = global::MonoTestSolution.Droid.Resource.Layout.notification_template_lines_media;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_media = global::MonoTestSolution.Droid.Resource.Layout.notification_template_media;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_media_custom = global::MonoTestSolution.Droid.Resource.Layout.notification_template_media_custom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_part_chronometer = global::MonoTestSolution.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.notification_template_part_time = global::MonoTestSolution.Droid.Resource.Layout.notification_template_part_time;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.select_dialog_item_material = global::MonoTestSolution.Droid.Resource.Layout.select_dialog_item_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.select_dialog_multichoice_material = global::MonoTestSolution.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.select_dialog_singlechoice_material = global::MonoTestSolution.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::MonoTestSolution.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_action_bar_home_description = global::MonoTestSolution.Droid.Resource.String.abc_action_bar_home_description;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_action_bar_up_description = global::MonoTestSolution.Droid.Resource.String.abc_action_bar_up_description;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_action_menu_overflow_description = global::MonoTestSolution.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_action_mode_done = global::MonoTestSolution.Droid.Resource.String.abc_action_mode_done;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_activity_chooser_view_see_all = global::MonoTestSolution.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_activitychooserview_choose_application = global::MonoTestSolution.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_capital_off = global::MonoTestSolution.Droid.Resource.String.abc_capital_off;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_capital_on = global::MonoTestSolution.Droid.Resource.String.abc_capital_on;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_search_hint = global::MonoTestSolution.Droid.Resource.String.abc_search_hint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_searchview_description_clear = global::MonoTestSolution.Droid.Resource.String.abc_searchview_description_clear;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_searchview_description_query = global::MonoTestSolution.Droid.Resource.String.abc_searchview_description_query;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_searchview_description_search = global::MonoTestSolution.Droid.Resource.String.abc_searchview_description_search;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_searchview_description_submit = global::MonoTestSolution.Droid.Resource.String.abc_searchview_description_submit;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_searchview_description_voice = global::MonoTestSolution.Droid.Resource.String.abc_searchview_description_voice;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_shareactionprovider_share_with = global::MonoTestSolution.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_shareactionprovider_share_with_application = global::MonoTestSolution.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.abc_toolbar_collapse_description = global::MonoTestSolution.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.appbar_scrolling_view_behavior = global::MonoTestSolution.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.bottom_sheet_behavior = global::MonoTestSolution.Droid.Resource.String.bottom_sheet_behavior;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.character_counter_pattern = global::MonoTestSolution.Droid.Resource.String.character_counter_pattern;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.library_name = global::MonoTestSolution.Droid.Resource.String.library_name;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.password_toggle_content_description = global::MonoTestSolution.Droid.Resource.String.password_toggle_content_description;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.path_password_eye = global::MonoTestSolution.Droid.Resource.String.path_password_eye;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.path_password_eye_mask_strike_through = global::MonoTestSolution.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.path_password_eye_mask_visible = global::MonoTestSolution.Droid.Resource.String.path_password_eye_mask_visible;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.path_password_strike_through = global::MonoTestSolution.Droid.Resource.String.path_password_strike_through;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.search_menu_title = global::MonoTestSolution.Droid.Resource.String.search_menu_title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.String.status_bar_notification_info_overflow = global::MonoTestSolution.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.AlertDialog_AppCompat = global::MonoTestSolution.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.AlertDialog_AppCompat_Light = global::MonoTestSolution.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Animation_AppCompat_Dialog = global::MonoTestSolution.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::MonoTestSolution.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::MonoTestSolution.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_AlertDialog_AppCompat = global::MonoTestSolution.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::MonoTestSolution.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::MonoTestSolution.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::MonoTestSolution.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_CardView = global::MonoTestSolution.Droid.Resource.Style.Base_CardView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::MonoTestSolution.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::MonoTestSolution.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::MonoTestSolution.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat = global::MonoTestSolution.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::MonoTestSolution.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::MonoTestSolution.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::MonoTestSolution.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::MonoTestSolution.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::MonoTestSolution.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::MonoTestSolution.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light = global::MonoTestSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::MonoTestSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::MonoTestSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::MonoTestSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::MonoTestSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::MonoTestSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::MonoTestSolution.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::MonoTestSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::MonoTestSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::MonoTestSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::MonoTestSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::MonoTestSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::MonoTestSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MonoTestSolution.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V21_Theme_AppCompat = global::MonoTestSolution.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MonoTestSolution.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MonoTestSolution.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MonoTestSolution.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::MonoTestSolution.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V22_Theme_AppCompat = global::MonoTestSolution.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MonoTestSolution.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V23_Theme_AppCompat = global::MonoTestSolution.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::MonoTestSolution.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V7_Theme_AppCompat = global::MonoTestSolution.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::MonoTestSolution.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::MonoTestSolution.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::MonoTestSolution.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::MonoTestSolution.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::MonoTestSolution.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::MonoTestSolution.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Base_Widget_Design_TabLayout = global::MonoTestSolution.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.CardView = global::MonoTestSolution.Droid.Resource.Style.CardView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.CardView_Dark = global::MonoTestSolution.Droid.Resource.Style.CardView_Dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.CardView_Light = global::MonoTestSolution.Droid.Resource.Style.CardView_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_AppCompat = global::MonoTestSolution.Droid.Resource.Style.Platform_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_AppCompat_Light = global::MonoTestSolution.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::MonoTestSolution.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::MonoTestSolution.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::MonoTestSolution.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_V21_AppCompat = global::MonoTestSolution.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_V21_AppCompat_Light = global::MonoTestSolution.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_V25_AppCompat = global::MonoTestSolution.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_V25_AppCompat_Light = global::MonoTestSolution.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::MonoTestSolution.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::MonoTestSolution.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::MonoTestSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::MonoTestSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::MonoTestSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::MonoTestSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::MonoTestSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::MonoTestSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::MonoTestSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::MonoTestSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::MonoTestSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::MonoTestSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::MonoTestSolution.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::MonoTestSolution.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::MonoTestSolution.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Button = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Large = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Small = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Title = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Counter = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Error = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Hint = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Design_Tab = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::MonoTestSolution.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Dialog = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::MonoTestSolution.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_Design = global::MonoTestSolution.Droid.Resource.Style.Theme_Design;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::MonoTestSolution.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_Design_Light = global::MonoTestSolution.Droid.Resource.Style.Theme_Design_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::MonoTestSolution.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::MonoTestSolution.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Theme_Design_NoActionBar = global::MonoTestSolution.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat = global::MonoTestSolution.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MonoTestSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MonoTestSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MonoTestSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::MonoTestSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::MonoTestSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::MonoTestSolution.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionBar = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionButton = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActionMode = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Button_Small = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_EditText = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ImageButton = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ListView = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_RatingBar = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_SearchView = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_SeekBar = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Spinner = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Toolbar = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::MonoTestSolution.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_AppBarLayout = global::MonoTestSolution.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_BottomNavigationView = global::MonoTestSolution.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::MonoTestSolution.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::MonoTestSolution.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_FloatingActionButton = global::MonoTestSolution.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_NavigationView = global::MonoTestSolution.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::MonoTestSolution.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_Snackbar = global::MonoTestSolution.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_TabLayout = global::MonoTestSolution.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Style.Widget_Design_TextInputLayout = global::MonoTestSolution.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_background = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_backgroundSplit = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_backgroundStacked = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetRight = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetStart = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_displayOptions = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_divider = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_divider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_elevation = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_height = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_homeLayout = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_icon = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_itemPadding = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_logo = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_logo;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_navigationMode = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_popupTheme = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_progressBarPadding = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_progressBarStyle = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_subtitle = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_title = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBar_titleTextStyle = global::MonoTestSolution.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBarLayout = global::MonoTestSolution.Droid.Resource.Styleable.ActionBarLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::MonoTestSolution.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMenuItemView = global::MonoTestSolution.Droid.Resource.Styleable.ActionMenuItemView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::MonoTestSolution.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMenuView = global::MonoTestSolution.Droid.Resource.Styleable.ActionMenuView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMode = global::MonoTestSolution.Droid.Resource.Styleable.ActionMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMode_background = global::MonoTestSolution.Droid.Resource.Styleable.ActionMode_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMode_backgroundSplit = global::MonoTestSolution.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMode_closeItemLayout = global::MonoTestSolution.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMode_height = global::MonoTestSolution.Droid.Resource.Styleable.ActionMode_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::MonoTestSolution.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActionMode_titleTextStyle = global::MonoTestSolution.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActivityChooserView = global::MonoTestSolution.Droid.Resource.Styleable.ActivityChooserView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::MonoTestSolution.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::MonoTestSolution.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AlertDialog = global::MonoTestSolution.Droid.Resource.Styleable.AlertDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AlertDialog_android_layout = global::MonoTestSolution.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::MonoTestSolution.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AlertDialog_listItemLayout = global::MonoTestSolution.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AlertDialog_listLayout = global::MonoTestSolution.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::MonoTestSolution.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AlertDialog_showTitle = global::MonoTestSolution.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::MonoTestSolution.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayout = global::MonoTestSolution.Droid.Resource.Styleable.AppBarLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_android_background = global::MonoTestSolution.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_elevation = global::MonoTestSolution.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_expanded = global::MonoTestSolution.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayoutStates = global::MonoTestSolution.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::MonoTestSolution.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::MonoTestSolution.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_Layout = global::MonoTestSolution.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::MonoTestSolution.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::MonoTestSolution.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatImageView = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatImageView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatImageView_android_src = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatImageView_tint = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatImageView_tintMode = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatSeekBar = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextView = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTextView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MonoTestSolution.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.BottomNavigationView = global::MonoTestSolution.Droid.Resource.Styleable.BottomNavigationView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::MonoTestSolution.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::MonoTestSolution.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::MonoTestSolution.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::MonoTestSolution.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ButtonBarLayout = global::MonoTestSolution.Droid.Resource.Styleable.ButtonBarLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::MonoTestSolution.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView = global::MonoTestSolution.Droid.Resource.Styleable.CardView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_android_minHeight = global::MonoTestSolution.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_android_minWidth = global::MonoTestSolution.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_cardBackgroundColor = global::MonoTestSolution.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_cardCornerRadius = global::MonoTestSolution.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_cardElevation = global::MonoTestSolution.Droid.Resource.Styleable.CardView_cardElevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_cardMaxElevation = global::MonoTestSolution.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::MonoTestSolution.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::MonoTestSolution.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_contentPadding = global::MonoTestSolution.Droid.Resource.Styleable.CardView_contentPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_contentPaddingBottom = global::MonoTestSolution.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_contentPaddingLeft = global::MonoTestSolution.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_contentPaddingRight = global::MonoTestSolution.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CardView_contentPaddingTop = global::MonoTestSolution.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::MonoTestSolution.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ColorStateListItem = global::MonoTestSolution.Droid.Resource.Styleable.ColorStateListItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ColorStateListItem_alpha = global::MonoTestSolution.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::MonoTestSolution.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ColorStateListItem_android_color = global::MonoTestSolution.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CompoundButton = global::MonoTestSolution.Droid.Resource.Styleable.CompoundButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CompoundButton_android_button = global::MonoTestSolution.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CompoundButton_buttonTint = global::MonoTestSolution.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::MonoTestSolution.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout = global::MonoTestSolution.Droid.Resource.Styleable.CoordinatorLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_keylines = global::MonoTestSolution.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MonoTestSolution.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout = global::MonoTestSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::MonoTestSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::MonoTestSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::MonoTestSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::MonoTestSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::MonoTestSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::MonoTestSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::MonoTestSolution.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle = global::MonoTestSolution.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::MonoTestSolution.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::MonoTestSolution.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::MonoTestSolution.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_color = global::MonoTestSolution.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::MonoTestSolution.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::MonoTestSolution.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::MonoTestSolution.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::MonoTestSolution.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton = global::MonoTestSolution.Droid.Resource.Styleable.FloatingActionButton;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::MonoTestSolution.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::MonoTestSolution.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::MonoTestSolution.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_elevation = global::MonoTestSolution.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_fabSize = global::MonoTestSolution.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::MonoTestSolution.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::MonoTestSolution.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::MonoTestSolution.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::MonoTestSolution.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::MonoTestSolution.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ForegroundLinearLayout = global::MonoTestSolution.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::MonoTestSolution.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::MonoTestSolution.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::MonoTestSolution.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat = global::MonoTestSolution.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::MonoTestSolution.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::MonoTestSolution.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::MonoTestSolution.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::MonoTestSolution.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::MonoTestSolution.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_divider = global::MonoTestSolution.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::MonoTestSolution.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::MonoTestSolution.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::MonoTestSolution.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::MonoTestSolution.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::MonoTestSolution.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::MonoTestSolution.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::MonoTestSolution.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::MonoTestSolution.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ListPopupWindow = global::MonoTestSolution.Droid.Resource.Styleable.ListPopupWindow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::MonoTestSolution.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::MonoTestSolution.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuGroup = global::MonoTestSolution.Droid.Resource.Styleable.MenuGroup;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::MonoTestSolution.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_enabled = global::MonoTestSolution.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_id = global::MonoTestSolution.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::MonoTestSolution.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::MonoTestSolution.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuGroup_android_visible = global::MonoTestSolution.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_actionLayout = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_actionProviderClass = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_actionViewClass = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_checkable = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_checked = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_enabled = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_icon = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_id = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_android_id;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_menuCategory = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_onClick = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_title = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_android_title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_android_visible = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuItem_showAsAction = global::MonoTestSolution.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView = global::MonoTestSolution.Droid.Resource.Styleable.MenuView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_android_headerBackground = global::MonoTestSolution.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::MonoTestSolution.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_android_itemBackground = global::MonoTestSolution.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::MonoTestSolution.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::MonoTestSolution.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_android_verticalDivider = global::MonoTestSolution.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::MonoTestSolution.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::MonoTestSolution.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.MenuView_subMenuArrow = global::MonoTestSolution.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView = global::MonoTestSolution.Droid.Resource.Styleable.NavigationView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_android_background = global::MonoTestSolution.Droid.Resource.Styleable.NavigationView_android_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::MonoTestSolution.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_android_maxWidth = global::MonoTestSolution.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_elevation = global::MonoTestSolution.Droid.Resource.Styleable.NavigationView_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_headerLayout = global::MonoTestSolution.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_itemBackground = global::MonoTestSolution.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_itemIconTint = global::MonoTestSolution.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::MonoTestSolution.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_itemTextColor = global::MonoTestSolution.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.NavigationView_menu = global::MonoTestSolution.Droid.Resource.Styleable.NavigationView_menu;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.PopupWindow = global::MonoTestSolution.Droid.Resource.Styleable.PopupWindow;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::MonoTestSolution.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::MonoTestSolution.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::MonoTestSolution.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.PopupWindowBackgroundState = global::MonoTestSolution.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::MonoTestSolution.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecycleListView = global::MonoTestSolution.Droid.Resource.Styleable.RecycleListView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::MonoTestSolution.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::MonoTestSolution.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecyclerView = global::MonoTestSolution.Droid.Resource.Styleable.RecyclerView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::MonoTestSolution.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecyclerView_android_orientation = global::MonoTestSolution.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecyclerView_layoutManager = global::MonoTestSolution.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecyclerView_reverseLayout = global::MonoTestSolution.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecyclerView_spanCount = global::MonoTestSolution.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::MonoTestSolution.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::MonoTestSolution.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::MonoTestSolution.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::MonoTestSolution.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::MonoTestSolution.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView = global::MonoTestSolution.Droid.Resource.Styleable.SearchView;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_android_focusable = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_android_imeOptions = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_android_inputType = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_android_maxWidth = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_closeIcon = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_commitIcon = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_defaultQueryHint = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_goIcon = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_goIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_layout = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_queryBackground = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_queryHint = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_queryHint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_searchHintIcon = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_searchIcon = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_submitBackground = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SearchView_voiceIcon = global::MonoTestSolution.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SnackbarLayout = global::MonoTestSolution.Droid.Resource.Styleable.SnackbarLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::MonoTestSolution.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SnackbarLayout_elevation = global::MonoTestSolution.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::MonoTestSolution.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Spinner = global::MonoTestSolution.Droid.Resource.Styleable.Spinner;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::MonoTestSolution.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Spinner_android_entries = global::MonoTestSolution.Droid.Resource.Styleable.Spinner_android_entries;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Spinner_android_popupBackground = global::MonoTestSolution.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Spinner_android_prompt = global::MonoTestSolution.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Spinner_popupTheme = global::MonoTestSolution.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat = global::MonoTestSolution.Droid.Resource.Styleable.SwitchCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_android_textOff = global::MonoTestSolution.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_android_textOn = global::MonoTestSolution.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_android_thumb = global::MonoTestSolution.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_showText = global::MonoTestSolution.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_splitTrack = global::MonoTestSolution.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::MonoTestSolution.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_switchPadding = global::MonoTestSolution.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::MonoTestSolution.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::MonoTestSolution.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_thumbTint = global::MonoTestSolution.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::MonoTestSolution.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_track = global::MonoTestSolution.Droid.Resource.Styleable.SwitchCompat_track;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_trackTint = global::MonoTestSolution.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::MonoTestSolution.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabItem = global::MonoTestSolution.Droid.Resource.Styleable.TabItem;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabItem_android_icon = global::MonoTestSolution.Droid.Resource.Styleable.TabItem_android_icon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabItem_android_layout = global::MonoTestSolution.Droid.Resource.Styleable.TabItem_android_layout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabItem_android_text = global::MonoTestSolution.Droid.Resource.Styleable.TabItem_android_text;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabBackground = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabContentStart = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabGravity = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabMinWidth = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabMode = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabPadding = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TabLayout_tabTextColor = global::MonoTestSolution.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance = global::MonoTestSolution.Droid.Resource.Styleable.TextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::MonoTestSolution.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::MonoTestSolution.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::MonoTestSolution.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::MonoTestSolution.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_textColor = global::MonoTestSolution.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::MonoTestSolution.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_textSize = global::MonoTestSolution.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_textStyle = global::MonoTestSolution.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_android_typeface = global::MonoTestSolution.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextAppearance_textAllCaps = global::MonoTestSolution.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_android_hint = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::MonoTestSolution.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_android_gravity = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_android_minHeight = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_buttonGravity = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_collapseIcon = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetRight = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetStart = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_logo = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_logo;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_logoDescription = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_navigationIcon = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_popupTheme = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_subtitle = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_title = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_title;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMargin = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMarginStart = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMarginTop = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleMargins = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.Toolbar_titleTextColor = global::MonoTestSolution.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.View = global::MonoTestSolution.Droid.Resource.Styleable.View;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.View_android_focusable = global::MonoTestSolution.Droid.Resource.Styleable.View_android_focusable;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.View_android_theme = global::MonoTestSolution.Droid.Resource.Styleable.View_android_theme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.View_paddingEnd = global::MonoTestSolution.Droid.Resource.Styleable.View_paddingEnd;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.View_paddingStart = global::MonoTestSolution.Droid.Resource.Styleable.View_paddingStart;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.View_theme = global::MonoTestSolution.Droid.Resource.Styleable.View_theme;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewBackgroundHelper = global::MonoTestSolution.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::MonoTestSolution.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::MonoTestSolution.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::MonoTestSolution.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat = global::MonoTestSolution.Droid.Resource.Styleable.ViewStubCompat;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat_android_id = global::MonoTestSolution.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MonoTestSolution.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::ProgressRingControl.Forms.Plugin.Android.Resource.Styleable.ViewStubCompat_android_layout = global::MonoTestSolution.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::MonoTestSolution.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::MonoTestSolution.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::MonoTestSolution.Droid.Resource.Attribute.fontProviderAuthority;
@@ -14904,34 +16679,37 @@ namespace MonoTestSolution.Droid
 			public const int secondary_text_disabled_material_light = 2131034317;
 			
 			// aapt resource value: 0x7F0500CE
-			public const int switch_thumb_disabled_material_dark = 2131034318;
+			public const int splash_background = 2131034318;
 			
 			// aapt resource value: 0x7F0500CF
-			public const int switch_thumb_disabled_material_light = 2131034319;
+			public const int switch_thumb_disabled_material_dark = 2131034319;
 			
 			// aapt resource value: 0x7F0500D0
-			public const int switch_thumb_material_dark = 2131034320;
+			public const int switch_thumb_disabled_material_light = 2131034320;
 			
 			// aapt resource value: 0x7F0500D1
-			public const int switch_thumb_material_light = 2131034321;
+			public const int switch_thumb_material_dark = 2131034321;
 			
 			// aapt resource value: 0x7F0500D2
-			public const int switch_thumb_normal_material_dark = 2131034322;
+			public const int switch_thumb_material_light = 2131034322;
 			
 			// aapt resource value: 0x7F0500D3
-			public const int switch_thumb_normal_material_light = 2131034323;
+			public const int switch_thumb_normal_material_dark = 2131034323;
 			
 			// aapt resource value: 0x7F0500D4
-			public const int test_mtrl_calendar_day = 2131034324;
+			public const int switch_thumb_normal_material_light = 2131034324;
 			
 			// aapt resource value: 0x7F0500D5
-			public const int test_mtrl_calendar_day_selected = 2131034325;
+			public const int test_mtrl_calendar_day = 2131034325;
 			
 			// aapt resource value: 0x7F0500D6
-			public const int tooltip_background_dark = 2131034326;
+			public const int test_mtrl_calendar_day_selected = 2131034326;
 			
 			// aapt resource value: 0x7F0500D7
-			public const int tooltip_background_light = 2131034327;
+			public const int tooltip_background_dark = 2131034327;
+			
+			// aapt resource value: 0x7F0500D8
+			public const int tooltip_background_light = 2131034328;
 			
 			static Color()
 			{
@@ -16655,13 +18433,19 @@ namespace MonoTestSolution.Droid
 			public const int preference_list_divider_material = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int test_custom_background = 2131165325;
+			public const int splash = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int tooltip_frame_dark = 2131165326;
+			public const int splash_logo = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int tooltip_frame_light = 2131165327;
+			public const int test_custom_background = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int tooltip_frame_dark = 2131165328;
+			
+			// aapt resource value: 0x7F070091
+			public const int tooltip_frame_light = 2131165329;
 			
 			static Drawable()
 			{
@@ -18714,58 +20498,61 @@ namespace MonoTestSolution.Droid
 			public const int ShellContent = 2131427458;
 			
 			// aapt resource value: 0x7F0B0083
-			public const int support_simple_spinner_dropdown_item = 2131427459;
+			public const int splash = 2131427459;
 			
 			// aapt resource value: 0x7F0B0084
-			public const int Tabbar = 2131427460;
+			public const int support_simple_spinner_dropdown_item = 2131427460;
 			
 			// aapt resource value: 0x7F0B0085
-			public const int test_action_chip = 2131427461;
+			public const int Tabbar = 2131427461;
 			
 			// aapt resource value: 0x7F0B0086
-			public const int test_chip_zero_corner_radius = 2131427462;
+			public const int test_action_chip = 2131427462;
 			
 			// aapt resource value: 0x7F0B0087
-			public const int test_design_checkbox = 2131427463;
+			public const int test_chip_zero_corner_radius = 2131427463;
 			
 			// aapt resource value: 0x7F0B0088
-			public const int test_design_radiobutton = 2131427464;
+			public const int test_design_checkbox = 2131427464;
 			
 			// aapt resource value: 0x7F0B0089
-			public const int test_navigation_bar_item_layout = 2131427465;
+			public const int test_design_radiobutton = 2131427465;
 			
 			// aapt resource value: 0x7F0B008A
-			public const int test_reflow_chipgroup = 2131427466;
+			public const int test_navigation_bar_item_layout = 2131427466;
 			
 			// aapt resource value: 0x7F0B008B
-			public const int test_toolbar = 2131427467;
+			public const int test_reflow_chipgroup = 2131427467;
 			
 			// aapt resource value: 0x7F0B008C
-			public const int test_toolbar_custom_background = 2131427468;
+			public const int test_toolbar = 2131427468;
 			
 			// aapt resource value: 0x7F0B008D
-			public const int test_toolbar_elevation = 2131427469;
+			public const int test_toolbar_custom_background = 2131427469;
 			
 			// aapt resource value: 0x7F0B008E
-			public const int test_toolbar_surface = 2131427470;
-			
-			// aapt resource value: 0x7F0B0093
-			public const int text_view_without_line_height = 2131427475;
+			public const int test_toolbar_elevation = 2131427470;
 			
 			// aapt resource value: 0x7F0B008F
-			public const int text_view_with_line_height_from_appearance = 2131427471;
-			
-			// aapt resource value: 0x7F0B0090
-			public const int text_view_with_line_height_from_layout = 2131427472;
-			
-			// aapt resource value: 0x7F0B0091
-			public const int text_view_with_line_height_from_style = 2131427473;
-			
-			// aapt resource value: 0x7F0B0092
-			public const int text_view_with_theme_line_height = 2131427474;
+			public const int test_toolbar_surface = 2131427471;
 			
 			// aapt resource value: 0x7F0B0094
-			public const int Toolbar = 2131427476;
+			public const int text_view_without_line_height = 2131427476;
+			
+			// aapt resource value: 0x7F0B0090
+			public const int text_view_with_line_height_from_appearance = 2131427472;
+			
+			// aapt resource value: 0x7F0B0091
+			public const int text_view_with_line_height_from_layout = 2131427473;
+			
+			// aapt resource value: 0x7F0B0092
+			public const int text_view_with_line_height_from_style = 2131427474;
+			
+			// aapt resource value: 0x7F0B0093
+			public const int text_view_with_theme_line_height = 2131427475;
+			
+			// aapt resource value: 0x7F0B0095
+			public const int Toolbar = 2131427477;
 			
 			static Layout()
 			{
@@ -18963,214 +20750,217 @@ namespace MonoTestSolution.Droid
 			public const int item_view_role_description = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int material_clock_display_divider = 2131623984;
+			public const int library_name = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int material_clock_toggle_content_description = 2131623985;
+			public const int material_clock_display_divider = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int material_hour_selection = 2131623986;
+			public const int material_clock_toggle_content_description = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int material_hour_suffix = 2131623987;
+			public const int material_hour_selection = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int material_minute_selection = 2131623988;
+			public const int material_hour_suffix = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int material_minute_suffix = 2131623989;
+			public const int material_minute_selection = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int material_motion_easing_accelerated = 2131623990;
+			public const int material_minute_suffix = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int material_motion_easing_decelerated = 2131623991;
+			public const int material_motion_easing_accelerated = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int material_motion_easing_emphasized = 2131623992;
+			public const int material_motion_easing_decelerated = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int material_motion_easing_linear = 2131623993;
+			public const int material_motion_easing_emphasized = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int material_motion_easing_standard = 2131623994;
+			public const int material_motion_easing_linear = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int material_slider_range_end = 2131623995;
+			public const int material_motion_easing_standard = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int material_slider_range_start = 2131623996;
+			public const int material_slider_range_end = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int material_timepicker_am = 2131623997;
+			public const int material_slider_range_start = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int material_timepicker_clock_mode_description = 2131623998;
+			public const int material_timepicker_am = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int material_timepicker_hour = 2131623999;
+			public const int material_timepicker_clock_mode_description = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int material_timepicker_minute = 2131624000;
+			public const int material_timepicker_hour = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int material_timepicker_pm = 2131624001;
+			public const int material_timepicker_minute = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int material_timepicker_select_time = 2131624002;
+			public const int material_timepicker_pm = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int material_timepicker_text_input_mode_description = 2131624003;
+			public const int material_timepicker_select_time = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int mtrl_badge_numberless_content_description = 2131624004;
+			public const int material_timepicker_text_input_mode_description = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int mtrl_chip_close_icon_content_description = 2131624005;
+			public const int mtrl_badge_numberless_content_description = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int mtrl_exceed_max_badge_number_content_description = 2131624006;
+			public const int mtrl_chip_close_icon_content_description = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int mtrl_exceed_max_badge_number_suffix = 2131624007;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int mtrl_picker_a11y_next_month = 2131624008;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_a11y_prev_month = 2131624009;
+			public const int mtrl_picker_a11y_next_month = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_announce_current_selection = 2131624010;
+			public const int mtrl_picker_a11y_prev_month = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_cancel = 2131624011;
+			public const int mtrl_picker_announce_current_selection = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_confirm = 2131624012;
+			public const int mtrl_picker_cancel = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_date_header_selected = 2131624013;
+			public const int mtrl_picker_confirm = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_date_header_title = 2131624014;
+			public const int mtrl_picker_date_header_selected = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_date_header_unselected = 2131624015;
+			public const int mtrl_picker_date_header_title = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_day_of_week_column_header = 2131624016;
+			public const int mtrl_picker_date_header_unselected = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_invalid_format = 2131624017;
+			public const int mtrl_picker_day_of_week_column_header = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int mtrl_picker_invalid_format_example = 2131624018;
+			public const int mtrl_picker_invalid_format = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int mtrl_picker_invalid_format_use = 2131624019;
+			public const int mtrl_picker_invalid_format_example = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int mtrl_picker_invalid_range = 2131624020;
+			public const int mtrl_picker_invalid_format_use = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int mtrl_picker_navigate_to_year_description = 2131624021;
+			public const int mtrl_picker_invalid_range = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int mtrl_picker_out_of_range = 2131624022;
+			public const int mtrl_picker_navigate_to_year_description = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int mtrl_picker_range_header_only_end_selected = 2131624023;
+			public const int mtrl_picker_out_of_range = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int mtrl_picker_range_header_only_start_selected = 2131624024;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int mtrl_picker_range_header_selected = 2131624025;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int mtrl_picker_range_header_title = 2131624026;
+			public const int mtrl_picker_range_header_selected = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int mtrl_picker_range_header_unselected = 2131624027;
+			public const int mtrl_picker_range_header_title = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int mtrl_picker_save = 2131624028;
+			public const int mtrl_picker_range_header_unselected = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int mtrl_picker_text_input_date_hint = 2131624029;
+			public const int mtrl_picker_save = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624030;
+			public const int mtrl_picker_text_input_date_hint = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624031;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int mtrl_picker_text_input_day_abbr = 2131624032;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int mtrl_picker_text_input_month_abbr = 2131624033;
+			public const int mtrl_picker_text_input_day_abbr = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int mtrl_picker_text_input_year_abbr = 2131624034;
+			public const int mtrl_picker_text_input_month_abbr = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624035;
+			public const int mtrl_picker_text_input_year_abbr = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int mtrl_picker_toggle_to_day_selection = 2131624036;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624037;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int mtrl_picker_toggle_to_year_selection = 2131624038;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int nav_app_bar_navigate_up_description = 2131624039;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int nav_app_bar_open_drawer_description = 2131624040;
+			public const int nav_app_bar_navigate_up_description = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int not_set = 2131624041;
+			public const int nav_app_bar_open_drawer_description = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int overflow_tab_title = 2131624042;
+			public const int not_set = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int password_toggle_content_description = 2131624043;
+			public const int overflow_tab_title = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int path_password_eye = 2131624044;
+			public const int password_toggle_content_description = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int path_password_eye_mask_strike_through = 2131624045;
+			public const int path_password_eye = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int path_password_eye_mask_visible = 2131624046;
+			public const int path_password_eye_mask_strike_through = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int path_password_strike_through = 2131624047;
+			public const int path_password_eye_mask_visible = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int preference_copied = 2131624048;
+			public const int path_password_strike_through = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int search_menu_title = 2131624049;
+			public const int preference_copied = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int status_bar_notification_info_overflow = 2131624050;
+			public const int search_menu_title = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int summary_collapsed_preference_list = 2131624051;
+			public const int status_bar_notification_info_overflow = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int v7_preference_off = 2131624052;
+			public const int summary_collapsed_preference_list = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int v7_preference_on = 2131624053;
+			public const int v7_preference_off = 2131624053;
+			
+			// aapt resource value: 0x7F0E0076
+			public const int v7_preference_on = 2131624054;
 			
 			static String()
 			{
@@ -19881,8 +21671,8 @@ namespace MonoTestSolution.Droid
 			// aapt resource value: 0x7F0F00E7
 			public const int CardView_Light = 2131689703;
 			
-			// aapt resource value: 0x7F0F02F8
-			public const int collectionViewTheme = 2131690232;
+			// aapt resource value: 0x7F0F02F9
+			public const int collectionViewTheme = 2131690233;
 			
 			// aapt resource value: 0x7F0F00E8
 			public const int EmptyTheme = 2131689704;
@@ -19894,1585 +21684,1588 @@ namespace MonoTestSolution.Droid
 			public const int MainTheme_Base = 2131689706;
 			
 			// aapt resource value: 0x7F0F00EB
-			public const int MaterialAlertDialog_MaterialComponents = 2131689707;
+			public const int MainTheme_Splash = 2131689707;
 			
 			// aapt resource value: 0x7F0F00EC
-			public const int MaterialAlertDialog_MaterialComponents_Body_Text = 2131689708;
+			public const int MaterialAlertDialog_MaterialComponents = 2131689708;
 			
 			// aapt resource value: 0x7F0F00ED
-			public const int MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = 2131689709;
+			public const int MaterialAlertDialog_MaterialComponents_Body_Text = 2131689709;
 			
 			// aapt resource value: 0x7F0F00EE
-			public const int MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = 2131689710;
+			public const int MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = 2131689710;
 			
 			// aapt resource value: 0x7F0F00EF
-			public const int MaterialAlertDialog_MaterialComponents_Title_Icon = 2131689711;
+			public const int MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = 2131689711;
 			
 			// aapt resource value: 0x7F0F00F0
-			public const int MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = 2131689712;
+			public const int MaterialAlertDialog_MaterialComponents_Title_Icon = 2131689712;
 			
 			// aapt resource value: 0x7F0F00F1
-			public const int MaterialAlertDialog_MaterialComponents_Title_Panel = 2131689713;
+			public const int MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = 2131689713;
 			
 			// aapt resource value: 0x7F0F00F2
-			public const int MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = 2131689714;
+			public const int MaterialAlertDialog_MaterialComponents_Title_Panel = 2131689714;
 			
 			// aapt resource value: 0x7F0F00F3
-			public const int MaterialAlertDialog_MaterialComponents_Title_Text = 2131689715;
+			public const int MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = 2131689715;
 			
 			// aapt resource value: 0x7F0F00F4
-			public const int MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = 2131689716;
+			public const int MaterialAlertDialog_MaterialComponents_Title_Text = 2131689716;
 			
 			// aapt resource value: 0x7F0F00F5
-			public const int Platform_AppCompat = 2131689717;
+			public const int MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = 2131689717;
 			
 			// aapt resource value: 0x7F0F00F6
-			public const int Platform_AppCompat_Light = 2131689718;
+			public const int Platform_AppCompat = 2131689718;
 			
 			// aapt resource value: 0x7F0F00F7
-			public const int Platform_MaterialComponents = 2131689719;
+			public const int Platform_AppCompat_Light = 2131689719;
 			
 			// aapt resource value: 0x7F0F00F8
-			public const int Platform_MaterialComponents_Dialog = 2131689720;
+			public const int Platform_MaterialComponents = 2131689720;
 			
 			// aapt resource value: 0x7F0F00F9
-			public const int Platform_MaterialComponents_Light = 2131689721;
+			public const int Platform_MaterialComponents_Dialog = 2131689721;
 			
 			// aapt resource value: 0x7F0F00FA
-			public const int Platform_MaterialComponents_Light_Dialog = 2131689722;
+			public const int Platform_MaterialComponents_Light = 2131689722;
 			
 			// aapt resource value: 0x7F0F00FB
-			public const int Platform_ThemeOverlay_AppCompat = 2131689723;
+			public const int Platform_MaterialComponents_Light_Dialog = 2131689723;
 			
 			// aapt resource value: 0x7F0F00FC
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131689724;
+			public const int Platform_ThemeOverlay_AppCompat = 2131689724;
 			
 			// aapt resource value: 0x7F0F00FD
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131689725;
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131689725;
 			
 			// aapt resource value: 0x7F0F00FE
-			public const int Platform_V21_AppCompat = 2131689726;
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131689726;
 			
 			// aapt resource value: 0x7F0F00FF
-			public const int Platform_V21_AppCompat_Light = 2131689727;
+			public const int Platform_V21_AppCompat = 2131689727;
 			
 			// aapt resource value: 0x7F0F0100
-			public const int Platform_V25_AppCompat = 2131689728;
+			public const int Platform_V21_AppCompat_Light = 2131689728;
 			
 			// aapt resource value: 0x7F0F0101
-			public const int Platform_V25_AppCompat_Light = 2131689729;
+			public const int Platform_V25_AppCompat = 2131689729;
 			
 			// aapt resource value: 0x7F0F0102
-			public const int Platform_Widget_AppCompat_Spinner = 2131689730;
+			public const int Platform_V25_AppCompat_Light = 2131689730;
 			
 			// aapt resource value: 0x7F0F0103
-			public const int Preference = 2131689731;
-			
-			// aapt resource value: 0x7F0F0119
-			public const int PreferenceCategoryTitleTextStyle = 2131689753;
-			
-			// aapt resource value: 0x7F0F011A
-			public const int PreferenceFragment = 2131689754;
-			
-			// aapt resource value: 0x7F0F011C
-			public const int PreferenceFragmentList = 2131689756;
-			
-			// aapt resource value: 0x7F0F011D
-			public const int PreferenceFragmentList_Material = 2131689757;
-			
-			// aapt resource value: 0x7F0F011B
-			public const int PreferenceFragment_Material = 2131689755;
-			
-			// aapt resource value: 0x7F0F011E
-			public const int PreferenceSummaryTextStyle = 2131689758;
-			
-			// aapt resource value: 0x7F0F011F
-			public const int PreferenceThemeOverlay = 2131689759;
-			
-			// aapt resource value: 0x7F0F0120
-			public const int PreferenceThemeOverlay_v14 = 2131689760;
-			
-			// aapt resource value: 0x7F0F0121
-			public const int PreferenceThemeOverlay_v14_Material = 2131689761;
+			public const int Platform_Widget_AppCompat_Spinner = 2131689731;
 			
 			// aapt resource value: 0x7F0F0104
-			public const int Preference_Category = 2131689732;
+			public const int Preference = 2131689732;
 			
-			// aapt resource value: 0x7F0F0105
-			public const int Preference_Category_Material = 2131689733;
+			// aapt resource value: 0x7F0F011A
+			public const int PreferenceCategoryTitleTextStyle = 2131689754;
 			
-			// aapt resource value: 0x7F0F0106
-			public const int Preference_CheckBoxPreference = 2131689734;
+			// aapt resource value: 0x7F0F011B
+			public const int PreferenceFragment = 2131689755;
 			
-			// aapt resource value: 0x7F0F0107
-			public const int Preference_CheckBoxPreference_Material = 2131689735;
+			// aapt resource value: 0x7F0F011D
+			public const int PreferenceFragmentList = 2131689757;
 			
-			// aapt resource value: 0x7F0F0108
-			public const int Preference_DialogPreference = 2131689736;
+			// aapt resource value: 0x7F0F011E
+			public const int PreferenceFragmentList_Material = 2131689758;
 			
-			// aapt resource value: 0x7F0F0109
-			public const int Preference_DialogPreference_EditTextPreference = 2131689737;
+			// aapt resource value: 0x7F0F011C
+			public const int PreferenceFragment_Material = 2131689756;
 			
-			// aapt resource value: 0x7F0F010A
-			public const int Preference_DialogPreference_EditTextPreference_Material = 2131689738;
+			// aapt resource value: 0x7F0F011F
+			public const int PreferenceSummaryTextStyle = 2131689759;
 			
-			// aapt resource value: 0x7F0F010B
-			public const int Preference_DialogPreference_Material = 2131689739;
+			// aapt resource value: 0x7F0F0120
+			public const int PreferenceThemeOverlay = 2131689760;
 			
-			// aapt resource value: 0x7F0F010C
-			public const int Preference_DropDown = 2131689740;
-			
-			// aapt resource value: 0x7F0F010D
-			public const int Preference_DropDown_Material = 2131689741;
-			
-			// aapt resource value: 0x7F0F010E
-			public const int Preference_Information = 2131689742;
-			
-			// aapt resource value: 0x7F0F010F
-			public const int Preference_Information_Material = 2131689743;
-			
-			// aapt resource value: 0x7F0F0110
-			public const int Preference_Material = 2131689744;
-			
-			// aapt resource value: 0x7F0F0111
-			public const int Preference_PreferenceScreen = 2131689745;
-			
-			// aapt resource value: 0x7F0F0112
-			public const int Preference_PreferenceScreen_Material = 2131689746;
-			
-			// aapt resource value: 0x7F0F0113
-			public const int Preference_SeekBarPreference = 2131689747;
-			
-			// aapt resource value: 0x7F0F0114
-			public const int Preference_SeekBarPreference_Material = 2131689748;
-			
-			// aapt resource value: 0x7F0F0115
-			public const int Preference_SwitchPreference = 2131689749;
-			
-			// aapt resource value: 0x7F0F0117
-			public const int Preference_SwitchPreferenceCompat = 2131689751;
-			
-			// aapt resource value: 0x7F0F0118
-			public const int Preference_SwitchPreferenceCompat_Material = 2131689752;
-			
-			// aapt resource value: 0x7F0F0116
-			public const int Preference_SwitchPreference_Material = 2131689750;
+			// aapt resource value: 0x7F0F0121
+			public const int PreferenceThemeOverlay_v14 = 2131689761;
 			
 			// aapt resource value: 0x7F0F0122
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131689762;
+			public const int PreferenceThemeOverlay_v14_Material = 2131689762;
+			
+			// aapt resource value: 0x7F0F0105
+			public const int Preference_Category = 2131689733;
+			
+			// aapt resource value: 0x7F0F0106
+			public const int Preference_Category_Material = 2131689734;
+			
+			// aapt resource value: 0x7F0F0107
+			public const int Preference_CheckBoxPreference = 2131689735;
+			
+			// aapt resource value: 0x7F0F0108
+			public const int Preference_CheckBoxPreference_Material = 2131689736;
+			
+			// aapt resource value: 0x7F0F0109
+			public const int Preference_DialogPreference = 2131689737;
+			
+			// aapt resource value: 0x7F0F010A
+			public const int Preference_DialogPreference_EditTextPreference = 2131689738;
+			
+			// aapt resource value: 0x7F0F010B
+			public const int Preference_DialogPreference_EditTextPreference_Material = 2131689739;
+			
+			// aapt resource value: 0x7F0F010C
+			public const int Preference_DialogPreference_Material = 2131689740;
+			
+			// aapt resource value: 0x7F0F010D
+			public const int Preference_DropDown = 2131689741;
+			
+			// aapt resource value: 0x7F0F010E
+			public const int Preference_DropDown_Material = 2131689742;
+			
+			// aapt resource value: 0x7F0F010F
+			public const int Preference_Information = 2131689743;
+			
+			// aapt resource value: 0x7F0F0110
+			public const int Preference_Information_Material = 2131689744;
+			
+			// aapt resource value: 0x7F0F0111
+			public const int Preference_Material = 2131689745;
+			
+			// aapt resource value: 0x7F0F0112
+			public const int Preference_PreferenceScreen = 2131689746;
+			
+			// aapt resource value: 0x7F0F0113
+			public const int Preference_PreferenceScreen_Material = 2131689747;
+			
+			// aapt resource value: 0x7F0F0114
+			public const int Preference_SeekBarPreference = 2131689748;
+			
+			// aapt resource value: 0x7F0F0115
+			public const int Preference_SeekBarPreference_Material = 2131689749;
+			
+			// aapt resource value: 0x7F0F0116
+			public const int Preference_SwitchPreference = 2131689750;
+			
+			// aapt resource value: 0x7F0F0118
+			public const int Preference_SwitchPreferenceCompat = 2131689752;
+			
+			// aapt resource value: 0x7F0F0119
+			public const int Preference_SwitchPreferenceCompat_Material = 2131689753;
+			
+			// aapt resource value: 0x7F0F0117
+			public const int Preference_SwitchPreference_Material = 2131689751;
 			
 			// aapt resource value: 0x7F0F0123
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131689763;
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131689763;
 			
 			// aapt resource value: 0x7F0F0124
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131689764;
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131689764;
 			
 			// aapt resource value: 0x7F0F0125
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131689765;
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131689765;
 			
 			// aapt resource value: 0x7F0F0126
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131689766;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131689766;
 			
 			// aapt resource value: 0x7F0F0127
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131689767;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131689767;
 			
 			// aapt resource value: 0x7F0F0128
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131689768;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131689768;
 			
 			// aapt resource value: 0x7F0F0129
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131689769;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131689769;
 			
 			// aapt resource value: 0x7F0F012A
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131689770;
-			
-			// aapt resource value: 0x7F0F0130
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131689776;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131689770;
 			
 			// aapt resource value: 0x7F0F012B
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131689771;
-			
-			// aapt resource value: 0x7F0F012C
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131689772;
-			
-			// aapt resource value: 0x7F0F012D
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131689773;
-			
-			// aapt resource value: 0x7F0F012E
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131689774;
-			
-			// aapt resource value: 0x7F0F012F
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131689775;
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131689771;
 			
 			// aapt resource value: 0x7F0F0131
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131689777;
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131689777;
+			
+			// aapt resource value: 0x7F0F012C
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131689772;
+			
+			// aapt resource value: 0x7F0F012D
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131689773;
+			
+			// aapt resource value: 0x7F0F012E
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131689774;
+			
+			// aapt resource value: 0x7F0F012F
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131689775;
+			
+			// aapt resource value: 0x7F0F0130
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131689776;
 			
 			// aapt resource value: 0x7F0F0132
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131689778;
-			
-			// aapt resource value: 0x7F0F02F9
-			public const int scrollViewScrollBars = 2131690233;
-			
-			// aapt resource value: 0x7F0F02FA
-			public const int scrollViewTheme = 2131690234;
-			
-			// aapt resource value: 0x7F0F0139
-			public const int ShapeAppearanceOverlay = 2131689785;
-			
-			// aapt resource value: 0x7F0F013A
-			public const int ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = 2131689786;
-			
-			// aapt resource value: 0x7F0F013B
-			public const int ShapeAppearanceOverlay_BottomRightCut = 2131689787;
-			
-			// aapt resource value: 0x7F0F013C
-			public const int ShapeAppearanceOverlay_Cut = 2131689788;
-			
-			// aapt resource value: 0x7F0F013D
-			public const int ShapeAppearanceOverlay_DifferentCornerSize = 2131689789;
-			
-			// aapt resource value: 0x7F0F013E
-			public const int ShapeAppearanceOverlay_MaterialComponents_BottomSheet = 2131689790;
-			
-			// aapt resource value: 0x7F0F013F
-			public const int ShapeAppearanceOverlay_MaterialComponents_Chip = 2131689791;
-			
-			// aapt resource value: 0x7F0F0140
-			public const int ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = 2131689792;
-			
-			// aapt resource value: 0x7F0F0141
-			public const int ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = 2131689793;
-			
-			// aapt resource value: 0x7F0F0142
-			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131689794;
-			
-			// aapt resource value: 0x7F0F0143
-			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = 2131689795;
-			
-			// aapt resource value: 0x7F0F0144
-			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = 2131689796;
-			
-			// aapt resource value: 0x7F0F0145
-			public const int ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = 2131689797;
-			
-			// aapt resource value: 0x7F0F0146
-			public const int ShapeAppearanceOverlay_TopLeftCut = 2131689798;
-			
-			// aapt resource value: 0x7F0F0147
-			public const int ShapeAppearanceOverlay_TopRightDifferentCornerSize = 2131689799;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131689778;
 			
 			// aapt resource value: 0x7F0F0133
-			public const int ShapeAppearance_MaterialComponents = 2131689779;
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131689779;
 			
-			// aapt resource value: 0x7F0F0134
-			public const int ShapeAppearance_MaterialComponents_LargeComponent = 2131689780;
+			// aapt resource value: 0x7F0F02FA
+			public const int scrollViewScrollBars = 2131690234;
 			
-			// aapt resource value: 0x7F0F0135
-			public const int ShapeAppearance_MaterialComponents_MediumComponent = 2131689781;
+			// aapt resource value: 0x7F0F02FB
+			public const int scrollViewTheme = 2131690235;
 			
-			// aapt resource value: 0x7F0F0136
-			public const int ShapeAppearance_MaterialComponents_SmallComponent = 2131689782;
+			// aapt resource value: 0x7F0F013A
+			public const int ShapeAppearanceOverlay = 2131689786;
 			
-			// aapt resource value: 0x7F0F0137
-			public const int ShapeAppearance_MaterialComponents_Test = 2131689783;
+			// aapt resource value: 0x7F0F013B
+			public const int ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = 2131689787;
 			
-			// aapt resource value: 0x7F0F0138
-			public const int ShapeAppearance_MaterialComponents_Tooltip = 2131689784;
+			// aapt resource value: 0x7F0F013C
+			public const int ShapeAppearanceOverlay_BottomRightCut = 2131689788;
 			
-			// aapt resource value: 0x7F0F014D
-			public const int TestStyleWithLineHeight = 2131689805;
+			// aapt resource value: 0x7F0F013D
+			public const int ShapeAppearanceOverlay_Cut = 2131689789;
 			
-			// aapt resource value: 0x7F0F014E
-			public const int TestStyleWithLineHeightAppearance = 2131689806;
+			// aapt resource value: 0x7F0F013E
+			public const int ShapeAppearanceOverlay_DifferentCornerSize = 2131689790;
 			
-			// aapt resource value: 0x7F0F0150
-			public const int TestStyleWithoutLineHeight = 2131689808;
+			// aapt resource value: 0x7F0F013F
+			public const int ShapeAppearanceOverlay_MaterialComponents_BottomSheet = 2131689791;
 			
-			// aapt resource value: 0x7F0F014F
-			public const int TestStyleWithThemeLineHeightAttribute = 2131689807;
+			// aapt resource value: 0x7F0F0140
+			public const int ShapeAppearanceOverlay_MaterialComponents_Chip = 2131689792;
 			
-			// aapt resource value: 0x7F0F0151
-			public const int TestThemeWithLineHeight = 2131689809;
+			// aapt resource value: 0x7F0F0141
+			public const int ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = 2131689793;
 			
-			// aapt resource value: 0x7F0F0152
-			public const int TestThemeWithLineHeightDisabled = 2131689810;
+			// aapt resource value: 0x7F0F0142
+			public const int ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = 2131689794;
+			
+			// aapt resource value: 0x7F0F0143
+			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131689795;
+			
+			// aapt resource value: 0x7F0F0144
+			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = 2131689796;
+			
+			// aapt resource value: 0x7F0F0145
+			public const int ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = 2131689797;
+			
+			// aapt resource value: 0x7F0F0146
+			public const int ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = 2131689798;
+			
+			// aapt resource value: 0x7F0F0147
+			public const int ShapeAppearanceOverlay_TopLeftCut = 2131689799;
 			
 			// aapt resource value: 0x7F0F0148
-			public const int Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131689800;
+			public const int ShapeAppearanceOverlay_TopRightDifferentCornerSize = 2131689800;
 			
-			// aapt resource value: 0x7F0F0149
-			public const int Test_Theme_MaterialComponents_MaterialCalendar = 2131689801;
+			// aapt resource value: 0x7F0F0134
+			public const int ShapeAppearance_MaterialComponents = 2131689780;
 			
-			// aapt resource value: 0x7F0F014A
-			public const int Test_Widget_MaterialComponents_MaterialCalendar = 2131689802;
+			// aapt resource value: 0x7F0F0135
+			public const int ShapeAppearance_MaterialComponents_LargeComponent = 2131689781;
 			
-			// aapt resource value: 0x7F0F014B
-			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day = 2131689803;
+			// aapt resource value: 0x7F0F0136
+			public const int ShapeAppearance_MaterialComponents_MediumComponent = 2131689782;
 			
-			// aapt resource value: 0x7F0F014C
-			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131689804;
+			// aapt resource value: 0x7F0F0137
+			public const int ShapeAppearance_MaterialComponents_SmallComponent = 2131689783;
+			
+			// aapt resource value: 0x7F0F0138
+			public const int ShapeAppearance_MaterialComponents_Test = 2131689784;
+			
+			// aapt resource value: 0x7F0F0139
+			public const int ShapeAppearance_MaterialComponents_Tooltip = 2131689785;
+			
+			// aapt resource value: 0x7F0F014E
+			public const int TestStyleWithLineHeight = 2131689806;
+			
+			// aapt resource value: 0x7F0F014F
+			public const int TestStyleWithLineHeightAppearance = 2131689807;
+			
+			// aapt resource value: 0x7F0F0151
+			public const int TestStyleWithoutLineHeight = 2131689809;
+			
+			// aapt resource value: 0x7F0F0150
+			public const int TestStyleWithThemeLineHeightAttribute = 2131689808;
+			
+			// aapt resource value: 0x7F0F0152
+			public const int TestThemeWithLineHeight = 2131689810;
 			
 			// aapt resource value: 0x7F0F0153
-			public const int TextAppearance_AppCompat = 2131689811;
+			public const int TestThemeWithLineHeightDisabled = 2131689811;
+			
+			// aapt resource value: 0x7F0F0149
+			public const int Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = 2131689801;
+			
+			// aapt resource value: 0x7F0F014A
+			public const int Test_Theme_MaterialComponents_MaterialCalendar = 2131689802;
+			
+			// aapt resource value: 0x7F0F014B
+			public const int Test_Widget_MaterialComponents_MaterialCalendar = 2131689803;
+			
+			// aapt resource value: 0x7F0F014C
+			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day = 2131689804;
+			
+			// aapt resource value: 0x7F0F014D
+			public const int Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131689805;
 			
 			// aapt resource value: 0x7F0F0154
-			public const int TextAppearance_AppCompat_Body1 = 2131689812;
+			public const int TextAppearance_AppCompat = 2131689812;
 			
 			// aapt resource value: 0x7F0F0155
-			public const int TextAppearance_AppCompat_Body2 = 2131689813;
+			public const int TextAppearance_AppCompat_Body1 = 2131689813;
 			
 			// aapt resource value: 0x7F0F0156
-			public const int TextAppearance_AppCompat_Button = 2131689814;
+			public const int TextAppearance_AppCompat_Body2 = 2131689814;
 			
 			// aapt resource value: 0x7F0F0157
-			public const int TextAppearance_AppCompat_Caption = 2131689815;
+			public const int TextAppearance_AppCompat_Button = 2131689815;
 			
 			// aapt resource value: 0x7F0F0158
-			public const int TextAppearance_AppCompat_Display1 = 2131689816;
+			public const int TextAppearance_AppCompat_Caption = 2131689816;
 			
 			// aapt resource value: 0x7F0F0159
-			public const int TextAppearance_AppCompat_Display2 = 2131689817;
+			public const int TextAppearance_AppCompat_Display1 = 2131689817;
 			
 			// aapt resource value: 0x7F0F015A
-			public const int TextAppearance_AppCompat_Display3 = 2131689818;
+			public const int TextAppearance_AppCompat_Display2 = 2131689818;
 			
 			// aapt resource value: 0x7F0F015B
-			public const int TextAppearance_AppCompat_Display4 = 2131689819;
+			public const int TextAppearance_AppCompat_Display3 = 2131689819;
 			
 			// aapt resource value: 0x7F0F015C
-			public const int TextAppearance_AppCompat_Headline = 2131689820;
+			public const int TextAppearance_AppCompat_Display4 = 2131689820;
 			
 			// aapt resource value: 0x7F0F015D
-			public const int TextAppearance_AppCompat_Inverse = 2131689821;
+			public const int TextAppearance_AppCompat_Headline = 2131689821;
 			
 			// aapt resource value: 0x7F0F015E
-			public const int TextAppearance_AppCompat_Large = 2131689822;
+			public const int TextAppearance_AppCompat_Inverse = 2131689822;
 			
 			// aapt resource value: 0x7F0F015F
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131689823;
+			public const int TextAppearance_AppCompat_Large = 2131689823;
 			
 			// aapt resource value: 0x7F0F0160
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131689824;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131689824;
 			
 			// aapt resource value: 0x7F0F0161
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131689825;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131689825;
 			
 			// aapt resource value: 0x7F0F0162
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131689826;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131689826;
 			
 			// aapt resource value: 0x7F0F0163
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131689827;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131689827;
 			
 			// aapt resource value: 0x7F0F0164
-			public const int TextAppearance_AppCompat_Medium = 2131689828;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131689828;
 			
 			// aapt resource value: 0x7F0F0165
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131689829;
+			public const int TextAppearance_AppCompat_Medium = 2131689829;
 			
 			// aapt resource value: 0x7F0F0166
-			public const int TextAppearance_AppCompat_Menu = 2131689830;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131689830;
 			
 			// aapt resource value: 0x7F0F0167
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131689831;
+			public const int TextAppearance_AppCompat_Menu = 2131689831;
 			
 			// aapt resource value: 0x7F0F0168
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131689832;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131689832;
 			
 			// aapt resource value: 0x7F0F0169
-			public const int TextAppearance_AppCompat_Small = 2131689833;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131689833;
 			
 			// aapt resource value: 0x7F0F016A
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131689834;
+			public const int TextAppearance_AppCompat_Small = 2131689834;
 			
 			// aapt resource value: 0x7F0F016B
-			public const int TextAppearance_AppCompat_Subhead = 2131689835;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131689835;
 			
 			// aapt resource value: 0x7F0F016C
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131689836;
+			public const int TextAppearance_AppCompat_Subhead = 2131689836;
 			
 			// aapt resource value: 0x7F0F016D
-			public const int TextAppearance_AppCompat_Title = 2131689837;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131689837;
 			
 			// aapt resource value: 0x7F0F016E
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131689838;
+			public const int TextAppearance_AppCompat_Title = 2131689838;
 			
 			// aapt resource value: 0x7F0F016F
-			public const int TextAppearance_AppCompat_Tooltip = 2131689839;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131689839;
 			
 			// aapt resource value: 0x7F0F0170
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131689840;
+			public const int TextAppearance_AppCompat_Tooltip = 2131689840;
 			
 			// aapt resource value: 0x7F0F0171
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131689841;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131689841;
 			
 			// aapt resource value: 0x7F0F0172
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131689842;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131689842;
 			
 			// aapt resource value: 0x7F0F0173
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131689843;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131689843;
 			
 			// aapt resource value: 0x7F0F0174
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131689844;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131689844;
 			
 			// aapt resource value: 0x7F0F0175
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131689845;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131689845;
 			
 			// aapt resource value: 0x7F0F0176
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131689846;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131689846;
 			
 			// aapt resource value: 0x7F0F0177
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131689847;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131689847;
 			
 			// aapt resource value: 0x7F0F0178
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131689848;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131689848;
 			
 			// aapt resource value: 0x7F0F0179
-			public const int TextAppearance_AppCompat_Widget_Button = 2131689849;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131689849;
 			
 			// aapt resource value: 0x7F0F017A
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131689850;
+			public const int TextAppearance_AppCompat_Widget_Button = 2131689850;
 			
 			// aapt resource value: 0x7F0F017B
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131689851;
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131689851;
 			
 			// aapt resource value: 0x7F0F017C
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131689852;
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131689852;
 			
 			// aapt resource value: 0x7F0F017D
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131689853;
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131689853;
 			
 			// aapt resource value: 0x7F0F017E
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131689854;
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131689854;
 			
 			// aapt resource value: 0x7F0F017F
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131689855;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131689855;
 			
 			// aapt resource value: 0x7F0F0180
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131689856;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131689856;
 			
 			// aapt resource value: 0x7F0F0181
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131689857;
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131689857;
 			
 			// aapt resource value: 0x7F0F0182
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131689858;
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131689858;
 			
 			// aapt resource value: 0x7F0F0183
-			public const int TextAppearance_Compat_Notification = 2131689859;
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131689859;
 			
 			// aapt resource value: 0x7F0F0184
-			public const int TextAppearance_Compat_Notification_Info = 2131689860;
+			public const int TextAppearance_Compat_Notification = 2131689860;
 			
 			// aapt resource value: 0x7F0F0185
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131689861;
+			public const int TextAppearance_Compat_Notification_Info = 2131689861;
 			
 			// aapt resource value: 0x7F0F0186
-			public const int TextAppearance_Compat_Notification_Line2 = 2131689862;
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131689862;
 			
 			// aapt resource value: 0x7F0F0187
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131689863;
+			public const int TextAppearance_Compat_Notification_Line2 = 2131689863;
 			
 			// aapt resource value: 0x7F0F0188
-			public const int TextAppearance_Compat_Notification_Media = 2131689864;
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131689864;
 			
 			// aapt resource value: 0x7F0F0189
-			public const int TextAppearance_Compat_Notification_Time = 2131689865;
+			public const int TextAppearance_Compat_Notification_Media = 2131689865;
 			
 			// aapt resource value: 0x7F0F018A
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131689866;
+			public const int TextAppearance_Compat_Notification_Time = 2131689866;
 			
 			// aapt resource value: 0x7F0F018B
-			public const int TextAppearance_Compat_Notification_Title = 2131689867;
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131689867;
 			
 			// aapt resource value: 0x7F0F018C
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131689868;
+			public const int TextAppearance_Compat_Notification_Title = 2131689868;
 			
 			// aapt resource value: 0x7F0F018D
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131689869;
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131689869;
 			
 			// aapt resource value: 0x7F0F018E
-			public const int TextAppearance_Design_Counter = 2131689870;
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131689870;
 			
 			// aapt resource value: 0x7F0F018F
-			public const int TextAppearance_Design_Counter_Overflow = 2131689871;
+			public const int TextAppearance_Design_Counter = 2131689871;
 			
 			// aapt resource value: 0x7F0F0190
-			public const int TextAppearance_Design_Error = 2131689872;
+			public const int TextAppearance_Design_Counter_Overflow = 2131689872;
 			
 			// aapt resource value: 0x7F0F0191
-			public const int TextAppearance_Design_HelperText = 2131689873;
+			public const int TextAppearance_Design_Error = 2131689873;
 			
 			// aapt resource value: 0x7F0F0192
-			public const int TextAppearance_Design_Hint = 2131689874;
+			public const int TextAppearance_Design_HelperText = 2131689874;
 			
 			// aapt resource value: 0x7F0F0193
-			public const int TextAppearance_Design_Placeholder = 2131689875;
+			public const int TextAppearance_Design_Hint = 2131689875;
 			
 			// aapt resource value: 0x7F0F0194
-			public const int TextAppearance_Design_Prefix = 2131689876;
+			public const int TextAppearance_Design_Placeholder = 2131689876;
 			
 			// aapt resource value: 0x7F0F0195
-			public const int TextAppearance_Design_Snackbar_Message = 2131689877;
+			public const int TextAppearance_Design_Prefix = 2131689877;
 			
 			// aapt resource value: 0x7F0F0196
-			public const int TextAppearance_Design_Suffix = 2131689878;
+			public const int TextAppearance_Design_Snackbar_Message = 2131689878;
 			
 			// aapt resource value: 0x7F0F0197
-			public const int TextAppearance_Design_Tab = 2131689879;
+			public const int TextAppearance_Design_Suffix = 2131689879;
 			
 			// aapt resource value: 0x7F0F0198
-			public const int TextAppearance_MaterialComponents_Badge = 2131689880;
+			public const int TextAppearance_Design_Tab = 2131689880;
 			
 			// aapt resource value: 0x7F0F0199
-			public const int TextAppearance_MaterialComponents_Body1 = 2131689881;
+			public const int TextAppearance_MaterialComponents_Badge = 2131689881;
 			
 			// aapt resource value: 0x7F0F019A
-			public const int TextAppearance_MaterialComponents_Body2 = 2131689882;
+			public const int TextAppearance_MaterialComponents_Body1 = 2131689882;
 			
 			// aapt resource value: 0x7F0F019B
-			public const int TextAppearance_MaterialComponents_Button = 2131689883;
+			public const int TextAppearance_MaterialComponents_Body2 = 2131689883;
 			
 			// aapt resource value: 0x7F0F019C
-			public const int TextAppearance_MaterialComponents_Caption = 2131689884;
+			public const int TextAppearance_MaterialComponents_Button = 2131689884;
 			
 			// aapt resource value: 0x7F0F019D
-			public const int TextAppearance_MaterialComponents_Chip = 2131689885;
+			public const int TextAppearance_MaterialComponents_Caption = 2131689885;
 			
 			// aapt resource value: 0x7F0F019E
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131689886;
+			public const int TextAppearance_MaterialComponents_Chip = 2131689886;
 			
 			// aapt resource value: 0x7F0F019F
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131689887;
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131689887;
 			
 			// aapt resource value: 0x7F0F01A0
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131689888;
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131689888;
 			
 			// aapt resource value: 0x7F0F01A1
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131689889;
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131689889;
 			
 			// aapt resource value: 0x7F0F01A2
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131689890;
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131689890;
 			
 			// aapt resource value: 0x7F0F01A3
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131689891;
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131689891;
 			
 			// aapt resource value: 0x7F0F01A4
-			public const int TextAppearance_MaterialComponents_Overline = 2131689892;
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131689892;
 			
 			// aapt resource value: 0x7F0F01A5
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131689893;
+			public const int TextAppearance_MaterialComponents_Overline = 2131689893;
 			
 			// aapt resource value: 0x7F0F01A6
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131689894;
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131689894;
 			
 			// aapt resource value: 0x7F0F01A7
-			public const int TextAppearance_MaterialComponents_TimePicker_Title = 2131689895;
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131689895;
 			
 			// aapt resource value: 0x7F0F01A8
-			public const int TextAppearance_MaterialComponents_Tooltip = 2131689896;
+			public const int TextAppearance_MaterialComponents_TimePicker_Title = 2131689896;
 			
 			// aapt resource value: 0x7F0F01A9
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131689897;
+			public const int TextAppearance_MaterialComponents_Tooltip = 2131689897;
 			
 			// aapt resource value: 0x7F0F01AA
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131689898;
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131689898;
 			
 			// aapt resource value: 0x7F0F01AB
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131689899;
-			
-			// aapt resource value: 0x7F0F0229
-			public const int ThemeOverlayColorAccentRed = 2131690025;
-			
-			// aapt resource value: 0x7F0F01F9
-			public const int ThemeOverlay_AppCompat = 2131689977;
-			
-			// aapt resource value: 0x7F0F01FA
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131689978;
-			
-			// aapt resource value: 0x7F0F01FB
-			public const int ThemeOverlay_AppCompat_Dark = 2131689979;
-			
-			// aapt resource value: 0x7F0F01FC
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131689980;
-			
-			// aapt resource value: 0x7F0F01FD
-			public const int ThemeOverlay_AppCompat_DayNight = 2131689981;
-			
-			// aapt resource value: 0x7F0F01FE
-			public const int ThemeOverlay_AppCompat_DayNight_ActionBar = 2131689982;
-			
-			// aapt resource value: 0x7F0F01FF
-			public const int ThemeOverlay_AppCompat_Dialog = 2131689983;
-			
-			// aapt resource value: 0x7F0F0200
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131689984;
-			
-			// aapt resource value: 0x7F0F0201
-			public const int ThemeOverlay_AppCompat_Light = 2131689985;
-			
-			// aapt resource value: 0x7F0F0202
-			public const int ThemeOverlay_Design_TextInputEditText = 2131689986;
-			
-			// aapt resource value: 0x7F0F0203
-			public const int ThemeOverlay_MaterialComponents = 2131689987;
-			
-			// aapt resource value: 0x7F0F0204
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131689988;
-			
-			// aapt resource value: 0x7F0F0205
-			public const int ThemeOverlay_MaterialComponents_ActionBar_Primary = 2131689989;
-			
-			// aapt resource value: 0x7F0F0206
-			public const int ThemeOverlay_MaterialComponents_ActionBar_Surface = 2131689990;
-			
-			// aapt resource value: 0x7F0F0207
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView = 2131689991;
-			
-			// aapt resource value: 0x7F0F0208
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = 2131689992;
-			
-			// aapt resource value: 0x7F0F0209
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131689993;
-			
-			// aapt resource value: 0x7F0F020A
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131689994;
-			
-			// aapt resource value: 0x7F0F020B
-			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131689995;
-			
-			// aapt resource value: 0x7F0F020C
-			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Primary = 2131689996;
-			
-			// aapt resource value: 0x7F0F020D
-			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Surface = 2131689997;
-			
-			// aapt resource value: 0x7F0F020E
-			public const int ThemeOverlay_MaterialComponents_BottomSheetDialog = 2131689998;
-			
-			// aapt resource value: 0x7F0F020F
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131689999;
-			
-			// aapt resource value: 0x7F0F0210
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131690000;
-			
-			// aapt resource value: 0x7F0F0211
-			public const int ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = 2131690001;
-			
-			// aapt resource value: 0x7F0F0212
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131690002;
-			
-			// aapt resource value: 0x7F0F0213
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131690003;
-			
-			// aapt resource value: 0x7F0F0214
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = 2131690004;
-			
-			// aapt resource value: 0x7F0F0215
-			public const int ThemeOverlay_MaterialComponents_Light = 2131690005;
-			
-			// aapt resource value: 0x7F0F0216
-			public const int ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = 2131690006;
-			
-			// aapt resource value: 0x7F0F0217
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog = 2131690007;
-			
-			// aapt resource value: 0x7F0F0218
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = 2131690008;
-			
-			// aapt resource value: 0x7F0F0219
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = 2131690009;
-			
-			// aapt resource value: 0x7F0F021A
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = 2131690010;
-			
-			// aapt resource value: 0x7F0F021B
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = 2131690011;
-			
-			// aapt resource value: 0x7F0F021C
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = 2131690012;
-			
-			// aapt resource value: 0x7F0F021D
-			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = 2131690013;
-			
-			// aapt resource value: 0x7F0F021E
-			public const int ThemeOverlay_MaterialComponents_MaterialCalendar = 2131690014;
-			
-			// aapt resource value: 0x7F0F021F
-			public const int ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = 2131690015;
-			
-			// aapt resource value: 0x7F0F0220
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131690016;
-			
-			// aapt resource value: 0x7F0F0221
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131690017;
-			
-			// aapt resource value: 0x7F0F0222
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131690018;
-			
-			// aapt resource value: 0x7F0F0223
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131690019;
-			
-			// aapt resource value: 0x7F0F0224
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131690020;
-			
-			// aapt resource value: 0x7F0F0225
-			public const int ThemeOverlay_MaterialComponents_TimePicker = 2131690021;
-			
-			// aapt resource value: 0x7F0F0226
-			public const int ThemeOverlay_MaterialComponents_TimePicker_Display = 2131690022;
-			
-			// aapt resource value: 0x7F0F0227
-			public const int ThemeOverlay_MaterialComponents_Toolbar_Primary = 2131690023;
-			
-			// aapt resource value: 0x7F0F0228
-			public const int ThemeOverlay_MaterialComponents_Toolbar_Surface = 2131690024;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131689899;
 			
 			// aapt resource value: 0x7F0F01AC
-			public const int Theme_AppCompat = 2131689900;
-			
-			// aapt resource value: 0x7F0F01AD
-			public const int Theme_AppCompat_CompactMenu = 2131689901;
-			
-			// aapt resource value: 0x7F0F01AE
-			public const int Theme_AppCompat_DayNight = 2131689902;
-			
-			// aapt resource value: 0x7F0F01AF
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131689903;
-			
-			// aapt resource value: 0x7F0F01B0
-			public const int Theme_AppCompat_DayNight_Dialog = 2131689904;
-			
-			// aapt resource value: 0x7F0F01B3
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131689907;
-			
-			// aapt resource value: 0x7F0F01B1
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131689905;
-			
-			// aapt resource value: 0x7F0F01B2
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131689906;
-			
-			// aapt resource value: 0x7F0F01B4
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131689908;
-			
-			// aapt resource value: 0x7F0F01B5
-			public const int Theme_AppCompat_Dialog = 2131689909;
-			
-			// aapt resource value: 0x7F0F01B8
-			public const int Theme_AppCompat_DialogWhenLarge = 2131689912;
-			
-			// aapt resource value: 0x7F0F01B6
-			public const int Theme_AppCompat_Dialog_Alert = 2131689910;
-			
-			// aapt resource value: 0x7F0F01B7
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131689911;
-			
-			// aapt resource value: 0x7F0F01B9
-			public const int Theme_AppCompat_Empty = 2131689913;
-			
-			// aapt resource value: 0x7F0F01BA
-			public const int Theme_AppCompat_Light = 2131689914;
-			
-			// aapt resource value: 0x7F0F01BB
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131689915;
-			
-			// aapt resource value: 0x7F0F01BC
-			public const int Theme_AppCompat_Light_Dialog = 2131689916;
-			
-			// aapt resource value: 0x7F0F01BF
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131689919;
-			
-			// aapt resource value: 0x7F0F01BD
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131689917;
-			
-			// aapt resource value: 0x7F0F01BE
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131689918;
-			
-			// aapt resource value: 0x7F0F01C0
-			public const int Theme_AppCompat_Light_NoActionBar = 2131689920;
-			
-			// aapt resource value: 0x7F0F01C1
-			public const int Theme_AppCompat_NoActionBar = 2131689921;
-			
-			// aapt resource value: 0x7F0F01C2
-			public const int Theme_Design = 2131689922;
-			
-			// aapt resource value: 0x7F0F01C3
-			public const int Theme_Design_BottomSheetDialog = 2131689923;
-			
-			// aapt resource value: 0x7F0F01C4
-			public const int Theme_Design_Light = 2131689924;
-			
-			// aapt resource value: 0x7F0F01C5
-			public const int Theme_Design_Light_BottomSheetDialog = 2131689925;
-			
-			// aapt resource value: 0x7F0F01C6
-			public const int Theme_Design_Light_NoActionBar = 2131689926;
-			
-			// aapt resource value: 0x7F0F01C7
-			public const int Theme_Design_NoActionBar = 2131689927;
-			
-			// aapt resource value: 0x7F0F01C8
-			public const int Theme_MaterialComponents = 2131689928;
-			
-			// aapt resource value: 0x7F0F01C9
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131689929;
-			
-			// aapt resource value: 0x7F0F01CA
-			public const int Theme_MaterialComponents_Bridge = 2131689930;
-			
-			// aapt resource value: 0x7F0F01CB
-			public const int Theme_MaterialComponents_CompactMenu = 2131689931;
-			
-			// aapt resource value: 0x7F0F01CC
-			public const int Theme_MaterialComponents_DayNight = 2131689932;
-			
-			// aapt resource value: 0x7F0F01CD
-			public const int Theme_MaterialComponents_DayNight_BottomSheetDialog = 2131689933;
-			
-			// aapt resource value: 0x7F0F01CE
-			public const int Theme_MaterialComponents_DayNight_Bridge = 2131689934;
-			
-			// aapt resource value: 0x7F0F01CF
-			public const int Theme_MaterialComponents_DayNight_DarkActionBar = 2131689935;
-			
-			// aapt resource value: 0x7F0F01D0
-			public const int Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = 2131689936;
-			
-			// aapt resource value: 0x7F0F01D1
-			public const int Theme_MaterialComponents_DayNight_Dialog = 2131689937;
-			
-			// aapt resource value: 0x7F0F01D9
-			public const int Theme_MaterialComponents_DayNight_DialogWhenLarge = 2131689945;
-			
-			// aapt resource value: 0x7F0F01D2
-			public const int Theme_MaterialComponents_DayNight_Dialog_Alert = 2131689938;
-			
-			// aapt resource value: 0x7F0F01D3
-			public const int Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = 2131689939;
-			
-			// aapt resource value: 0x7F0F01D4
-			public const int Theme_MaterialComponents_DayNight_Dialog_Bridge = 2131689940;
-			
-			// aapt resource value: 0x7F0F01D5
-			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize = 2131689941;
-			
-			// aapt resource value: 0x7F0F01D6
-			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = 2131689942;
-			
-			// aapt resource value: 0x7F0F01D7
-			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth = 2131689943;
-			
-			// aapt resource value: 0x7F0F01D8
-			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = 2131689944;
-			
-			// aapt resource value: 0x7F0F01DA
-			public const int Theme_MaterialComponents_DayNight_NoActionBar = 2131689946;
-			
-			// aapt resource value: 0x7F0F01DB
-			public const int Theme_MaterialComponents_DayNight_NoActionBar_Bridge = 2131689947;
-			
-			// aapt resource value: 0x7F0F01DC
-			public const int Theme_MaterialComponents_Dialog = 2131689948;
-			
-			// aapt resource value: 0x7F0F01E4
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131689956;
-			
-			// aapt resource value: 0x7F0F01DD
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131689949;
-			
-			// aapt resource value: 0x7F0F01DE
-			public const int Theme_MaterialComponents_Dialog_Alert_Bridge = 2131689950;
-			
-			// aapt resource value: 0x7F0F01DF
-			public const int Theme_MaterialComponents_Dialog_Bridge = 2131689951;
-			
-			// aapt resource value: 0x7F0F01E0
-			public const int Theme_MaterialComponents_Dialog_FixedSize = 2131689952;
-			
-			// aapt resource value: 0x7F0F01E1
-			public const int Theme_MaterialComponents_Dialog_FixedSize_Bridge = 2131689953;
-			
-			// aapt resource value: 0x7F0F01E2
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131689954;
-			
-			// aapt resource value: 0x7F0F01E3
-			public const int Theme_MaterialComponents_Dialog_MinWidth_Bridge = 2131689955;
-			
-			// aapt resource value: 0x7F0F01E5
-			public const int Theme_MaterialComponents_Light = 2131689957;
-			
-			// aapt resource value: 0x7F0F01E6
-			public const int Theme_MaterialComponents_Light_BarSize = 2131689958;
-			
-			// aapt resource value: 0x7F0F01E7
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131689959;
-			
-			// aapt resource value: 0x7F0F01E8
-			public const int Theme_MaterialComponents_Light_Bridge = 2131689960;
-			
-			// aapt resource value: 0x7F0F01E9
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131689961;
-			
-			// aapt resource value: 0x7F0F01EA
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689962;
-			
-			// aapt resource value: 0x7F0F01EB
-			public const int Theme_MaterialComponents_Light_Dialog = 2131689963;
-			
-			// aapt resource value: 0x7F0F01F3
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131689971;
-			
-			// aapt resource value: 0x7F0F01EC
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131689964;
-			
-			// aapt resource value: 0x7F0F01ED
-			public const int Theme_MaterialComponents_Light_Dialog_Alert_Bridge = 2131689965;
-			
-			// aapt resource value: 0x7F0F01EE
-			public const int Theme_MaterialComponents_Light_Dialog_Bridge = 2131689966;
-			
-			// aapt resource value: 0x7F0F01EF
-			public const int Theme_MaterialComponents_Light_Dialog_FixedSize = 2131689967;
-			
-			// aapt resource value: 0x7F0F01F0
-			public const int Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = 2131689968;
-			
-			// aapt resource value: 0x7F0F01F1
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131689969;
-			
-			// aapt resource value: 0x7F0F01F2
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = 2131689970;
-			
-			// aapt resource value: 0x7F0F01F4
-			public const int Theme_MaterialComponents_Light_LargeTouch = 2131689972;
-			
-			// aapt resource value: 0x7F0F01F5
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131689973;
-			
-			// aapt resource value: 0x7F0F01F6
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131689974;
-			
-			// aapt resource value: 0x7F0F01F7
-			public const int Theme_MaterialComponents_NoActionBar = 2131689975;
-			
-			// aapt resource value: 0x7F0F01F8
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131689976;
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131689900;
 			
 			// aapt resource value: 0x7F0F022A
-			public const int Widget_AppCompat_ActionBar = 2131690026;
+			public const int ThemeOverlayColorAccentRed = 2131690026;
+			
+			// aapt resource value: 0x7F0F01FA
+			public const int ThemeOverlay_AppCompat = 2131689978;
+			
+			// aapt resource value: 0x7F0F01FB
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131689979;
+			
+			// aapt resource value: 0x7F0F01FC
+			public const int ThemeOverlay_AppCompat_Dark = 2131689980;
+			
+			// aapt resource value: 0x7F0F01FD
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131689981;
+			
+			// aapt resource value: 0x7F0F01FE
+			public const int ThemeOverlay_AppCompat_DayNight = 2131689982;
+			
+			// aapt resource value: 0x7F0F01FF
+			public const int ThemeOverlay_AppCompat_DayNight_ActionBar = 2131689983;
+			
+			// aapt resource value: 0x7F0F0200
+			public const int ThemeOverlay_AppCompat_Dialog = 2131689984;
+			
+			// aapt resource value: 0x7F0F0201
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131689985;
+			
+			// aapt resource value: 0x7F0F0202
+			public const int ThemeOverlay_AppCompat_Light = 2131689986;
+			
+			// aapt resource value: 0x7F0F0203
+			public const int ThemeOverlay_Design_TextInputEditText = 2131689987;
+			
+			// aapt resource value: 0x7F0F0204
+			public const int ThemeOverlay_MaterialComponents = 2131689988;
+			
+			// aapt resource value: 0x7F0F0205
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131689989;
+			
+			// aapt resource value: 0x7F0F0206
+			public const int ThemeOverlay_MaterialComponents_ActionBar_Primary = 2131689990;
+			
+			// aapt resource value: 0x7F0F0207
+			public const int ThemeOverlay_MaterialComponents_ActionBar_Surface = 2131689991;
+			
+			// aapt resource value: 0x7F0F0208
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView = 2131689992;
+			
+			// aapt resource value: 0x7F0F0209
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = 2131689993;
+			
+			// aapt resource value: 0x7F0F020A
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131689994;
+			
+			// aapt resource value: 0x7F0F020B
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131689995;
+			
+			// aapt resource value: 0x7F0F020C
+			public const int ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131689996;
+			
+			// aapt resource value: 0x7F0F020D
+			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Primary = 2131689997;
+			
+			// aapt resource value: 0x7F0F020E
+			public const int ThemeOverlay_MaterialComponents_BottomAppBar_Surface = 2131689998;
+			
+			// aapt resource value: 0x7F0F020F
+			public const int ThemeOverlay_MaterialComponents_BottomSheetDialog = 2131689999;
+			
+			// aapt resource value: 0x7F0F0210
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131690000;
+			
+			// aapt resource value: 0x7F0F0211
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131690001;
+			
+			// aapt resource value: 0x7F0F0212
+			public const int ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = 2131690002;
+			
+			// aapt resource value: 0x7F0F0213
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131690003;
+			
+			// aapt resource value: 0x7F0F0214
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131690004;
+			
+			// aapt resource value: 0x7F0F0215
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = 2131690005;
+			
+			// aapt resource value: 0x7F0F0216
+			public const int ThemeOverlay_MaterialComponents_Light = 2131690006;
+			
+			// aapt resource value: 0x7F0F0217
+			public const int ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = 2131690007;
+			
+			// aapt resource value: 0x7F0F0218
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog = 2131690008;
+			
+			// aapt resource value: 0x7F0F0219
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = 2131690009;
+			
+			// aapt resource value: 0x7F0F021A
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = 2131690010;
+			
+			// aapt resource value: 0x7F0F021B
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = 2131690011;
+			
+			// aapt resource value: 0x7F0F021C
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = 2131690012;
+			
+			// aapt resource value: 0x7F0F021D
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = 2131690013;
+			
+			// aapt resource value: 0x7F0F021E
+			public const int ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = 2131690014;
+			
+			// aapt resource value: 0x7F0F021F
+			public const int ThemeOverlay_MaterialComponents_MaterialCalendar = 2131690015;
+			
+			// aapt resource value: 0x7F0F0220
+			public const int ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = 2131690016;
+			
+			// aapt resource value: 0x7F0F0221
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131690017;
+			
+			// aapt resource value: 0x7F0F0222
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131690018;
+			
+			// aapt resource value: 0x7F0F0223
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131690019;
+			
+			// aapt resource value: 0x7F0F0224
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131690020;
+			
+			// aapt resource value: 0x7F0F0225
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131690021;
+			
+			// aapt resource value: 0x7F0F0226
+			public const int ThemeOverlay_MaterialComponents_TimePicker = 2131690022;
+			
+			// aapt resource value: 0x7F0F0227
+			public const int ThemeOverlay_MaterialComponents_TimePicker_Display = 2131690023;
+			
+			// aapt resource value: 0x7F0F0228
+			public const int ThemeOverlay_MaterialComponents_Toolbar_Primary = 2131690024;
+			
+			// aapt resource value: 0x7F0F0229
+			public const int ThemeOverlay_MaterialComponents_Toolbar_Surface = 2131690025;
+			
+			// aapt resource value: 0x7F0F01AD
+			public const int Theme_AppCompat = 2131689901;
+			
+			// aapt resource value: 0x7F0F01AE
+			public const int Theme_AppCompat_CompactMenu = 2131689902;
+			
+			// aapt resource value: 0x7F0F01AF
+			public const int Theme_AppCompat_DayNight = 2131689903;
+			
+			// aapt resource value: 0x7F0F01B0
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131689904;
+			
+			// aapt resource value: 0x7F0F01B1
+			public const int Theme_AppCompat_DayNight_Dialog = 2131689905;
+			
+			// aapt resource value: 0x7F0F01B4
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131689908;
+			
+			// aapt resource value: 0x7F0F01B2
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131689906;
+			
+			// aapt resource value: 0x7F0F01B3
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131689907;
+			
+			// aapt resource value: 0x7F0F01B5
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131689909;
+			
+			// aapt resource value: 0x7F0F01B6
+			public const int Theme_AppCompat_Dialog = 2131689910;
+			
+			// aapt resource value: 0x7F0F01B9
+			public const int Theme_AppCompat_DialogWhenLarge = 2131689913;
+			
+			// aapt resource value: 0x7F0F01B7
+			public const int Theme_AppCompat_Dialog_Alert = 2131689911;
+			
+			// aapt resource value: 0x7F0F01B8
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131689912;
+			
+			// aapt resource value: 0x7F0F01BA
+			public const int Theme_AppCompat_Empty = 2131689914;
+			
+			// aapt resource value: 0x7F0F01BB
+			public const int Theme_AppCompat_Light = 2131689915;
+			
+			// aapt resource value: 0x7F0F01BC
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131689916;
+			
+			// aapt resource value: 0x7F0F01BD
+			public const int Theme_AppCompat_Light_Dialog = 2131689917;
+			
+			// aapt resource value: 0x7F0F01C0
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131689920;
+			
+			// aapt resource value: 0x7F0F01BE
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131689918;
+			
+			// aapt resource value: 0x7F0F01BF
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131689919;
+			
+			// aapt resource value: 0x7F0F01C1
+			public const int Theme_AppCompat_Light_NoActionBar = 2131689921;
+			
+			// aapt resource value: 0x7F0F01C2
+			public const int Theme_AppCompat_NoActionBar = 2131689922;
+			
+			// aapt resource value: 0x7F0F01C3
+			public const int Theme_Design = 2131689923;
+			
+			// aapt resource value: 0x7F0F01C4
+			public const int Theme_Design_BottomSheetDialog = 2131689924;
+			
+			// aapt resource value: 0x7F0F01C5
+			public const int Theme_Design_Light = 2131689925;
+			
+			// aapt resource value: 0x7F0F01C6
+			public const int Theme_Design_Light_BottomSheetDialog = 2131689926;
+			
+			// aapt resource value: 0x7F0F01C7
+			public const int Theme_Design_Light_NoActionBar = 2131689927;
+			
+			// aapt resource value: 0x7F0F01C8
+			public const int Theme_Design_NoActionBar = 2131689928;
+			
+			// aapt resource value: 0x7F0F01C9
+			public const int Theme_MaterialComponents = 2131689929;
+			
+			// aapt resource value: 0x7F0F01CA
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131689930;
+			
+			// aapt resource value: 0x7F0F01CB
+			public const int Theme_MaterialComponents_Bridge = 2131689931;
+			
+			// aapt resource value: 0x7F0F01CC
+			public const int Theme_MaterialComponents_CompactMenu = 2131689932;
+			
+			// aapt resource value: 0x7F0F01CD
+			public const int Theme_MaterialComponents_DayNight = 2131689933;
+			
+			// aapt resource value: 0x7F0F01CE
+			public const int Theme_MaterialComponents_DayNight_BottomSheetDialog = 2131689934;
+			
+			// aapt resource value: 0x7F0F01CF
+			public const int Theme_MaterialComponents_DayNight_Bridge = 2131689935;
+			
+			// aapt resource value: 0x7F0F01D0
+			public const int Theme_MaterialComponents_DayNight_DarkActionBar = 2131689936;
+			
+			// aapt resource value: 0x7F0F01D1
+			public const int Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = 2131689937;
+			
+			// aapt resource value: 0x7F0F01D2
+			public const int Theme_MaterialComponents_DayNight_Dialog = 2131689938;
+			
+			// aapt resource value: 0x7F0F01DA
+			public const int Theme_MaterialComponents_DayNight_DialogWhenLarge = 2131689946;
+			
+			// aapt resource value: 0x7F0F01D3
+			public const int Theme_MaterialComponents_DayNight_Dialog_Alert = 2131689939;
+			
+			// aapt resource value: 0x7F0F01D4
+			public const int Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = 2131689940;
+			
+			// aapt resource value: 0x7F0F01D5
+			public const int Theme_MaterialComponents_DayNight_Dialog_Bridge = 2131689941;
+			
+			// aapt resource value: 0x7F0F01D6
+			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize = 2131689942;
+			
+			// aapt resource value: 0x7F0F01D7
+			public const int Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = 2131689943;
+			
+			// aapt resource value: 0x7F0F01D8
+			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth = 2131689944;
+			
+			// aapt resource value: 0x7F0F01D9
+			public const int Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = 2131689945;
+			
+			// aapt resource value: 0x7F0F01DB
+			public const int Theme_MaterialComponents_DayNight_NoActionBar = 2131689947;
+			
+			// aapt resource value: 0x7F0F01DC
+			public const int Theme_MaterialComponents_DayNight_NoActionBar_Bridge = 2131689948;
+			
+			// aapt resource value: 0x7F0F01DD
+			public const int Theme_MaterialComponents_Dialog = 2131689949;
+			
+			// aapt resource value: 0x7F0F01E5
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131689957;
+			
+			// aapt resource value: 0x7F0F01DE
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131689950;
+			
+			// aapt resource value: 0x7F0F01DF
+			public const int Theme_MaterialComponents_Dialog_Alert_Bridge = 2131689951;
+			
+			// aapt resource value: 0x7F0F01E0
+			public const int Theme_MaterialComponents_Dialog_Bridge = 2131689952;
+			
+			// aapt resource value: 0x7F0F01E1
+			public const int Theme_MaterialComponents_Dialog_FixedSize = 2131689953;
+			
+			// aapt resource value: 0x7F0F01E2
+			public const int Theme_MaterialComponents_Dialog_FixedSize_Bridge = 2131689954;
+			
+			// aapt resource value: 0x7F0F01E3
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131689955;
+			
+			// aapt resource value: 0x7F0F01E4
+			public const int Theme_MaterialComponents_Dialog_MinWidth_Bridge = 2131689956;
+			
+			// aapt resource value: 0x7F0F01E6
+			public const int Theme_MaterialComponents_Light = 2131689958;
+			
+			// aapt resource value: 0x7F0F01E7
+			public const int Theme_MaterialComponents_Light_BarSize = 2131689959;
+			
+			// aapt resource value: 0x7F0F01E8
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131689960;
+			
+			// aapt resource value: 0x7F0F01E9
+			public const int Theme_MaterialComponents_Light_Bridge = 2131689961;
+			
+			// aapt resource value: 0x7F0F01EA
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131689962;
+			
+			// aapt resource value: 0x7F0F01EB
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689963;
+			
+			// aapt resource value: 0x7F0F01EC
+			public const int Theme_MaterialComponents_Light_Dialog = 2131689964;
+			
+			// aapt resource value: 0x7F0F01F4
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131689972;
+			
+			// aapt resource value: 0x7F0F01ED
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131689965;
+			
+			// aapt resource value: 0x7F0F01EE
+			public const int Theme_MaterialComponents_Light_Dialog_Alert_Bridge = 2131689966;
+			
+			// aapt resource value: 0x7F0F01EF
+			public const int Theme_MaterialComponents_Light_Dialog_Bridge = 2131689967;
+			
+			// aapt resource value: 0x7F0F01F0
+			public const int Theme_MaterialComponents_Light_Dialog_FixedSize = 2131689968;
+			
+			// aapt resource value: 0x7F0F01F1
+			public const int Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = 2131689969;
+			
+			// aapt resource value: 0x7F0F01F2
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131689970;
+			
+			// aapt resource value: 0x7F0F01F3
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = 2131689971;
+			
+			// aapt resource value: 0x7F0F01F5
+			public const int Theme_MaterialComponents_Light_LargeTouch = 2131689973;
+			
+			// aapt resource value: 0x7F0F01F6
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131689974;
+			
+			// aapt resource value: 0x7F0F01F7
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131689975;
+			
+			// aapt resource value: 0x7F0F01F8
+			public const int Theme_MaterialComponents_NoActionBar = 2131689976;
+			
+			// aapt resource value: 0x7F0F01F9
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131689977;
 			
 			// aapt resource value: 0x7F0F022B
-			public const int Widget_AppCompat_ActionBar_Solid = 2131690027;
+			public const int Widget_AppCompat_ActionBar = 2131690027;
 			
 			// aapt resource value: 0x7F0F022C
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131690028;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131690028;
 			
 			// aapt resource value: 0x7F0F022D
-			public const int Widget_AppCompat_ActionBar_TabText = 2131690029;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131690029;
 			
 			// aapt resource value: 0x7F0F022E
-			public const int Widget_AppCompat_ActionBar_TabView = 2131690030;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131690030;
 			
 			// aapt resource value: 0x7F0F022F
-			public const int Widget_AppCompat_ActionButton = 2131690031;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131690031;
 			
 			// aapt resource value: 0x7F0F0230
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131690032;
+			public const int Widget_AppCompat_ActionButton = 2131690032;
 			
 			// aapt resource value: 0x7F0F0231
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131690033;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131690033;
 			
 			// aapt resource value: 0x7F0F0232
-			public const int Widget_AppCompat_ActionMode = 2131690034;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131690034;
 			
 			// aapt resource value: 0x7F0F0233
-			public const int Widget_AppCompat_ActivityChooserView = 2131690035;
+			public const int Widget_AppCompat_ActionMode = 2131690035;
 			
 			// aapt resource value: 0x7F0F0234
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131690036;
+			public const int Widget_AppCompat_ActivityChooserView = 2131690036;
 			
 			// aapt resource value: 0x7F0F0235
-			public const int Widget_AppCompat_Button = 2131690037;
-			
-			// aapt resource value: 0x7F0F023B
-			public const int Widget_AppCompat_ButtonBar = 2131690043;
-			
-			// aapt resource value: 0x7F0F023C
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131690044;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131690037;
 			
 			// aapt resource value: 0x7F0F0236
-			public const int Widget_AppCompat_Button_Borderless = 2131690038;
+			public const int Widget_AppCompat_Button = 2131690038;
 			
-			// aapt resource value: 0x7F0F0237
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131690039;
-			
-			// aapt resource value: 0x7F0F0238
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131690040;
-			
-			// aapt resource value: 0x7F0F0239
-			public const int Widget_AppCompat_Button_Colored = 2131690041;
-			
-			// aapt resource value: 0x7F0F023A
-			public const int Widget_AppCompat_Button_Small = 2131690042;
+			// aapt resource value: 0x7F0F023C
+			public const int Widget_AppCompat_ButtonBar = 2131690044;
 			
 			// aapt resource value: 0x7F0F023D
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131690045;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131690045;
+			
+			// aapt resource value: 0x7F0F0237
+			public const int Widget_AppCompat_Button_Borderless = 2131690039;
+			
+			// aapt resource value: 0x7F0F0238
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131690040;
+			
+			// aapt resource value: 0x7F0F0239
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131690041;
+			
+			// aapt resource value: 0x7F0F023A
+			public const int Widget_AppCompat_Button_Colored = 2131690042;
+			
+			// aapt resource value: 0x7F0F023B
+			public const int Widget_AppCompat_Button_Small = 2131690043;
 			
 			// aapt resource value: 0x7F0F023E
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131690046;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131690046;
 			
 			// aapt resource value: 0x7F0F023F
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131690047;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131690047;
 			
 			// aapt resource value: 0x7F0F0240
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131690048;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131690048;
 			
 			// aapt resource value: 0x7F0F0241
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131690049;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131690049;
 			
 			// aapt resource value: 0x7F0F0242
-			public const int Widget_AppCompat_EditText = 2131690050;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131690050;
 			
 			// aapt resource value: 0x7F0F0243
-			public const int Widget_AppCompat_ImageButton = 2131690051;
+			public const int Widget_AppCompat_EditText = 2131690051;
 			
 			// aapt resource value: 0x7F0F0244
-			public const int Widget_AppCompat_Light_ActionBar = 2131690052;
+			public const int Widget_AppCompat_ImageButton = 2131690052;
 			
 			// aapt resource value: 0x7F0F0245
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131690053;
+			public const int Widget_AppCompat_Light_ActionBar = 2131690053;
 			
 			// aapt resource value: 0x7F0F0246
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131690054;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131690054;
 			
 			// aapt resource value: 0x7F0F0247
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131690055;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131690055;
 			
 			// aapt resource value: 0x7F0F0248
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131690056;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131690056;
 			
 			// aapt resource value: 0x7F0F0249
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131690057;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131690057;
 			
 			// aapt resource value: 0x7F0F024A
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131690058;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131690058;
 			
 			// aapt resource value: 0x7F0F024B
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131690059;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131690059;
 			
 			// aapt resource value: 0x7F0F024C
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131690060;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131690060;
 			
 			// aapt resource value: 0x7F0F024D
-			public const int Widget_AppCompat_Light_ActionButton = 2131690061;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131690061;
 			
 			// aapt resource value: 0x7F0F024E
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131690062;
+			public const int Widget_AppCompat_Light_ActionButton = 2131690062;
 			
 			// aapt resource value: 0x7F0F024F
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131690063;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131690063;
 			
 			// aapt resource value: 0x7F0F0250
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131690064;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131690064;
 			
 			// aapt resource value: 0x7F0F0251
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131690065;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131690065;
 			
 			// aapt resource value: 0x7F0F0252
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131690066;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131690066;
 			
 			// aapt resource value: 0x7F0F0253
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131690067;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131690067;
 			
 			// aapt resource value: 0x7F0F0254
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131690068;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131690068;
 			
 			// aapt resource value: 0x7F0F0255
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131690069;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131690069;
 			
 			// aapt resource value: 0x7F0F0256
-			public const int Widget_AppCompat_Light_PopupMenu = 2131690070;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131690070;
 			
 			// aapt resource value: 0x7F0F0257
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131690071;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131690071;
 			
 			// aapt resource value: 0x7F0F0258
-			public const int Widget_AppCompat_Light_SearchView = 2131690072;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131690072;
 			
 			// aapt resource value: 0x7F0F0259
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131690073;
+			public const int Widget_AppCompat_Light_SearchView = 2131690073;
 			
 			// aapt resource value: 0x7F0F025A
-			public const int Widget_AppCompat_ListMenuView = 2131690074;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131690074;
 			
 			// aapt resource value: 0x7F0F025B
-			public const int Widget_AppCompat_ListPopupWindow = 2131690075;
+			public const int Widget_AppCompat_ListMenuView = 2131690075;
 			
 			// aapt resource value: 0x7F0F025C
-			public const int Widget_AppCompat_ListView = 2131690076;
+			public const int Widget_AppCompat_ListPopupWindow = 2131690076;
 			
 			// aapt resource value: 0x7F0F025D
-			public const int Widget_AppCompat_ListView_DropDown = 2131690077;
+			public const int Widget_AppCompat_ListView = 2131690077;
 			
 			// aapt resource value: 0x7F0F025E
-			public const int Widget_AppCompat_ListView_Menu = 2131690078;
+			public const int Widget_AppCompat_ListView_DropDown = 2131690078;
 			
 			// aapt resource value: 0x7F0F025F
-			public const int Widget_AppCompat_PopupMenu = 2131690079;
+			public const int Widget_AppCompat_ListView_Menu = 2131690079;
 			
 			// aapt resource value: 0x7F0F0260
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131690080;
+			public const int Widget_AppCompat_PopupMenu = 2131690080;
 			
 			// aapt resource value: 0x7F0F0261
-			public const int Widget_AppCompat_PopupWindow = 2131690081;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131690081;
 			
 			// aapt resource value: 0x7F0F0262
-			public const int Widget_AppCompat_ProgressBar = 2131690082;
+			public const int Widget_AppCompat_PopupWindow = 2131690082;
 			
 			// aapt resource value: 0x7F0F0263
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131690083;
+			public const int Widget_AppCompat_ProgressBar = 2131690083;
 			
 			// aapt resource value: 0x7F0F0264
-			public const int Widget_AppCompat_RatingBar = 2131690084;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131690084;
 			
 			// aapt resource value: 0x7F0F0265
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131690085;
+			public const int Widget_AppCompat_RatingBar = 2131690085;
 			
 			// aapt resource value: 0x7F0F0266
-			public const int Widget_AppCompat_RatingBar_Small = 2131690086;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131690086;
 			
 			// aapt resource value: 0x7F0F0267
-			public const int Widget_AppCompat_SearchView = 2131690087;
+			public const int Widget_AppCompat_RatingBar_Small = 2131690087;
 			
 			// aapt resource value: 0x7F0F0268
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131690088;
+			public const int Widget_AppCompat_SearchView = 2131690088;
 			
 			// aapt resource value: 0x7F0F0269
-			public const int Widget_AppCompat_SeekBar = 2131690089;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131690089;
 			
 			// aapt resource value: 0x7F0F026A
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131690090;
+			public const int Widget_AppCompat_SeekBar = 2131690090;
 			
 			// aapt resource value: 0x7F0F026B
-			public const int Widget_AppCompat_Spinner = 2131690091;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131690091;
 			
 			// aapt resource value: 0x7F0F026C
-			public const int Widget_AppCompat_Spinner_DropDown = 2131690092;
+			public const int Widget_AppCompat_Spinner = 2131690092;
 			
 			// aapt resource value: 0x7F0F026D
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131690093;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131690093;
 			
 			// aapt resource value: 0x7F0F026E
-			public const int Widget_AppCompat_Spinner_Underlined = 2131690094;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131690094;
 			
 			// aapt resource value: 0x7F0F026F
-			public const int Widget_AppCompat_TextView = 2131690095;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131690095;
 			
 			// aapt resource value: 0x7F0F0270
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131690096;
+			public const int Widget_AppCompat_TextView = 2131690096;
 			
 			// aapt resource value: 0x7F0F0271
-			public const int Widget_AppCompat_Toolbar = 2131690097;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131690097;
 			
 			// aapt resource value: 0x7F0F0272
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131690098;
+			public const int Widget_AppCompat_Toolbar = 2131690098;
 			
 			// aapt resource value: 0x7F0F0273
-			public const int Widget_Compat_NotificationActionContainer = 2131690099;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131690099;
 			
 			// aapt resource value: 0x7F0F0274
-			public const int Widget_Compat_NotificationActionText = 2131690100;
+			public const int Widget_Compat_NotificationActionContainer = 2131690100;
 			
 			// aapt resource value: 0x7F0F0275
-			public const int Widget_Design_AppBarLayout = 2131690101;
+			public const int Widget_Compat_NotificationActionText = 2131690101;
 			
 			// aapt resource value: 0x7F0F0276
-			public const int Widget_Design_BottomNavigationView = 2131690102;
+			public const int Widget_Design_AppBarLayout = 2131690102;
 			
 			// aapt resource value: 0x7F0F0277
-			public const int Widget_Design_BottomSheet_Modal = 2131690103;
+			public const int Widget_Design_BottomNavigationView = 2131690103;
 			
 			// aapt resource value: 0x7F0F0278
-			public const int Widget_Design_CollapsingToolbar = 2131690104;
+			public const int Widget_Design_BottomSheet_Modal = 2131690104;
 			
 			// aapt resource value: 0x7F0F0279
-			public const int Widget_Design_FloatingActionButton = 2131690105;
+			public const int Widget_Design_CollapsingToolbar = 2131690105;
 			
 			// aapt resource value: 0x7F0F027A
-			public const int Widget_Design_NavigationView = 2131690106;
+			public const int Widget_Design_FloatingActionButton = 2131690106;
 			
 			// aapt resource value: 0x7F0F027B
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131690107;
+			public const int Widget_Design_NavigationView = 2131690107;
 			
 			// aapt resource value: 0x7F0F027C
-			public const int Widget_Design_Snackbar = 2131690108;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131690108;
 			
 			// aapt resource value: 0x7F0F027D
-			public const int Widget_Design_TabLayout = 2131690109;
+			public const int Widget_Design_Snackbar = 2131690109;
 			
 			// aapt resource value: 0x7F0F027E
-			public const int Widget_Design_TextInputEditText = 2131690110;
+			public const int Widget_Design_TabLayout = 2131690110;
 			
 			// aapt resource value: 0x7F0F027F
-			public const int Widget_Design_TextInputLayout = 2131690111;
+			public const int Widget_Design_TextInputEditText = 2131690111;
 			
 			// aapt resource value: 0x7F0F0280
-			public const int Widget_MaterialComponents_ActionBar_Primary = 2131690112;
+			public const int Widget_Design_TextInputLayout = 2131690112;
 			
 			// aapt resource value: 0x7F0F0281
-			public const int Widget_MaterialComponents_ActionBar_PrimarySurface = 2131690113;
+			public const int Widget_MaterialComponents_ActionBar_Primary = 2131690113;
 			
 			// aapt resource value: 0x7F0F0282
-			public const int Widget_MaterialComponents_ActionBar_Solid = 2131690114;
+			public const int Widget_MaterialComponents_ActionBar_PrimarySurface = 2131690114;
 			
 			// aapt resource value: 0x7F0F0283
-			public const int Widget_MaterialComponents_ActionBar_Surface = 2131690115;
+			public const int Widget_MaterialComponents_ActionBar_Solid = 2131690115;
 			
 			// aapt resource value: 0x7F0F0284
-			public const int Widget_MaterialComponents_AppBarLayout_Primary = 2131690116;
+			public const int Widget_MaterialComponents_ActionBar_Surface = 2131690116;
 			
 			// aapt resource value: 0x7F0F0285
-			public const int Widget_MaterialComponents_AppBarLayout_PrimarySurface = 2131690117;
+			public const int Widget_MaterialComponents_AppBarLayout_Primary = 2131690117;
 			
 			// aapt resource value: 0x7F0F0286
-			public const int Widget_MaterialComponents_AppBarLayout_Surface = 2131690118;
+			public const int Widget_MaterialComponents_AppBarLayout_PrimarySurface = 2131690118;
 			
 			// aapt resource value: 0x7F0F0287
-			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox = 2131690119;
+			public const int Widget_MaterialComponents_AppBarLayout_Surface = 2131690119;
 			
 			// aapt resource value: 0x7F0F0288
-			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131690120;
+			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox = 2131690120;
 			
 			// aapt resource value: 0x7F0F0289
-			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131690121;
+			public const int Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = 2131690121;
 			
 			// aapt resource value: 0x7F0F028A
-			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131690122;
+			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = 2131690122;
 			
 			// aapt resource value: 0x7F0F028B
-			public const int Widget_MaterialComponents_Badge = 2131690123;
+			public const int Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = 2131690123;
 			
 			// aapt resource value: 0x7F0F028C
-			public const int Widget_MaterialComponents_BottomAppBar = 2131690124;
+			public const int Widget_MaterialComponents_Badge = 2131690124;
 			
 			// aapt resource value: 0x7F0F028D
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131690125;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131690125;
 			
 			// aapt resource value: 0x7F0F028E
-			public const int Widget_MaterialComponents_BottomAppBar_PrimarySurface = 2131690126;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131690126;
 			
 			// aapt resource value: 0x7F0F028F
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131690127;
+			public const int Widget_MaterialComponents_BottomAppBar_PrimarySurface = 2131690127;
 			
 			// aapt resource value: 0x7F0F0290
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131690128;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131690128;
 			
 			// aapt resource value: 0x7F0F0291
-			public const int Widget_MaterialComponents_BottomNavigationView_PrimarySurface = 2131690129;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131690129;
 			
 			// aapt resource value: 0x7F0F0292
-			public const int Widget_MaterialComponents_BottomSheet = 2131690130;
+			public const int Widget_MaterialComponents_BottomNavigationView_PrimarySurface = 2131690130;
 			
 			// aapt resource value: 0x7F0F0293
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131690131;
+			public const int Widget_MaterialComponents_BottomSheet = 2131690131;
 			
 			// aapt resource value: 0x7F0F0294
-			public const int Widget_MaterialComponents_Button = 2131690132;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131690132;
 			
 			// aapt resource value: 0x7F0F0295
-			public const int Widget_MaterialComponents_Button_Icon = 2131690133;
+			public const int Widget_MaterialComponents_Button = 2131690133;
 			
 			// aapt resource value: 0x7F0F0296
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131690134;
+			public const int Widget_MaterialComponents_Button_Icon = 2131690134;
 			
 			// aapt resource value: 0x7F0F0297
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131690135;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131690135;
 			
 			// aapt resource value: 0x7F0F0298
-			public const int Widget_MaterialComponents_Button_TextButton = 2131690136;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131690136;
 			
 			// aapt resource value: 0x7F0F0299
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131690137;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131690137;
 			
 			// aapt resource value: 0x7F0F029A
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Flush = 2131690138;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131690138;
 			
 			// aapt resource value: 0x7F0F029B
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131690139;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Flush = 2131690139;
 			
 			// aapt resource value: 0x7F0F029C
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131690140;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131690140;
 			
 			// aapt resource value: 0x7F0F029D
-			public const int Widget_MaterialComponents_Button_TextButton_Snackbar = 2131690141;
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131690141;
 			
 			// aapt resource value: 0x7F0F029E
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131690142;
+			public const int Widget_MaterialComponents_Button_TextButton_Snackbar = 2131690142;
 			
 			// aapt resource value: 0x7F0F029F
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131690143;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131690143;
 			
 			// aapt resource value: 0x7F0F02A0
-			public const int Widget_MaterialComponents_CardView = 2131690144;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131690144;
 			
 			// aapt resource value: 0x7F0F02A1
-			public const int Widget_MaterialComponents_CheckedTextView = 2131690145;
-			
-			// aapt resource value: 0x7F0F02A6
-			public const int Widget_MaterialComponents_ChipGroup = 2131690150;
+			public const int Widget_MaterialComponents_CardView = 2131690145;
 			
 			// aapt resource value: 0x7F0F02A2
-			public const int Widget_MaterialComponents_Chip_Action = 2131690146;
-			
-			// aapt resource value: 0x7F0F02A3
-			public const int Widget_MaterialComponents_Chip_Choice = 2131690147;
-			
-			// aapt resource value: 0x7F0F02A4
-			public const int Widget_MaterialComponents_Chip_Entry = 2131690148;
-			
-			// aapt resource value: 0x7F0F02A5
-			public const int Widget_MaterialComponents_Chip_Filter = 2131690149;
+			public const int Widget_MaterialComponents_CheckedTextView = 2131690146;
 			
 			// aapt resource value: 0x7F0F02A7
-			public const int Widget_MaterialComponents_CircularProgressIndicator = 2131690151;
+			public const int Widget_MaterialComponents_ChipGroup = 2131690151;
+			
+			// aapt resource value: 0x7F0F02A3
+			public const int Widget_MaterialComponents_Chip_Action = 2131690147;
+			
+			// aapt resource value: 0x7F0F02A4
+			public const int Widget_MaterialComponents_Chip_Choice = 2131690148;
+			
+			// aapt resource value: 0x7F0F02A5
+			public const int Widget_MaterialComponents_Chip_Entry = 2131690149;
+			
+			// aapt resource value: 0x7F0F02A6
+			public const int Widget_MaterialComponents_Chip_Filter = 2131690150;
 			
 			// aapt resource value: 0x7F0F02A8
-			public const int Widget_MaterialComponents_CircularProgressIndicator_ExtraSmall = 2131690152;
+			public const int Widget_MaterialComponents_CircularProgressIndicator = 2131690152;
 			
 			// aapt resource value: 0x7F0F02A9
-			public const int Widget_MaterialComponents_CircularProgressIndicator_Medium = 2131690153;
+			public const int Widget_MaterialComponents_CircularProgressIndicator_ExtraSmall = 2131690153;
 			
 			// aapt resource value: 0x7F0F02AA
-			public const int Widget_MaterialComponents_CircularProgressIndicator_Small = 2131690154;
+			public const int Widget_MaterialComponents_CircularProgressIndicator_Medium = 2131690154;
 			
 			// aapt resource value: 0x7F0F02AB
-			public const int Widget_MaterialComponents_CollapsingToolbar = 2131690155;
+			public const int Widget_MaterialComponents_CircularProgressIndicator_Small = 2131690155;
 			
 			// aapt resource value: 0x7F0F02AC
-			public const int Widget_MaterialComponents_CompoundButton_CheckBox = 2131690156;
+			public const int Widget_MaterialComponents_CollapsingToolbar = 2131690156;
 			
 			// aapt resource value: 0x7F0F02AD
-			public const int Widget_MaterialComponents_CompoundButton_RadioButton = 2131690157;
+			public const int Widget_MaterialComponents_CompoundButton_CheckBox = 2131690157;
 			
 			// aapt resource value: 0x7F0F02AE
-			public const int Widget_MaterialComponents_CompoundButton_Switch = 2131690158;
+			public const int Widget_MaterialComponents_CompoundButton_RadioButton = 2131690158;
 			
 			// aapt resource value: 0x7F0F02AF
-			public const int Widget_MaterialComponents_ExtendedFloatingActionButton = 2131690159;
+			public const int Widget_MaterialComponents_CompoundButton_Switch = 2131690159;
 			
 			// aapt resource value: 0x7F0F02B0
-			public const int Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = 2131690160;
+			public const int Widget_MaterialComponents_ExtendedFloatingActionButton = 2131690160;
 			
 			// aapt resource value: 0x7F0F02B1
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131690161;
+			public const int Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = 2131690161;
 			
 			// aapt resource value: 0x7F0F02B2
-			public const int Widget_MaterialComponents_Light_ActionBar_Solid = 2131690162;
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131690162;
 			
 			// aapt resource value: 0x7F0F02B3
-			public const int Widget_MaterialComponents_LinearProgressIndicator = 2131690163;
+			public const int Widget_MaterialComponents_Light_ActionBar_Solid = 2131690163;
 			
 			// aapt resource value: 0x7F0F02B4
-			public const int Widget_MaterialComponents_MaterialButtonToggleGroup = 2131690164;
+			public const int Widget_MaterialComponents_LinearProgressIndicator = 2131690164;
 			
 			// aapt resource value: 0x7F0F02B5
-			public const int Widget_MaterialComponents_MaterialCalendar = 2131690165;
+			public const int Widget_MaterialComponents_MaterialButtonToggleGroup = 2131690165;
 			
 			// aapt resource value: 0x7F0F02B6
-			public const int Widget_MaterialComponents_MaterialCalendar_Day = 2131690166;
-			
-			// aapt resource value: 0x7F0F02BA
-			public const int Widget_MaterialComponents_MaterialCalendar_DayTextView = 2131690170;
+			public const int Widget_MaterialComponents_MaterialCalendar = 2131690166;
 			
 			// aapt resource value: 0x7F0F02B7
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Invalid = 2131690167;
-			
-			// aapt resource value: 0x7F0F02B8
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131690168;
-			
-			// aapt resource value: 0x7F0F02B9
-			public const int Widget_MaterialComponents_MaterialCalendar_Day_Today = 2131690169;
+			public const int Widget_MaterialComponents_MaterialCalendar_Day = 2131690167;
 			
 			// aapt resource value: 0x7F0F02BB
-			public const int Widget_MaterialComponents_MaterialCalendar_Fullscreen = 2131690171;
+			public const int Widget_MaterialComponents_MaterialCalendar_DayTextView = 2131690171;
+			
+			// aapt resource value: 0x7F0F02B8
+			public const int Widget_MaterialComponents_MaterialCalendar_Day_Invalid = 2131690168;
+			
+			// aapt resource value: 0x7F0F02B9
+			public const int Widget_MaterialComponents_MaterialCalendar_Day_Selected = 2131690169;
+			
+			// aapt resource value: 0x7F0F02BA
+			public const int Widget_MaterialComponents_MaterialCalendar_Day_Today = 2131690170;
 			
 			// aapt resource value: 0x7F0F02BC
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderCancelButton = 2131690172;
+			public const int Widget_MaterialComponents_MaterialCalendar_Fullscreen = 2131690172;
 			
 			// aapt resource value: 0x7F0F02BD
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = 2131690173;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderCancelButton = 2131690173;
 			
 			// aapt resource value: 0x7F0F02BE
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderDivider = 2131690174;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = 2131690174;
 			
 			// aapt resource value: 0x7F0F02BF
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderLayout = 2131690175;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderDivider = 2131690175;
 			
 			// aapt resource value: 0x7F0F02C0
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection = 2131690176;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderLayout = 2131690176;
 			
 			// aapt resource value: 0x7F0F02C1
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = 2131690177;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection = 2131690177;
 			
 			// aapt resource value: 0x7F0F02C2
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderTitle = 2131690178;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = 2131690178;
 			
 			// aapt resource value: 0x7F0F02C3
-			public const int Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = 2131690179;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderTitle = 2131690179;
 			
 			// aapt resource value: 0x7F0F02C4
-			public const int Widget_MaterialComponents_MaterialCalendar_Item = 2131690180;
+			public const int Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = 2131690180;
 			
 			// aapt resource value: 0x7F0F02C5
-			public const int Widget_MaterialComponents_MaterialCalendar_MonthNavigationButton = 2131690181;
+			public const int Widget_MaterialComponents_MaterialCalendar_Item = 2131690181;
 			
 			// aapt resource value: 0x7F0F02C6
-			public const int Widget_MaterialComponents_MaterialCalendar_MonthTextView = 2131690182;
+			public const int Widget_MaterialComponents_MaterialCalendar_MonthNavigationButton = 2131690182;
 			
 			// aapt resource value: 0x7F0F02C7
-			public const int Widget_MaterialComponents_MaterialCalendar_Year = 2131690183;
-			
-			// aapt resource value: 0x7F0F02CA
-			public const int Widget_MaterialComponents_MaterialCalendar_YearNavigationButton = 2131690186;
+			public const int Widget_MaterialComponents_MaterialCalendar_MonthTextView = 2131690183;
 			
 			// aapt resource value: 0x7F0F02C8
-			public const int Widget_MaterialComponents_MaterialCalendar_Year_Selected = 2131690184;
-			
-			// aapt resource value: 0x7F0F02C9
-			public const int Widget_MaterialComponents_MaterialCalendar_Year_Today = 2131690185;
+			public const int Widget_MaterialComponents_MaterialCalendar_Year = 2131690184;
 			
 			// aapt resource value: 0x7F0F02CB
-			public const int Widget_MaterialComponents_NavigationRailView = 2131690187;
+			public const int Widget_MaterialComponents_MaterialCalendar_YearNavigationButton = 2131690187;
+			
+			// aapt resource value: 0x7F0F02C9
+			public const int Widget_MaterialComponents_MaterialCalendar_Year_Selected = 2131690185;
+			
+			// aapt resource value: 0x7F0F02CA
+			public const int Widget_MaterialComponents_MaterialCalendar_Year_Today = 2131690186;
 			
 			// aapt resource value: 0x7F0F02CC
-			public const int Widget_MaterialComponents_NavigationRailView_Colored = 2131690188;
+			public const int Widget_MaterialComponents_NavigationRailView = 2131690188;
 			
 			// aapt resource value: 0x7F0F02CD
-			public const int Widget_MaterialComponents_NavigationRailView_Colored_Compact = 2131690189;
+			public const int Widget_MaterialComponents_NavigationRailView_Colored = 2131690189;
 			
 			// aapt resource value: 0x7F0F02CE
-			public const int Widget_MaterialComponents_NavigationRailView_Compact = 2131690190;
+			public const int Widget_MaterialComponents_NavigationRailView_Colored_Compact = 2131690190;
 			
 			// aapt resource value: 0x7F0F02CF
-			public const int Widget_MaterialComponents_NavigationRailView_PrimarySurface = 2131690191;
+			public const int Widget_MaterialComponents_NavigationRailView_Compact = 2131690191;
 			
 			// aapt resource value: 0x7F0F02D0
-			public const int Widget_MaterialComponents_NavigationView = 2131690192;
+			public const int Widget_MaterialComponents_NavigationRailView_PrimarySurface = 2131690192;
 			
 			// aapt resource value: 0x7F0F02D1
-			public const int Widget_MaterialComponents_PopupMenu = 2131690193;
+			public const int Widget_MaterialComponents_NavigationView = 2131690193;
 			
 			// aapt resource value: 0x7F0F02D2
-			public const int Widget_MaterialComponents_PopupMenu_ContextMenu = 2131690194;
+			public const int Widget_MaterialComponents_PopupMenu = 2131690194;
 			
 			// aapt resource value: 0x7F0F02D3
-			public const int Widget_MaterialComponents_PopupMenu_ListPopupWindow = 2131690195;
+			public const int Widget_MaterialComponents_PopupMenu_ContextMenu = 2131690195;
 			
 			// aapt resource value: 0x7F0F02D4
-			public const int Widget_MaterialComponents_PopupMenu_Overflow = 2131690196;
+			public const int Widget_MaterialComponents_PopupMenu_ListPopupWindow = 2131690196;
 			
 			// aapt resource value: 0x7F0F02D5
-			public const int Widget_MaterialComponents_ProgressIndicator = 2131690197;
+			public const int Widget_MaterialComponents_PopupMenu_Overflow = 2131690197;
 			
 			// aapt resource value: 0x7F0F02D6
-			public const int Widget_MaterialComponents_ShapeableImageView = 2131690198;
+			public const int Widget_MaterialComponents_ProgressIndicator = 2131690198;
 			
 			// aapt resource value: 0x7F0F02D7
-			public const int Widget_MaterialComponents_Slider = 2131690199;
+			public const int Widget_MaterialComponents_ShapeableImageView = 2131690199;
 			
 			// aapt resource value: 0x7F0F02D8
-			public const int Widget_MaterialComponents_Snackbar = 2131690200;
+			public const int Widget_MaterialComponents_Slider = 2131690200;
 			
 			// aapt resource value: 0x7F0F02D9
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131690201;
+			public const int Widget_MaterialComponents_Snackbar = 2131690201;
 			
 			// aapt resource value: 0x7F0F02DA
-			public const int Widget_MaterialComponents_Snackbar_TextView = 2131690202;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131690202;
 			
 			// aapt resource value: 0x7F0F02DB
-			public const int Widget_MaterialComponents_TabLayout = 2131690203;
+			public const int Widget_MaterialComponents_Snackbar_TextView = 2131690203;
 			
 			// aapt resource value: 0x7F0F02DC
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131690204;
+			public const int Widget_MaterialComponents_TabLayout = 2131690204;
 			
 			// aapt resource value: 0x7F0F02DD
-			public const int Widget_MaterialComponents_TabLayout_PrimarySurface = 2131690205;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131690205;
 			
 			// aapt resource value: 0x7F0F02DE
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131690206;
+			public const int Widget_MaterialComponents_TabLayout_PrimarySurface = 2131690206;
 			
 			// aapt resource value: 0x7F0F02DF
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131690207;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131690207;
 			
 			// aapt resource value: 0x7F0F02E0
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131690208;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131690208;
 			
 			// aapt resource value: 0x7F0F02E1
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131690209;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131690209;
 			
 			// aapt resource value: 0x7F0F02E2
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131690210;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131690210;
 			
 			// aapt resource value: 0x7F0F02E3
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131690211;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131690211;
 			
 			// aapt resource value: 0x7F0F02E4
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = 2131690212;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131690212;
 			
 			// aapt resource value: 0x7F0F02E5
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = 2131690213;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = 2131690213;
 			
 			// aapt resource value: 0x7F0F02E6
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131690214;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = 2131690214;
 			
 			// aapt resource value: 0x7F0F02E7
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131690215;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131690215;
 			
 			// aapt resource value: 0x7F0F02E8
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = 2131690216;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131690216;
 			
 			// aapt resource value: 0x7F0F02E9
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = 2131690217;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = 2131690217;
 			
 			// aapt resource value: 0x7F0F02EA
-			public const int Widget_MaterialComponents_TextView = 2131690218;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = 2131690218;
 			
 			// aapt resource value: 0x7F0F02EB
-			public const int Widget_MaterialComponents_TimePicker = 2131690219;
+			public const int Widget_MaterialComponents_TextView = 2131690219;
 			
 			// aapt resource value: 0x7F0F02EC
-			public const int Widget_MaterialComponents_TimePicker_Button = 2131690220;
+			public const int Widget_MaterialComponents_TimePicker = 2131690220;
 			
 			// aapt resource value: 0x7F0F02ED
-			public const int Widget_MaterialComponents_TimePicker_Clock = 2131690221;
+			public const int Widget_MaterialComponents_TimePicker_Button = 2131690221;
 			
 			// aapt resource value: 0x7F0F02EE
-			public const int Widget_MaterialComponents_TimePicker_Display = 2131690222;
+			public const int Widget_MaterialComponents_TimePicker_Clock = 2131690222;
 			
 			// aapt resource value: 0x7F0F02EF
-			public const int Widget_MaterialComponents_TimePicker_Display_TextInputEditText = 2131690223;
+			public const int Widget_MaterialComponents_TimePicker_Display = 2131690223;
 			
 			// aapt resource value: 0x7F0F02F0
-			public const int Widget_MaterialComponents_TimePicker_ImageButton = 2131690224;
+			public const int Widget_MaterialComponents_TimePicker_Display_TextInputEditText = 2131690224;
 			
 			// aapt resource value: 0x7F0F02F1
-			public const int Widget_MaterialComponents_TimePicker_ImageButton_ShapeAppearance = 2131690225;
+			public const int Widget_MaterialComponents_TimePicker_ImageButton = 2131690225;
 			
 			// aapt resource value: 0x7F0F02F2
-			public const int Widget_MaterialComponents_Toolbar = 2131690226;
+			public const int Widget_MaterialComponents_TimePicker_ImageButton_ShapeAppearance = 2131690226;
 			
 			// aapt resource value: 0x7F0F02F3
-			public const int Widget_MaterialComponents_Toolbar_Primary = 2131690227;
+			public const int Widget_MaterialComponents_Toolbar = 2131690227;
 			
 			// aapt resource value: 0x7F0F02F4
-			public const int Widget_MaterialComponents_Toolbar_PrimarySurface = 2131690228;
+			public const int Widget_MaterialComponents_Toolbar_Primary = 2131690228;
 			
 			// aapt resource value: 0x7F0F02F5
-			public const int Widget_MaterialComponents_Toolbar_Surface = 2131690229;
+			public const int Widget_MaterialComponents_Toolbar_PrimarySurface = 2131690229;
 			
 			// aapt resource value: 0x7F0F02F6
-			public const int Widget_MaterialComponents_Tooltip = 2131690230;
+			public const int Widget_MaterialComponents_Toolbar_Surface = 2131690230;
 			
 			// aapt resource value: 0x7F0F02F7
-			public const int Widget_Support_CoordinatorLayout = 2131690231;
+			public const int Widget_MaterialComponents_Tooltip = 2131690231;
+			
+			// aapt resource value: 0x7F0F02F8
+			public const int Widget_Support_CoordinatorLayout = 2131690232;
 			
 			static Style()
 			{
