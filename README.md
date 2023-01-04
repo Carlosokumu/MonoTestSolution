@@ -16,7 +16,7 @@ MonoTestSolution displays a list of vehicle makes.It also shows different models
 * Notable Packages Used.
     * [Automapper](https://docs.automapper.org/en/stable/Getting-started.html) 
     * [Autofac](https://autofac.readthedocs.io/en/latest/getting-started/index.html)
-    * 
+    * [Sqlite-net-plc](https://github.com/praeclarum/sqlite-net)
    
    
 
