@@ -9,7 +9,8 @@ namespace MonoTestSolution.Service.interfaces
 {
     public interface IVehicleMakeService
     {
-        Task<IEnumerable<VehicleMake>> GetVicleMakesAsync();
+        Task<IEnumerable<VehicleMake>> GetVehicleMakesAsync();
+        Task<IEnumerable<VehicleMake>> GetPaginatedVehicleMakesAsync(int page);
         Task<VehicleMake> GetVehicleMake(int id);
         Task AddVehicleMake(VehicleMake vehicleMake);
         Task UpdateVehicleMake(VehicleMake vehicleMake);
