@@ -47,7 +47,14 @@ namespace MonoTestSolution.Service
             await _ivehicleMakeCrud.AddVehicleMake(vehicleMakeEntity);
      }
 
-    public async Task<VehicleMake> GetVehicleMake(int id)
+        public async Task<IEnumerable<VehicleMake>> GetPaginatedVehicleMakesAsync(int page)
+        {
+            var vehicleMakeEntity = await _ivehicleMakeCrud.GetPaginatedVehicleMakesAsync(page);
+            var vehicleMakes = _imapper.Map<List<VehicleMakeEntity>, List<VehicleMake>>(vehicleMakeEntity);
+            return vehicleMakes;
+        }
+
+        public async Task<VehicleMake> GetVehicleMake(int id)
     {
             var vehicleMakeEntity = await _ivehicleMakeCrud.GetVehicleMake(id);
             var vehicleMake = _imapper.Map<VehicleMakeEntity, VehicleMake>(vehicleMakeEntity);
@@ -62,7 +69,7 @@ namespace MonoTestSolution.Service
             return vehicleMake;
         }
 
-        public async Task<IEnumerable<VehicleMake>> GetVicleMakesAsync()
+        public async Task<IEnumerable<VehicleMake>> GetVehicleMakesAsync()
         {
             var vehicleMakeEntity = await _ivehicleMakeCrud.GetVicleMakesAsync();
             var vehicleMakes = _imapper.Map<List<VehicleMakeEntity>, List<VehicleMake>>(vehicleMakeEntity);
