@@ -9,13 +9,19 @@ namespace MonoTestSolution.Repository.interfaces
 {
     public interface IvehicleMakeCrud
     {
+        /* 
+           * 
+           * [CRUD] operations for the VehicLeMake
+           * 
+         */
+
         Task<List<VehicleMakeEntity>> GetVicleMakesAsync();
         Task<VehicleMakeEntity> GetVehicleMake(int id);
         Task AddVehicleMake(VehicleMakeEntity vehicleMake);
         Task UpdateVehicleMake(VehicleMakeEntity vehicleMake);
         Task DeleteVehicleMake(VehicleMakeEntity vehicleMake);
         Task<VehicleMakeEntity> GetVehicleMakeByName(String name);
-        
+        Task<List<VehicleMakeEntity>> GetPaginatedVehicleMakesAsync(int page);
 
 
     }
