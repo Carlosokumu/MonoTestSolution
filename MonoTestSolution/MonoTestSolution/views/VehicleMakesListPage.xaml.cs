@@ -1,7 +1,6 @@
 ﻿using Autofac;
 using MonoTestSolution.BootStrap;
 using MonoTestSolution.interfaces;
-using MonoTestSolution.memory;
 using MonoTestSolution.Service.interfaces;
 using MonoTestSolution.viewmodels;
 using System;
