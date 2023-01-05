@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:scroll="clr-namespace:Xamarin.Forms.Extended;assembly=Xamarin.Forms.Extended.InfiniteScrolling"
              BackgroundColor="{AppThemeBinding Dark={StaticResource PageBackgroundColorDark} ,Light={StaticResource PageBackgroundColor}}"
              x:Class="MonoTestSolution.VehicleMakesListPage">
 
@@ -19,7 +19,13 @@
            HorizontalTextAlignment="Center"
            FontSize="Medium"
            FontAttributes="None" />
-        <ListView  ItemsSource="{Binding Makes}"  SeparatorVisibility="None" ItemSelected="OnMakeSelected" HasUnevenRows="True"  RowHeight="100"  >
+        <ListView  ItemsSource="{Binding  PaginatedMakes}"  SeparatorVisibility="None" ItemSelected="OnMakeSelected" HasUnevenRows="True"  RowHeight="100"  >
+
+
+            <ListView.Behaviors>
+                <scroll:InfiniteScrollBehavior IsLoadingMore="{Binding IsWorking}" />
+            </ListView.Behaviors>
+            
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <TextCell   Text="{Binding Name}"   TextColor="{AppThemeBinding Dark={StaticResource SecondaryTextColorDark} ,Light={StaticResource SecondaryTextColor}}"  DetailColor="{AppThemeBinding Dark={StaticResource PrimaryTextColorDark} ,Light={StaticResource PrimaryTextColor}}" Detail="{Binding Abbr}">
@@ -32,6 +38,18 @@
                 </DataTemplate>
 
             </ListView.ItemTemplate>
+            <ListView.Footer>
+                <Grid Padding="6" IsVisible="{Binding IsWorking}">
+                    <!-- set the footer to have a zero height when invisible -->
+                    <Grid.Triggers>
+                        <Trigger TargetType="Grid" Property="IsVisible" Value="False">
+                            <Setter Property="HeightRequest" Value="0" />
+                        </Trigger>
+                    </Grid.Triggers>
+                    <!-- the loading content -->
+                    <Label Text="Loading..." VerticalOptions="Center" HorizontalOptions="Center" />
+                </Grid>
+            </ListView.Footer>
         </ListView>
  </StackLayout>
     
