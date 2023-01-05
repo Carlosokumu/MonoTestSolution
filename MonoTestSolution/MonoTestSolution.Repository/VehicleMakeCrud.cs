@@ -48,6 +48,11 @@ namespace MonoTestSolution.Repository
             return await _connection.Table<VehicleMakeEntity>().ToListAsync();
         }
 
+        public async Task<List<VehicleMakeEntity>> GetPaginatedVehicleMakesAsync(int page)
+        {
+            return await _connection.QueryAsync<VehicleMakeEntity>("SELECT * FROM VehicleMakeEntity WHERE Page = ?", page);
+        }
+
         public async Task<VehicleMakeEntity> GetVehicleMakeByName(string name)
         {
             var vehicleMakeEntity = await _connection.FindWithQueryAsync<VehicleMakeEntity>("SELECT * FROM VehicleMakeEntity WHERE Name = ?", name);
