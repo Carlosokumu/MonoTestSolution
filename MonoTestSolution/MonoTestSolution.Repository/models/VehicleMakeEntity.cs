@@ -14,6 +14,8 @@ namespace MonoTestSolution.Repository.models
         public string Name { get; set; }
         [MaxLength(255)]
         public string Abbr { get; set; }
+
+        public int Page { get; set; }
     }
 }
 
