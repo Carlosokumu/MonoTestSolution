@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 
 namespace MonoTestSolution.Droid
 {
-    [Activity(Label = "Car App",Theme = "@style/MainTheme.Splash", MainLauncher = true,NoHistory = true)]
+    [Activity(Label = "Mono",Theme = "@style/MainTheme.Splash", MainLauncher = true,NoHistory = true)]
     public class SplashScreen : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

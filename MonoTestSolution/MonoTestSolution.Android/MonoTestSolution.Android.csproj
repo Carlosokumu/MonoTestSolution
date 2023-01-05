@@ -43,6 +43,13 @@
     <WarningLevel>4</WarningLevel>
     <AndroidManagedSymbols>true</AndroidManagedSymbols>
     <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
+    <BundleAssemblies>false</BundleAssemblies>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <AndroidSupportedAbis />
+    <AndroidLinkTool>r8</AndroidLinkTool>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -54,7 +61,7 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2545" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
   <ItemGroup>
@@ -87,9 +94,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\splash_logo.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\MonoTestSolution.Repository\MonoTestSolution.Repository.csproj">
       <Project>{DEFF2113-AE7A-456A-93A9-C81AA5B48503}</Project>
       <Name>MonoTestSolution.Repository</Name>
@@ -105,12 +109,28 @@
     </AndroidResourceAnalysisConfig>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\splash.xml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\splash.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\splash.xml" />
+    <AndroidResource Include="Resources\drawable\splash_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\layout\" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\mono_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\mono_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\mono_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\mono_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\mono_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
