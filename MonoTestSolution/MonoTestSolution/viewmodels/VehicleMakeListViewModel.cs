@@ -1,15 +1,17 @@
 ﻿using MonoTestSolution.interfaces;
 using MonoTestSolution.Service.interfaces;
 using MonoTestSolution.views;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
+using Xamarin.Forms.Extended;
 
 namespace MonoTestSolution.viewmodels
 {
-    public class VehicleMakeListViewModel
+    public class VehicleMakeListViewModel: BindableObject
     {
 
         private IVehicleMakeService _ivehicleMakeService;
@@ -20,7 +22,12 @@ namespace MonoTestSolution.viewmodels
         public ICommand SelectMakeCommand { get; private set; }
 
         private bool _isDataLoaded;
-  
+        private const int PageSize = 20;
+        private const int INITIAL_PAGE_INDEX = 0;
+
+        public static readonly BindableProperty IsWorkingProperty =
+            BindableProperty.Create(nameof(IsWorking), typeof(bool), typeof(VehicleMakeListViewModel), default(bool));
+
 
 
         public ObservableCollection<VehicleMakeViewModel> Makes { get; private set; }
@@ -35,6 +42,27 @@ namespace MonoTestSolution.viewmodels
             LoadDataCommand = new Command(async () => await LoadData());
             SelectMakeCommand = new Command<VehicleMakeViewModel>(async c => await SelectMake(c));
 
+
+            PaginatedMakes = new InfiniteScrollCollection<VehicleMakeViewModel>
+            {
+                OnLoadMore = async () =>
+                { 
+                
+                    // load the next page
+                    var page = PaginatedMakes.Count / PageSize;
+                    Debug.WriteLine($" OnloadMore Called with Page:{page}");
+                    var items = await _ivehicleMakeService.GetPaginatedVehicleMakesAsync(page + 1);
+                    var paginatedMakes = new List<VehicleMakeViewModel>();
+
+                    foreach (var vehiclemake in items)
+                        paginatedMakes.Add(new VehicleMakeViewModel(vehiclemake));
+
+                    // return the items that need to be added
+                    return  paginatedMakes; 
+                }
+            };
+          
+
         }
         private async Task LoadData()
         {
@@ -44,9 +72,19 @@ namespace MonoTestSolution.viewmodels
 
             _isDataLoaded = true;
 
-            var vehicleMakes = await _ivehicleMakeService.GetVicleMakesAsync();
-            foreach (var vehiclemake in vehicleMakes)
-                Makes.Add(new VehicleMakeViewModel(vehiclemake));
+            //Fetch Data without Paging
+           // var vehicleMakes = await _ivehicleMakeService.GetVehicleMakesAsync();
+
+            //Load Initial Data
+            var paginatedMakes = await _ivehicleMakeService.GetPaginatedVehicleMakesAsync(INITIAL_PAGE_INDEX);
+
+
+            foreach (var vehiclemake in paginatedMakes)
+                PaginatedMakes.Add(new VehicleMakeViewModel(vehiclemake));
+
+            //foreach (var vehiclemake in vehicleMakes)
+            //     Makes.Add(new VehicleMakeViewModel(vehiclemake));
+               
         }
 
         private async Task DeleteVehicleMaKe(VehicleMakeViewModel vehicleMakeViewModel)
@@ -60,7 +98,8 @@ namespace MonoTestSolution.viewmodels
             }
         }
 
-    
+
+        public InfiniteScrollCollection<VehicleMakeViewModel> PaginatedMakes { get; }
 
 
         public  async void SearchMake(string make)
@@ -68,7 +107,7 @@ namespace MonoTestSolution.viewmodels
             var vehicleMake = await _ivehicleMakeService.GetVehicleMakeByName(make);
             if (vehicleMake == null)
             {
-                var vehicleMakes = await _ivehicleMakeService.GetVicleMakesAsync();
+                var vehicleMakes = await _ivehicleMakeService.GetVehicleMakesAsync();
                 Makes.Clear();
                 foreach (var vehiclemake in vehicleMakes)
                         Makes.Add(new VehicleMakeViewModel(vehiclemake));
@@ -91,6 +130,12 @@ namespace MonoTestSolution.viewmodels
 
             VehicleMakeDetailsViewModel = new VehicleMakeDetailsViewModel(vehicleMakeDetails);
             await _ipageservice.PushAsync(new VehicleMakeDetailsPage(vehicleMakeViewModel,VehicleMakeDetailsViewModel));
+        }
+
+        public bool IsWorking
+        {
+            get { return (bool) GetValue(IsWorkingProperty); }
+            set { SetValue(IsWorkingProperty, value); }
         }
 
     }
