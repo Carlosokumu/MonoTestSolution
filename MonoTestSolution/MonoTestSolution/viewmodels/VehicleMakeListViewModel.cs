@@ -107,14 +107,17 @@ namespace MonoTestSolution.viewmodels
             var vehicleMake = await _ivehicleMakeService.GetVehicleMakeByName(make);
             if (vehicleMake == null)
             {
-                var vehicleMakes = await _ivehicleMakeService.GetVehicleMakesAsync();
-                Makes.Clear();
-                foreach (var vehiclemake in vehicleMakes)
-                        Makes.Add(new VehicleMakeViewModel(vehiclemake));
+                //var vehicleMakes = await _ivehicleMakeService.GetVehicleMakesAsync();
+                var paginatedmakes = await _ivehicleMakeService.GetPaginatedVehicleMakesAsync(0);
+
+
+                PaginatedMakes.Clear();
+                foreach (var vehiclemake in paginatedmakes)
+                        PaginatedMakes.Add(new VehicleMakeViewModel(vehiclemake));
                 return;
             }
-            Makes.Clear();
-            Makes.Add(new VehicleMakeViewModel(vehicleMake));
+            PaginatedMakes.Clear();
+            PaginatedMakes.Add(new VehicleMakeViewModel(vehicleMake));
         }
 
         private async Task SelectMake(VehicleMakeViewModel vehicleMakeViewModel)
